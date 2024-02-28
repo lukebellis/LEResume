@@ -6,15 +6,20 @@
 </p>
 
 ### About
-- Resume/Portfolio website using Vue (Nuxt 3) extends from [codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio).
+This project is a fork of [ADResume](https://github.com/agcrisbp/ADResume) by [agcrisbp](https://github.com/agcrisbp), originally designed to showcase the resume/portfolio using Vue (Nuxt 3) and extends from [codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio). My main aim with this fork is to extend the project's language support and introduce a feature allowing the toggling between two aspects of professional development in two distinct fields of work.
 
-### i18n
-- Bahasa Indonesia & English.
+### i18n Enhancements
+- Added support for multiple new languages, enhancing the project's internationalization and accessibility.
+
+### Professional Development Aspects Toggle
+- Introduced a toggle feature to switch between two different professional fields, allowing a more comprehensive showcase of diverse skills and experiences.
 
 ### Demo
-- Check the live version [here](https://bit.ly/ADLink-Showcase).
+Check the live version [here](https://bit.ly/ADLink-Showcase).
 
 ### Support
+If you find this project useful, consider supporting the orginal author:
+
 <a href="https://www.buymeacoffee.com/agcrisbp" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 114px !important;" ></a>
 <a href="https://saweria.co/agcrisbp" target="_blank"><img src="https://m.aghea.site/saweria-button.png" alt="Saweria" style="height: 30px !important;width: 114px !important;" ></a>
 <a href="https://github.com/sponsors/agcrisbp" target="_blank"><img src="/public/sponsor-badge.svg" alt="Github Sponsor" style="height: 30px !important;width: 114px !important;" ></a>
@@ -22,14 +27,17 @@
 ---
 
 ### Quick Start
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/agcrisbp/ADResume)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/agcrisbp/ADResume)
+Deploy this project to your preferred platform:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/[YourGitHubUsername]/LEResume)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/[YourGitHubUsername]/LEResume)
 
 ---
 
 ### Get Started
 
 - Clone this repo:
+
 ```
 git clone https://github.com/agcrisbp/ADResume
 ```
