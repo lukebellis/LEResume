@@ -1,5 +1,6 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
+import { useLocaleStore } from '../composables/locale'
 import { Icon } from '@iconify/vue';
 
 const props = defineProps({
@@ -15,10 +16,9 @@ const { locale } = useI18n({ useScope: 'global' })
 
 <template>
   <li class="about-item">
-
     <div class="about-content-box">
       <p class="about-item-text">
-        {{ locale === 'en' ? about.description?.en : about.description?.id_ID }}
+        {{ about.description[locale] }}
       </p>
     </div>
   </li>

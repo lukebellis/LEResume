@@ -1,33 +1,34 @@
-<script setup>
-let isOpen = ref(false)
-
-function toggleMenu() {
-  isOpen = !isOpen
-}
-</script>
-
 <template>
   <aside class="sidebar" :class="{ active: isOpen }">
     <div class="sidebar-info">
       <figure class="avatar-box">
-        <img src="/images/avatar.png" alt="Photo" width="80">
+        <NuxtLink to="/">
+          <img src="/images/sig.png" alt="Photo" width="80" style="border-radius: 10px;">
+        </NuxtLink>
       </figure>
 
       <div class="info-content">
-        <h1 class="name" title="Agcrismanto Budhi Praswastyka">
-          Agcrismanto Budhi Praswastyka
-        </h1>
+        <NuxtLink to="/">
+          <h1 class="name" title="Luke Ellis MChem">
+            Luke B Ellis MChem
+          </h1>
+        </NuxtLink>
 
         <p class="title text-center xl:block flex items-center justify-center gap-1">
-          <span class="xl:after:content-[''] after:content-[',']">Cybersecurity</span>
-          <span>Web Developer</span>
+          <!-- Update the text color based on the store's selected profession -->
+          <span :style="{ color: toggleStore.isDeveloperSelected ? 'inherit' : '#f39c12' }">{{ translations.analyticalChemist }}</span>
+          <span :style="{ color: toggleStore.isDeveloperSelected ? '#f39c12' : 'inherit' }">{{ translations.webDeveloper }}</span>
         </p>
+
+        <div class="toggle-container my-4">
+          <!-- Remove the event handler since the store manages the state -->
+          <ProfessionToggle />
+        </div>
       </div>
 
       <button class="info_more-btn" @click="isOpen = !isOpen">
-        <span>Show Contacts</span>
-
-        <ion-icon name="chevron-down" />
+        <span>{{ translations.showContacts }}</span>
+        <ion-icon name="chevron-down"></ion-icon>
       </button>
     </div>
 
@@ -37,43 +38,25 @@ function toggleMenu() {
       <ul class="contacts-list">
         <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="logo-twitter" />
+            <a href="https://github.com/lukebellis" class="contact-link" target="_blank">
+              <ion-icon name="logo-github" />
+            </a>
           </div>
-
           <div class="contact-info">
-            <p class="contact-title">
-              Twitter
-            </p>
-
-            <a href="https://twitter.com/agcrisbp" class="contact-link" target="_blank">agcrisbp</a>
+            <p class="contact-title">{{ translations.github }}</p>
+            <a href="https://github.com/lukebellis" class="contact-link" target="_blank">lukebellis</a>
           </div>
         </li>
 
         <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="logo-github" />
+            <a href="https://www.linkedin.com/in/lbellis1/" class="contact-link" target="_blank">
+              <ion-icon name="logo-linkedin" />
+            </a>
           </div>
-
           <div class="contact-info">
-            <p class="contact-title">
-              Github
-            </p>
-
-            <a href="https://github.com/agcrisbp" class="contact-link" target="_blank">agcrisbp</a>
-          </div>
-        </li>
-
-        <li class="contact-item">
-          <div class="icon-box">
-            <ion-icon name="logo-linkedin" />
-          </div>
-
-          <div class="contact-info">
-            <p class="contact-title">
-              Linkedin
-            </p>
-
-            <a href="https://id.linkedin.com/in/agcrisbp" class="contact-link" target="_blank">Agcrismanto Budhi Praswastyla</a>
+            <p class="contact-title">{{ translations.linkedin }}</p>
+            <a href="https://www.linkedin.com/in/lbellis1/" class="contact-link" target="_blank">in/lbellis1</a>
           </div>
         </li>
 
@@ -81,13 +64,9 @@ function toggleMenu() {
           <div class="icon-box">
             <ion-icon name="location-outline" />
           </div>
-
           <div class="contact-info">
-            <p class="contact-title">
-              Location
-            </p>
-
-            <address>Indonesia</address>
+            <p class="contact-title">{{ translations.currentLocation }}</p>
+            <address>{{ translations.location }}</address>
           </div>
         </li>
       </ul>
@@ -100,8 +79,24 @@ function toggleMenu() {
             <ion-icon name="mail-outline" />
           </NuxtLink>
         </li>
+        <!-- The LangSwitcher2 component is assumed to be part of your project -->
         <LangSwitcher2 />
       </ul>
     </div>
   </aside>
 </template>
+
+<script setup>
+import { ref, computed } from 'vue';
+import { useToggleStore } from '@/stores/toggleStore'; // Import the store
+import { sidebarTranslations } from '../server/api/sidebar'; // Import translations
+import { useI18n } from 'vue-i18n'; // Import useI18n hook
+
+const toggleStore = useToggleStore(); // Access the toggle store
+const { locale } = useI18n({ useScope: 'global' }); // Access the global locale
+
+let isOpen = ref(false);
+
+// Get translations based on the current locale
+const translations = computed(() => sidebarTranslations[locale.value] || sidebarTranslations['en']);
+</script>

@@ -176,6 +176,8 @@ article {
   z-index: 1;
 }
 
+
+
 .separator {
   width: 100%;
   height: 1px;
@@ -317,7 +319,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 140px;
   overflow: hidden;
   transition: var(--transition-2);
 }

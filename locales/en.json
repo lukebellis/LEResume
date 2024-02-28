@@ -2,10 +2,15 @@
     "hello": "Hello",
     "goodbye": "Good Bye",
     "pageTitles": {
-        "about": "About",
-        "resume": "Resume",
-        "portfolio": "Portfolio",
-        "blog": "Blog",
-        "github": "Github"
+      "about": "About",
+      "aboutDeveloper": "Web Developer",
+      "resume": "Experience",
+      "developerCV": "Developer CV",
+      "portfolio": "Portfolio",
+      "projects": "Projects",
+      "research": "Research",
+      "blog": "Blog",
+      "github": "Github"
     }
-}
+  }
+  

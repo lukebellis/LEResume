@@ -1,0 +1,50 @@
+<template>
+  <section class="timeline">
+    <h2 class="h2 article-title">
+      {{ translations.title }}
+    </h2>
+    <ol class="timeline-list">
+      <li class="timeline-item" v-for="(degree, index) in translations.degrees" :key="index">
+        <h4 class="h4 timeline-item-title">{{ degree.title }}</h4>
+        <span>{{ degree.year }}</span>
+        <p class="timeline-item-desc">{{ degree.desc }}</p>
+        <!-- Conditionally render subjects if they exist and apply styles -->
+        <ul v-if="degree.subjects && degree.subjects.length > 0" class="subjects-list">
+          <li v-for="(subject, subjectIndex) in degree.subjects" :key="subjectIndex">
+            {{ subject }}
+          </li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+</template>
+
+<script setup>
+import { computed } from 'vue';
+import { useI18n } from 'vue-i18n';
+import { educationTranslations } from '../server/api/education'; // Adjust the path as necessary
+
+const { locale } = useI18n({ useScope: 'global' });
+
+const translations = computed(() => educationTranslations[locale.value]);
+</script>
+
+<style>
+  .subjects-list {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .subjects-list li {
+    color: #868686; /* Text color for subjects */
+    margin-bottom: 5px; /* Space between subjects */
+  }
+  
+  .subjects-list li::before {
+    content: "•";
+    color: #f39c12; /* Bullet point color */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+</style>

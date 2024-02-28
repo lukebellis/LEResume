@@ -15,17 +15,22 @@ onBeforeMount(() => {
 onMounted(() => {
   setTimeout(() => {
     loadingPage.value = true
-  }, 1000)
+  }, 10000000)
 })
 </script>
 
 <template>
-  <LoadingPage v-show="!loadingPage" />
+  <!-- LoadingPage is shown based on showLoadingPage -->
+  <div v-if="showLoadingPage">
+    <LoadingPage />
+  </div>
 
-  <NuxtLayout>
+  <!-- Main content is shown only when showLoadingPage is false -->
+  <NuxtLayout v-else>
     <NuxtPage transition />
   </NuxtLayout>
 </template>
+
 
 <style>
 .v-enter-active, .v-leave-active {

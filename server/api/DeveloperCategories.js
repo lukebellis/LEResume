@@ -2,7 +2,6 @@ import { defineEventHandler } from 'h3'
 
 export default defineEventHandler(() => {
   return [
-    // Web Development Categories
     {
       id: 1,
       title: {
@@ -29,35 +28,6 @@ export default defineEventHandler(() => {
       title: {
         en: 'Web Design',
         id_ID: 'Desain Web',
-      },
-    },
-    // Chemistry Categories
-    {
-      id: 5,
-      title: {
-        en: 'Organic Chemistry',
-        id_ID: 'Kimia Organik',
-      },
-    },
-    {
-      id: 6,
-      title: {
-        en: 'Analytical Chemistry',
-        id_ID: 'Kimia Analitik',
-      },
-    },
-    {
-      id: 7,
-      title: {
-        en: 'Physical Chemistry',
-        id_ID: 'Kimia Fisik',
-      },
-    },
-    {
-      id: 8,
-      title: {
-        en: 'Environmental Chemistry',
-        id_ID: 'Kimia Lingkungan',
       },
     }
   ]

@@ -1,42 +1,62 @@
 <script setup>
+import { computed } from 'vue';
+import { useToggleStore } from '@/stores/toggleStore'; // Adjust the import path according to your project structure
+import { useI18n } from 'vue-i18n';
+import { navbarTranslations } from '../server/api/navbar'; // Import the translations file
 
+const toggleStore = useToggleStore();
+const { locale } = useI18n({ useScope: 'global' });
+
+// Computed property to dynamically adjust titles based on the current locale
+const pageTitle = computed(() => ({
+  about: navbarTranslations[locale.value].pageTitles.about,
+  resume: navbarTranslations[locale.value].pageTitles.resume,
+  portfolio: toggleStore.isDeveloperSelected ? navbarTranslations[locale.value].pageTitles.projects : navbarTranslations[locale.value].pageTitles.research,
+  blog: navbarTranslations[locale.value].pageTitles.blog,
+  github: navbarTranslations[locale.value].pageTitles.github
+}));
 </script>
+
+
 
 <template>
   <nav class="navbar">
     <ul class="navbar-list">
       <li class="navbar-item">
         <NuxtLink to="/" class="navbar-link">
-          {{ $t('pageTitles.about') }}
+          {{ pageTitle.about }}
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
         <NuxtLink to="/resume" class="navbar-link">
-          {{ $t('pageTitles.resume') }}
+          {{ pageTitle.resume }}
         </NuxtLink>
       </li>
 
+      <!-- Dynamic Portfolio/Projects/Research Link -->
       <li class="navbar-item">
-        <NuxtLink to="/portfolio" class="navbar-link">
-          {{ $t('pageTitles.portfolio') }}
+        <NuxtLink :to="toggleStore.isDeveloperSelected ? '/developer/portfolio' : '/scientist/research'" class="navbar-link">
+          {{ pageTitle.portfolio }}
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
         <NuxtLink to="/blog" class="navbar-link">
-          {{ $t('pageTitles.blog') }}
+          {{ pageTitle.blog }}
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
         <NuxtLink to="/github" class="navbar-link">
-          {{ $t('pageTitles.github') }}
+          {{ pageTitle.github }}
         </NuxtLink>
       </li>
     </ul>
   </nav>
 </template>
+
+
 
 <style scoped>
 a.router-link-active {

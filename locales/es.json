@@ -1,0 +1,16 @@
+{
+    "hello": "Hola",
+    "goodbye": "Adiós",
+    "pageTitles": {
+      "about": "Acerca de",
+      "aboutDeveloper": "Desarrollador Web",
+      "resume": "Experiencia",
+      "developerCV": "CV del Desarrollador",
+      "portfolio": "Portafolio",
+      "projects": "Proyectos",
+      "research": "Investigación",
+      "blog": "Blog",
+      "github": "Github"
+    }
+  }
+  

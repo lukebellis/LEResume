@@ -49,16 +49,17 @@ export default {
         )
         .then(res => (this.colors = res.data));
     },
-    getRepos() {
-      axios.get("https://api.github.com/users/agcrisbp/repos").then(res => {
-        this.repos = res.data
-          .filter(repo => !repo.all)
-          .sort(
-            (repo1, repo2) => repo2.stargazers_count - repo1.stargazers_count
-          )
-          .slice(0, 8);
-      });
-    }
+   getRepos() {
+  axios.get("https://api.github.com/users/lukebellis/repos").then(res => {
+    this.repos = res.data
+      .filter(repo => !repo.fork) // Assuming you want to exclude forked repositories; remove this line if not
+      .sort(
+        (repo1, repo2) => repo2.stargazers_count - repo1.stargazers_count
+      )
+      .slice(0, 8); // Adjust the slice value if you want to show more or fewer repositories
+  });
+}
+
   },
   async mounted() {
     await this.getColors();

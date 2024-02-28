@@ -1,8 +1,6 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 import { Icon } from '@iconify/vue';
-import Education from '@/components/Education.vue';
-
 
 useHead({
 })
@@ -54,11 +52,7 @@ const { data: about } = await useFetch('/api/about')
       </ul>
     </section>
 
-    <!-- Education -->
-    <section class="education">
-    <Education />
-  </section>
-     <!-- service -->
+    <!-- service -->
 
     <section class="service">
       <br />
@@ -67,7 +61,33 @@ const { data: about } = await useFetch('/api/about')
       </ul>
     </section>
 
-  
+    <!-- testimonials -->
+
+   <!-- <section class="testimonials">
+      <h3 class="h3 testimonials-title">
+        Testimonials
+      </h3>
+
+      <ul class="testimonials-list has-scrollbar">
+        <li v-for="testimonial in testimonials" :key="testimonial.id" class="testimonials-item" @click="showTestimonial(testimonial.id)">
+          <div class="content-card">
+            <figure class="testimonials-avatar-box">
+              <img :src="testimonial.image" alt="Daniel lewis" width="60">
+            </figure>
+
+            <h4 class="h4 testimonials-item-title">
+              {{ testimonial.title }}
+            </h4>
+
+            <div class="testimonials-text">
+              <p>{{ locale === 'en' ? testimonial.content?.en : testimonial.content?.id_ID }}</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section> -->
+
+    <!-- testimonials modal -->
 
     <div class="modal-container" :class="{ active: activeModal }">
       <div v-show="activeModal" class="overlay" :class="{ active: activeOverlay }" />
