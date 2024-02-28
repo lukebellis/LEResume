@@ -2,20 +2,20 @@
 
 const resumeTranslations = {
     en: {
-      developerCV: "Developer CV",
-      scientistCV: "Scientist CV",
+      developerCV: "Developer",
+      scientistCV: "Chemist",
     },
     es: {
-      developerCV: "CV de Desarrollador",
-      scientistCV: "CV de Científico",
+      developerCV: "Desarrollador",
+      scientistCV: "Químico",
     },
     de: {
-      developerCV: "Entwickler-Lebenslauf",
-      scientistCV: "Wissenschaftlicher Lebenslauf",
+      developerCV: "Entwickler",
+      scientistCV: "Chemiker",
     },
     pt: {
-      developerCV: "CV de Desenvolvedor",
-      scientistCV: "CV de Cientista",
+      developerCV: "Desenvolvedor",
+      scientistCV: "Químico",
     },
   };
   

@@ -8,7 +8,7 @@ useHead({
   <article class="blog active" data-page="blog">
     <header>
       <h2 class="h2 article-title">
-        {{ $t('pageTitles.blog') }}
+        Developer Projects
       </h2>
     </header>
 

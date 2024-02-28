@@ -92,6 +92,7 @@ import { useToggleStore } from '@/stores/toggleStore'; // Import the store
 import { sidebarTranslations } from '../server/api/sidebar'; // Import translations
 import { useI18n } from 'vue-i18n'; // Import useI18n hook
 
+
 const toggleStore = useToggleStore(); // Access the toggle store
 const { locale } = useI18n({ useScope: 'global' }); // Access the global locale
 
@@ -100,3 +101,19 @@ let isOpen = ref(false);
 // Get translations based on the current locale
 const translations = computed(() => sidebarTranslations[locale.value] || sidebarTranslations['en']);
 </script>
+
+<style scoped>
+/* Default styles for larger screens */
+
+/* Styles for mobile screens */
+@media (max-width: 768px) { /* Adjust the max-width value based on your design's breakpoint for mobile devices */
+  .sidebar {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Adjust this value as needed */
+    z-index: 1000; /* Example z-index value, adjust as necessary */
+  }
+}
+
+
+</style>

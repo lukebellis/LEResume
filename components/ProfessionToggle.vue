@@ -17,7 +17,11 @@ function toggleRole() {
   const newRole = toggleStore.isDeveloperSelected ? 'chemist' : 'developer';
   console.log(`Toggling role to: ${newRole}`);
   toggleStore.toggleRole();
+
+  // Scroll to the top of the page
+  window.scrollTo(0, 0);
 }
+
 </script>
 
 <style scoped>

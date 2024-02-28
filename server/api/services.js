@@ -24,14 +24,15 @@ export default defineEventHandler(() => {
     },
     {
       id: 3,
-      title: 'Kotlin',
+      title: 'Nuxt',
       description: {
-        en: 'For an app, I also use Kotlin.',
-        id_ID: 'Untuk membuat aplikasi, saya juga menggunakan Kotlin.',
+        en: 'For building powerful web applications, I use Nuxt.',
+        id_ID: 'Untuk membangun aplikasi web yang kuat, saya menggunakan Nuxt.',
       },
-      icon: 'devicon:kotlin',
+      icon: 'devicon-nuxtjs',
       image: null,
     },
+    
     {
       id: 4,
       title: 'Python',
