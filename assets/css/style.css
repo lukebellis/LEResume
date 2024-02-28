@@ -247,6 +247,7 @@ article.active {
   padding-bottom: 7px;
 }
 
+
 .article-title::after {
   content: "";
   position: absolute;

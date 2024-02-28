@@ -10,6 +10,7 @@ const translations = computed(() => scientistResumeTranslations[locale.value] ||
 <template>
   <section class="container">
     <div class="title-container">
+        <h2 class="h2 text-white">{{ translations.experience }}</h2>
       <div class="download-button-container">
         <button class="download-button" @click="downloadPDF">
           <span>Download PDF</span>
@@ -19,7 +20,7 @@ const translations = computed(() => scientistResumeTranslations[locale.value] ||
     </div>
 
     <section class="timeline">
-      <h2 class="text-white">{{ translations.experience }}</h2>
+      
       <ol class="timeline-list">
         <li class="timeline-item" v-for="(job, index) in translations.jobs" :key="index">
           <h4 class="h4 timeline-item-title">
@@ -118,11 +119,11 @@ const translations = computed(() => scientistResumeTranslations[locale.value] ||
 }
 
 .download-button:hover {
-    background-color: #121212; /* Updated hover background color */
-    color: #DB8E14; /* Updated hover text color */
-    box-shadow: 0 0 10px #DB8E14; /* Box shadow with color #DB8E14 */
-  }
-  
+  background-color: #121212; /* Updated hover background color */
+  color: #DB8E14; /* Updated hover text color */
+  box-shadow: 0 0 10px #DB8E14; /* Box shadow with color #DB8E14 */
+}
+
   
 
 .download-button span {

@@ -14,7 +14,9 @@ const downloadPDF = () => {
 
 <template>
   <section class="container">
+    
     <div class="title-container">
+        <h2 class="h2">{{ translations.experience }}</h2>
       <div class="download-button-container">
         <button class="download-button" @click="downloadPDF">
           <span>Download PDF</span>
@@ -24,7 +26,6 @@ const downloadPDF = () => {
     </div>
 
     <section class="timeline">
-      <h2 class="text-white">{{ translations.experience }}</h2>
       <ol class="timeline-list">
         <li class="timeline-item" v-for="(job, index) in translations.jobs" :key="index">
           <h4 class="h4 timeline-item-title">
