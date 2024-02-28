@@ -52,7 +52,6 @@ export default {
    getRepos() {
   axios.get("https://api.github.com/users/lukebellis/repos").then(res => {
     this.repos = res.data
-      .filter(repo => !repo.fork) // Assuming you want to exclude forked repositories; remove this line if not
       .sort(
         (repo1, repo2) => repo2.stargazers_count - repo1.stargazers_count
       )

@@ -32,19 +32,20 @@ const translations = computed(() => educationTranslations[locale.value]);
 <style>
   .subjects-list {
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 0;
+    display: flex; 
+    gap: 10px; 
   }
   
   .subjects-list li {
-    color: #868686; /* Text color for subjects */
-    margin-bottom: 5px; /* Space between subjects */
+    color: #868686; 
   }
   
   .subjects-list li::before {
     content: "•";
-    color: #f39c12; /* Bullet point color */
+    color: #f39c12; 
     display: inline-block;
     width: 1em;
-    margin-left: -1em;
+    margin-right: 5px; 
   }
 </style>

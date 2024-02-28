@@ -58,14 +58,7 @@ const { data: about } = await useFetch('/api/about')
     <section class="education">
     <Education />
   </section>
-     <!-- service -->
 
-    <section class="service">
-      <br />
-      <ul class="service-list">
-        <ServiceItem v-for="service in services" :key="service.id" :service="service" />
-      </ul>
-    </section>
 
   
 
