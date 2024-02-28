@@ -62,7 +62,7 @@ useHead({
               <h3 class="h3 blog-item-title">Full Stack Restaurant Web App with booking system</h3>
 
               <p class="blog-text">
-                PHPMyAdmin adalah alat yang digunakan untuk mengelola database yang dapat diakses melalui web.
+                Belluno is a versatile React web app with a Node.js backend. It offers streamlined booking, efficient table and menu management, and supports multiple restaurant locations. With features like real-time booking, dynamic table allocation, easy menu updates, and a built-in messaging service, Belluno simplifies operations while enhancing the dining experience. It consolidates restaurant management tools into a single, user-friendly platform, fostering direct engagement with patrons and driving business growth in the digital era.
 
 
               </p>

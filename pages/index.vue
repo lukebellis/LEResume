@@ -97,16 +97,55 @@ const { data: about } = await useFetch('/api/about')
 
     <section class="clients">
       <h3 class="h3 clients-title">
-        Clients
+        Employers
       </h3>
 
       <ul class="clients-list has-scrollbar">
         <li class="clients-item">
-          <a href="https://example.com" target="_blank">
-            <img src="/.png" alt="Company">
+          <a href="https://www.gslmedia.co.uk/" target="_blank">
+            <img src="/images/employers/GSL.jpeg" alt="GSL Media Ltd" class="rounded-[20px]">
           </a>
         </li>
-
+        <li class="clients-item">
+          <a href="https://www.southwestwater.co.uk/" target="_blank">
+            <img src="/images/employers/southwestwater.png" alt="South West Water" class="rounded-[20px]">
+          </a>
+        </li>
+        <li class="clients-item">
+          <a href="https://www.gov.uk/government/organisations/environment-agency" target="_blank">
+            <img src="/images/employers/EnvironmentAgency.png" alt="Environment Agency" class="rounded-[20px]">
+          </a>
+        </li>
+        <li class="clients-item">
+          <a href="https://nationallaboratoryservices.com/" target="_blank">
+            <img src="/images/employers/NLS.jpeg" alt="National Laboratory Service" class="rounded-[20px]">
+          </a>
+        </li>
+        <li class="clients-item">
+          <a href="https://www.bradford.ac.uk/external/" target="_blank">
+            <img src="/images/employers/RSC.png" alt="Royal Society of Chemistry" class="rounded-[20px]">
+          </a>
+        </li>
+        <li class="clients-item">
+          <a href="https://clockworkct.co.uk/" target="_blank">
+            <img src="/images/employers/Clockwork.jpeg" alt="Clockwork Creative Technology" class="rounded-[20px]">
+          </a>
+        </li>
+        <li class="clients-item">
+          <a href="https://www.stem.org.uk/stem-ambassadors/" target="_blank">
+            <img src="/images/employers/STEM.jpg" alt="STEM Learning" class="rounded-[20px]">
+          </a>
+        </li>
+        <li class="clients-item">
+          <a href="https://www.bradford.ac.uk/external/" target="_blank">
+            <img src="/images/employers/bradford.jpeg" alt="Univeristy of Bradford" class="rounded-[20px]">
+          </a>
+        </li>
+        <li class="clients-item">
+          <a href="https://northengland.madscience.org/" target="_blank">
+            <img src="/images/employers/MadScience.jpg" alt="Mad Science North England" class="rounded-[20px]">
+          </a>
+        </li>
       </ul>
     </section>
   </article>

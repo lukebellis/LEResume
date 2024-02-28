@@ -9,7 +9,7 @@
       <section class="blog-posts">
         <ul class="blog-posts-list">
             <li class="blog-post-item">
-                <a href="https://lukebellis.github.io/ICPMS-DiluteCalc/">
+                <a href="https://github.com/lukebellis/quantumvue">
                   <figure class="blog-banner-box">
                     <img src="/images/ScientistProjects/QuantumVue.webp" alt="QuantumVue" loading="lazy">
                   </figure>

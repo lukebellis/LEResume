@@ -5,7 +5,7 @@ export const navbarTranslations = {
         resume: 'Resume',
         projects: 'Projects',
         research: 'Research',
-        blog: 'Blog',
+        blog: 'Projects',
         github: 'Github'
       }
     },
@@ -15,7 +15,7 @@ export const navbarTranslations = {
         resume: 'Currículum',
         projects: 'Proyectos',
         research: 'Investigación',
-        blog: 'Blog',
+        blog: 'Proyectos',
         github: 'Github'
       }
     },
@@ -25,7 +25,7 @@ export const navbarTranslations = {
         resume: 'Lebenslauf',
         projects: 'Projekte',
         research: 'Forschung',
-        blog: 'Blog',
+        blog: 'Projekte',
         github: 'Github'
       }
     },
@@ -35,7 +35,7 @@ export const navbarTranslations = {
         resume: 'Currículo',
         projects: 'Projetos',
         research: 'Pesquisa',
-        blog: 'Blog',
+        blog: 'Projetos',
         github: 'Github'
       }
     }

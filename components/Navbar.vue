@@ -34,12 +34,6 @@ const pageTitle = computed(() => ({
         </NuxtLink>
       </li>
 
-      <!-- Dynamic Portfolio/Projects/Research Link -->
-      <li class="navbar-item">
-        <NuxtLink :to="toggleStore.isDeveloperSelected ? '/developer/portfolio' : '/scientist/research'" class="navbar-link">
-          {{ pageTitle.portfolio }}
-        </NuxtLink>
-      </li>
 
       <li class="navbar-item">
         <NuxtLink to="/blog" class="navbar-link">
