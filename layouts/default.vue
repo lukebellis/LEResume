@@ -7,7 +7,7 @@ useHead({
     lang: locale,
   },
   titleTemplate: (pageTitle) => {
-    return pageTitle ? `${pageTitle} - Agcrismanto Budhi Praswastyka ` : 'Agcrismanto Budhi Praswastyka'
+    return pageTitle ? `${pageTitle} - Luke B Ellis MChem ` : 'Luke B Ellis MChem'
   },
   meta: [
       { charset: 'utf-8' },

@@ -75,7 +75,7 @@
 
       <ul class="social-list">
         <li class="social-item">
-          <NuxtLink to="mailto:agcrisbp@email.com" class="social-link" target="_blank">
+          <NuxtLink to="mailto:contact@lukeellis.me" class="social-link" target="_blank">
             <ion-icon name="mail-outline" />
           </NuxtLink>
         </li>
