@@ -38,6 +38,10 @@ const { data: services } = await useFetch('/api/services')
 
 /* Services */
 const { data: about } = await useFetch('/api/about')
+onMounted(async () => {
+  console.log(about); // Check for uniqueness of each "about" section
+})
+
 </script>
 
 <template>

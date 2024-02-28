@@ -41,6 +41,8 @@ const translations = computed(() => scientistResumeTranslations[locale.value] ||
         </li>
       </ol>
     </section>
+    
+    <Education />
 
     <section class="skill">
         <h2 class="h2 article-title">{{ translations.skillsTitle }}</h2>
@@ -58,7 +60,7 @@ const translations = computed(() => scientistResumeTranslations[locale.value] ||
     </section>
 
     <section class="feedback">
-      <h3 class="article-title text-white my-8">{{ translations.feedbackTitle }}</h3>
+      <h3 class="h2 article-title text-white my-8">{{ translations.feedbackTitle }}</h3>
       <div class="feedback-list content-card">
         <div class="feedback-item" v-for="(feedback, index) in translations.feedback" :key="index">
           <blockquote class="text-white">{{ feedback.text }}</blockquote>
@@ -68,7 +70,7 @@ const translations = computed(() => scientistResumeTranslations[locale.value] ||
     </section>
 
     <section class="awards">
-      <h3 class="article-title text-white my-8">{{ translations.awardsTitle }}</h3>
+      <h3 class="h2 article-title text-white my-8">{{ translations.awardsTitle }}</h3>
       <div class="awards-list content-card">
         <div class="awards-item" v-for="(award, index) in translations.awards" :key="index">
           <h5 class="h5">{{ award.name }}</h5>
@@ -79,7 +81,7 @@ const translations = computed(() => scientistResumeTranslations[locale.value] ||
     </section>
 
     <section class="timeline volunteering">
-      <h2 class="text-white">{{ translations.volunteeringTitle }}</h2>
+      <h2 class="h2 article-title text-white my-8">{{ translations.volunteeringTitle }}</h2>
       <ol class="timeline-list">
         <li class="timeline-item" v-for="(event, index) in translations.volunteeringEvents" :key="index">
           <h4 class="h4 timeline-item-title">{{ event.title }}</h4>

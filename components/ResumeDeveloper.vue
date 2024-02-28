@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue';
 import { developerResumeTranslations } from '~/assets/translations/resumedeveloper';
 import ServiceSection from '@/components/ServiceSection.vue';
+import Education from '@/components/Education.vue';
 import { useI18n } from 'vue-i18n'; 
 
 const { locale } = useI18n(); 
@@ -25,6 +26,8 @@ const downloadPDF = () => {
       </div>
     </div>
 
+    
+    
     <section class="timeline">
       <ol class="timeline-list">
         <li class="timeline-item" v-for="(job, index) in translations.jobs" :key="index">
@@ -46,9 +49,14 @@ const downloadPDF = () => {
         </li>
       </ol>
     </section>
+
+    <Education />
     <h2 class="h2 article-title">{{ translations.skillsTitle }}</h2>
     <ServiceSection />
+    
   </section>
+  
+  
 </template>
 
 <style scoped>
