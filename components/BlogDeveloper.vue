@@ -15,26 +15,26 @@ useHead({
     <section class="blog-posts">
       <ul class="blog-posts-list">
         <li class="blog-post-item">
-          <a href="https://bit.ly/ADLink-Docs">
+          <a href="https://pixelcodelab.co.uk">
 
             <figure class="blog-banner-box">
-              <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1685698726479/4120633e-1475-4696-af64-31a9296696dd.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="ADLink Documentation" loading="lazy">
+              <img src="/images/DeveloperProjects/PixelCodeLab.webp" alt="PixelCodeLab Ltd" loading="lazy">
             </figure>
 
             <div class="blog-content">
 
               <div class="blog-meta">
-                <p class="blog-category">Docs</p>
+                <p class="blog-category">Vue.js 3 app</p>
 
                 <span class="dot" />
 
-                <time datetime="2023-06-2">June 2, 2023</time>
+                <time datetime="2023-06-2">April 2, 2023</time>
               </div>
 
-              <h3 class="h3 blog-item-title">ADLink Documentation</h3>
+              <h3 class="h3 blog-item-title">PixelCodeLab Ltd</h3>
 
               <p class="blog-text">
-                A perfect custom alternative for linktree, bio and other shortner platform.
+                In the dynamic world of technology, I found a space where I could integrate my problem-solving skills, love for creativity, and passion for driving tangible change. It was this exciting confluence that sparked the idea of establishing PixelCodeLab. With PixelCodeLab, my vision was to create a platform that could help bridge this digital gap. I wanted to offer personalised web development services that didn't merely focus on creating aesthetically appealing websites, but also prioritised user experience, functionality, and alignment with business goals.
               </p>
 
             </div>
@@ -43,23 +43,23 @@ useHead({
         </li>
 
         <li class="blog-post-item">
-          <a href="https://blog.agcrisbp.my.id/posts/cara-install-phpmyadmin-di-android-menggunakan-termux">
+          <a href="https://belluno.co.uk">
 
             <figure class="blog-banner-box">
-              <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1685699212595/40c994c9-0d1a-4eba-a82b-76c5da81683f.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="Cara Install PHPMyAdmin Di Android Menggunakan Termux" loading="lazy">
+              <img src="/images/DeveloperProjects/belluno.webp" alt="Full Stack Restaurant Web App with booking system" loading="lazy">
             </figure>
 
             <div class="blog-content">
 
               <div class="blog-meta">
-                <p class="blog-category">Guide</p>
+                <p class="blog-category">React.js, Node.js, Mysql</p>
 
                 <span class="dot" />
 
                 <time datetime="2023-05-21">May 21, 2023</time>
               </div>
 
-              <h3 class="h3 blog-item-title">Cara Install PHPMyAdmin Di Android Menggunakan Termux</h3>
+              <h3 class="h3 blog-item-title">Full Stack Restaurant Web App with booking system</h3>
 
               <p class="blog-text">
                 PHPMyAdmin adalah alat yang digunakan untuk mengelola database yang dapat diakses melalui web.
