@@ -24,14 +24,16 @@ const pageTitle = computed(() => ({
     <ul class="navbar-list">
       <li class="navbar-item">
         <NuxtLink to="/" class="navbar-link">
-          {{ pageTitle.about }}
+          <!-- Conditional Icon for Resume -->
+          {{ pageTitle.about }} &nbsp;<font-awesome-icon :icon="toggleStore.isDeveloperSelected ? ['fas', 'code'] : ['fas', 'flask']" />
+          
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
         <NuxtLink to="/resume" class="navbar-link">
           <!-- Conditional Icon for Resume -->
-          {{ pageTitle.resume }} &nbsp;<font-awesome-icon :icon="toggleStore.isDeveloperSelected ? ['fas', 'file-alt'] : ['fas', 'file-alt']" />
+          {{ pageTitle.resume }} &nbsp;<font-awesome-icon :icon="toggleStore.isDeveloperSelected ? ['fas', 'code'] : ['fas', 'flask']" />
           
         </NuxtLink>
       </li>
@@ -46,7 +48,7 @@ const pageTitle = computed(() => ({
 
       <li class="navbar-item">
         <NuxtLink to="/github" class="navbar-link">
-          {{ pageTitle.github }}
+          {{ pageTitle.github }} &nbsp;<font-awesome-icon :icon="['fab', 'github']"/>
         </NuxtLink>
       </li>
     </ul>

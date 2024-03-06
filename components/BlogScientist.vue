@@ -2,7 +2,7 @@
     <article class="blog active" data-page="blog">
       <header>
         <h2 class="h2 article-title">
-          Chemistry Projects
+          Projects  &nbsp;<font-awesome-icon :icon="['fas', 'flask']"  :style="{ color: '#f39c12' }"/>
         </h2>
       </header>
   

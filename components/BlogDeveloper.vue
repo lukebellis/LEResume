@@ -8,7 +8,7 @@ useHead({
   <article class="blog active" data-page="blog">
     <header>
       <h2 class="h2 article-title">
-        Developer Projects
+        Projects  &nbsp;<font-awesome-icon :icon="['fas', 'code']"  :style="{ color: '#f39c12' }"/>
       </h2>
     </header>
 
