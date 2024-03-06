@@ -15,10 +15,21 @@ const developerResumeTranslations = {
         ],
       },
       {
-        company: 'Tech Innovations Studio',
+        company: 'PixelCodeLab Ltd',
         period: 'May 2017 — Dec 2019',
-        location: 'San Francisco, CA',
-        role: 'Web Developer',
+        location: 'Exeter, UK',
+        role: 'Managing Director',
+        responsibilities: [
+          'Developed and maintained high-quality, responsive websites and applications using React and Vue.js.',
+          'Optimized applications for maximum speed and scalability.',
+          'Provided technical support and training to team members and clients.',
+        ],
+      },
+      {
+        company: 'Nexus Agencies Ltd',
+        period: 'May 2017 — Dec 2019',
+        location: 'Birmingham, UK',
+        role: 'Full Stack Developer',
         responsibilities: [
           'Developed and maintained high-quality, responsive websites and applications using React and Vue.js.',
           'Optimized applications for maximum speed and scalability.',

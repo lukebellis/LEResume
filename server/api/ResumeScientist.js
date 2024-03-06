@@ -1,6 +1,6 @@
 // assets/translations/ResumeScientist.js
 
-const scientistResumeTranslations = {
+export const scientistResumeTranslations = {
   en: {
     experience: 'Experience',
     jobs: [
@@ -36,15 +36,37 @@ const scientistResumeTranslations = {
         ]
       }
     ],
-    skillsTitle: 'Scientific Skills',
-    skills: [
-      { name: 'Analytical Chemistry', proficiency: 'High Proficiency', value: 95 },
-      { name: 'Laboratory Safety', proficiency: 'Expert', value: 98 },
-      { name: 'ICP-MS', proficiency: 'Advanced', value: 93 },
-      { name: 'Statistical Analysis', proficiency: 'Advanced', value: 90 },
-      { name: 'Data Visualization', proficiency: 'Advanced', value: 89 },
-      { name: 'Environmental Awareness', proficiency: 'Advanced', value: 92 },
-      { name: 'Good Laboratory Practice (GLP)', proficiency: 'Expert', value: 94 }
+    "skillsTitle": "Scientific Skills",
+    "skillsCategories": [
+      {
+        "categoryTitle": "Analytical Techniques",
+        "skills": [
+          { "name": "Analytical Chemistry", "proficiency": "High Proficiency", "value": 95 },
+          { "name": "Sample Preparation", "proficiency": "Advanced", "value": 83 },
+          { "name": "Mass Spectrometry", "proficiency": "Advanced", "value": 92 },
+          { "name": "ICP-MS", "proficiency": "Advanced", "value": 93 },
+          { "name": "ICP-OES", "proficiency": "Advanced", "value": 85 },
+          { "name": "Particle Size Analysis", "proficiency": "Advanced", "value": 99 },
+          { "name": "IR Spectroscopy", "proficiency": "Advanced", "value": 84 }
+        ]
+      },
+      {
+        "categoryTitle": "Laboratory Practices",
+        "skills": [
+          { "name": "Laboratory Safety", "proficiency": "Expert", "value": 98 },
+          { "name": "Good Laboratory Practice (GLP)", "proficiency": "Expert", "value": 94 },
+          { "name": "Reagent Preparation", "proficiency": "Expert", "value": 95 }
+        ]
+      },
+      {
+        "categoryTitle": "Theoretical Knowledge",
+        "skills": [
+          { "name": "Quantum Mechanics", "proficiency": "Advanced", "value": 88 },
+          { "name": "Molecular Modeling", "proficiency": "Advanced", "value": 90 },
+          { "name": "Reaction Simulations", "proficiency": "Advanced", "value": 87 },
+          { "name": "Physical Chemistry", "proficiency": "Advanced", "value": 88 }
+        ]
+      }
     ],
     feedbackTitle: 'Feedback',
     feedback: [
@@ -112,7 +134,7 @@ const scientistResumeTranslations = {
         {
           company: 'Alcance STEM',
           period: 'Mayo 2015 — Dic 2018',
-          location: 'Laboratorio Central de STEM, Universidad de Bradford',
+          location: 'Laboratorio Central STEM, Universidad de Bradford',
           role: 'Asistente de Alcance STEM',
           responsibilities: [
             'Colaboré en un equipo para desarrollar y mantener sitios web de clientes, lo que llevó a un aumento del 30% en la satisfacción del cliente.',
@@ -120,20 +142,42 @@ const scientistResumeTranslations = {
           ]
         }
       ],
-      skillsTitle: 'Habilidades Científicas',
-      skills: [
-        { name: 'Química Analítica', proficiency: 'Alta Proficiencia', value: 95 },
-        { name: 'Seguridad en el Laboratorio', proficiency: 'Experto', value: 98 },
-        { name: 'ICP-MS', proficiency: 'Avanzado', value: 93 },
-        { name: 'Análisis Estadístico', proficiency: 'Avanzado', value: 90 },
-        { name: 'Visualización de Datos', proficiency: 'Avanzado', value: 89 },
-        { name: 'Conciencia Ambiental', proficiency: 'Avanzado', value: 92 },
-        { name: 'Buena Práctica de Laboratorio (BPL)', proficiency: 'Experto', value: 94 }
+      "skillsTitle": "Habilidades Científicas",
+      "skillsCategories": [
+        {
+          "categoryTitle": "Técnicas Analíticas",
+          "skills": [
+            { "name": "Química Analítica", "proficiency": "Alta Proficiencia", "value": 95 },
+            { "name": "Preparación de Muestras", "proficiency": "Avanzado", "value": 83 },
+            { "name": "Espectrometría de Masas", "proficiency": "Avanzado", "value": 92 },
+            { "name": "ICP-MS", "proficiency": "Avanzado", "value": 93 },
+            { "name": "ICP-OES", "proficiency": "Avanzado", "value": 85 },
+            { "name": "Análisis de Tamaño de Partículas", "proficiency": "Avanzado", "value": 99 },
+            { "name": "Espectroscopia IR", "proficiency": "Avanzado", "value": 84 }
+          ]
+        },
+        {
+          "categoryTitle": "Prácticas de Laboratorio",
+          "skills": [
+            { "name": "Seguridad de Laboratorio", "proficiency": "Experto", "value": 98 },
+            { "name": "Buena Práctica de Laboratorio (BPL)", "proficiency": "Experto", "value": 94 },
+            { "name": "Preparación de Reactivos", "proficiency": "Experto", "value": 95 }
+          ]
+        },
+        {
+          "categoryTitle": "Conocimiento Teórico",
+          "skills": [
+            { "name": "Mecánica Cuántica", "proficiency": "Avanzado", "value": 88 },
+            { "name": "Modelado Molecular", "proficiency": "Avanzado", "value": 90 },
+            { "name": "Simulaciones de Reacciones", "proficiency": "Avanzado", "value": 87 },
+            { "name": "Química Física", "proficiency": "Avanzado", "value": 88 }
+          ]
+        }
       ],
       feedbackTitle: 'Comentarios',
       feedback: [
         {
-          content: "Luke está realmente creciendo en su rol y nos muestra habilidades que son de primera calidad y un entusiasmo que debería garantizarle un gran futuro con nosotros. La semana pasada se reunió con nuestro Director Ejecutivo Toby Willison y pasó alrededor de 15 minutos mostrándole algunas de las pruebas que hacemos. Toby quedó muy impresionado con Luke, lo que me dejó muy orgulloso de tenerlo como parte de nuestro equipo.",
+          content: "Luke realmente está creciendo en su papel y nos muestra habilidades que son muy valiosas y un entusiasmo que debería garantizarle un gran futuro con nosotros. La semana pasada se reunió con nuestro Director Ejecutivo Toby Willison y pasó alrededor de 15 minutos mostrándole algunas de las pruebas que realizamos. Toby quedó muy impresionado con Luke, lo que me hizo sentir muy orgulloso de tenerlo como parte de nuestro equipo.",
           author: 'Steve Moss, Gerente del Sitio del Laboratorio de NLS Leeds, Agencia del Medio Ambiente',
           date: 'Enero 2017'
         }
@@ -142,8 +186,8 @@ const scientistResumeTranslations = {
       awards: [
         {
           name: 'Premio de Reconocimiento Local',
-          content: "Gracias por todos tus esfuerzos adicionales que pusiste el verano pasado en Tamaño de Partícula. No podríamos haber superado la carga de trabajo y todos los cambios requeridos sin tu compromiso, tenacidad y ética de trabajo. Gracias.",
-          author: 'Chris Mann, Líder del Equipo de Tamaño de Partícula, Agencia del Medio Ambiente',
+          content: "Gracias por todos los esfuerzos adicionales que pusiste el verano pasado en el Tamaño de Partículas. No podríamos haber superado la carga de trabajo y todos los cambios necesarios sin tu compromiso, tenacidad y ética de trabajo. Gracias.",
+          author: 'Chris Mann, Líder del Equipo de Tamaño de Partículas, Agencia del Medio Ambiente',
           date: 'Octubre 2016'
         }
       ],
@@ -153,178 +197,129 @@ const scientistResumeTranslations = {
           title: 'Embajador de STEM',
           period: 'Ago 2013 - Presente',
           location: 'STEMNET',
-          description: 'Interactuar con escuelas y el público para promover la educación y las carreras STEM a través de diversas actividades, talleres y eventos.'
+          description: 'Participando con escuelas y el público para promover la educación y las carreras en STEM a través de diversas actividades, talleres y eventos.'
         },
         {
-          title: 'Voluntario en el Festival de Ciencias de Bradford 2013',
+          title: 'Voluntario en el Festival de Ciencia de Bradford 2013',
           period: 'Oct 2013 - Dic 2014',
-          location: 'Festival de Ciencias de Bradford',
-          description: 'Ayudé con los arreglos para la Escuela de Ciencias de la Vida en la Universidad y gestioné la demostración de espectroscopia de Química, promoviendo la ciencia al público.'
+          location: 'Festival de Ciencia de Bradford',
+          description: 'Ayudó con los arreglos para la Escuela de Ciencias de la Vida en la Universidad y dirigió la demostración de espectroscopía de Química, promoviendo la ciencia al público.'
         },
         {
           title: 'Semana de la Química 2013: Organizador de Eventos',
           period: 'Ago 2013 - Dic 2015',
           location: 'Real Sociedad de Química',
-          description: 'Organicé independientemente un evento de "Caza del Tesoro" en Bradford, diseñé materiales promocionales y presenté premios, mejorando la participación pública con la Química.'
+          description: 'Organizó independientemente un evento de "Búsqueda del Tesoro" en Bradford, diseñó materiales promocionales y presentó premios, mejorando el compromiso público con la Química.'
         }
       ]
     },
-  
-  de: {
-    experience: 'Erfahrung',
-    jobs: [
-      {
-        company: 'South West Water',
-        period: '2020 — 2021',
-        location: 'Exeter, UK',
-        role: 'Analytischer Chemiker & Team-Support-Leiter (Metallabteilung)',
-        responsibilities: [
-          'Leitete die Entwicklung und den Start einer neuen E-Commerce-Plattform, was zu einer Steigerung der Kundenumsätze um 40% führte.',
-          'Implementierte responsive Designprinzipien, um unsere Website auf mobilen und Tablet-Geräten vollständig zugänglich zu machen.',
-          'Optimierte die Leistung der Website und erzielte eine Bewertung von 95% bei den Kernwebvitalen.'
-        ]
-      },
-      {
-        company: 'Umweltagentur',
-        period: 'Mai 2015 — Dez 2018',
-        location: 'Leeds, UK',
-        role: 'Assistent Wissenschaftler',
-        responsibilities: [
-          'Arbeitete in einem Team an der Entwicklung und Wartung von Kundenwebsites, was zu einer Steigerung der Kundenzufriedenheit um 30% führte.',
-          'Automatisierte Datensicherungsprozesse und reduzierte Datenverluste um 100%.'
-        ]
-      },
-      {
-        company: 'STEM-Ausbildung',
-        period: 'Mai 2015 — Dez 2018',
-        location: 'STEM-Zentrallabor, Universität von Bradford',
-        role: 'STEM-Ausbildungsassistent',
-        responsibilities: [
-          'Arbeitete in einem Team an der Entwicklung und Wartung von Kundenwebsites, was zu einer Steigerung der Kundenzufriedenheit um 30% führte.',
-          'Automatisierte Datensicherungsprozesse und reduzierte Datenverluste um 100%.'
-        ]
-      }
-    ],
-    skillsTitle: 'Wissenschaftliche Fähigkeiten',
-    skills: [
-      { name: 'Analytische Chemie', proficiency: 'Hohe Kompetenz', value: 95 },
-      { name: 'Laborsicherheit', proficiency: 'Experte', value: 98 },
-      { name: 'ICP-MS', proficiency: 'Fortgeschritten', value: 93 },
-      { name: 'Statistische Analyse', proficiency: 'Fortgeschritten', value: 90 },
-      { name: 'Datenvisualisierung', proficiency: 'Fortgeschritten', value: 89 },
-      { name: 'Umweltbewusstsein', proficiency: 'Fortgeschritten', value: 92 },
-      { name: 'Gute Laborpraxis (GLP)', proficiency: 'Experte', value: 94 }
-    ],
-    feedbackTitle: 'Feedback',
-    feedback: [
-      {
-        content: "Luke wächst wirklich in seiner Rolle und zeigt uns Fähigkeiten, die erstklassig sind, und eine Begeisterung, die ihm eine großartige Zukunft bei uns bescheren sollte. Letzte Woche traf er unseren Executive Director Toby Willison und verbrachte etwa 15 Minuten damit, ihm einige der Tests zu zeigen, die wir machen. Toby war sehr beeindruckt von Luke, was mich sehr stolz darauf machte, ihn als Teil unseres Teams zu haben.",
-        author: 'Steve Moss, NLS Leeds Laborstandortleiter, Umweltagentur',
-        date: 'Januar 2017'
-      }
-    ],
-    awardsTitle: 'Auszeichnungen',
-    awards: [
-      {
-        name: 'Lokaler Anerkennungspreis',
-        content: "Danke für all Ihre zusätzlichen Anstrengungen, die Sie letzten Sommer bei der Partikelgröße unternommen haben. Wir hätten die Arbeitsbelastung und alle erforderlichen Änderungen ohne Ihr Engagement, Ihre Zähigkeit und Ihre Arbeitsmoral nicht bewältigen können. Danke.",
-        author: 'Chris Mann, Leiter des Partikelgrößenteams, Umweltagentur',
-        date: 'Oktober 2016'
-      }
-    ],
-    volunteeringTitle: 'Freiwilligenarbeit',
-    volunteering: [
-      {
-        title: 'STEM-Botschafter',
-        period: 'Aug 2013 - Heute',
-        location: 'STEMNET',
-        description: 'Engagement mit Schulen und der Öffentlichkeit, um Bildung und Karrieren in den MINT-Fächern durch verschiedene Aktivitäten, Workshops und Veranstaltungen zu fördern.'
-      },
-      {
-        title: 'Freiwilliger beim Bradford Science Festival 2013',
-        period: 'Okt 2013 - Dez 2014',
-        location: 'Bradford Science Festival',
-        description: 'Unterstützte bei den Vorkehrungen für die School of Life Sciences an der Universität und leitete die Spektroskopie-Demonstration der Chemie, um Wissenschaft der Öffentlichkeit zu fördern.'
-      },
-      {
-        title: 'Chemiewoche 2013: Veranstaltungsorganisator',
-        period: 'Aug 2013 - Dez 2015',
-        location: 'Royal Society of Chemistry',
-        description: 'Organisierte eigenständig eine "Schatzsuche" in Bradford, entwarf Werbematerialien und verlieh Preise, um das öffentliche Engagement für die Chemie zu fördern.'
-      }
-    ]
-  },
-  pt: {
-    experience: 'Experiência',
-    jobs: [
-      {
-        company: 'South West Water',
-        period: 'Jan 2020 — Presente',
-        location: 'Plymouth, Reino Unido',
-        role: 'Desenvolvedor Sênior de PHP',
-        responsibilities: [
-          'Liderou o desenvolvimento de uma aplicação web progressiva aumentando o engajamento do usuário em 30%.',
-          'Implementou um pipeline de CI/CD reduzindo os tempos de implantação em 50%.',
-          'Colaborou de perto com a equipe de design para garantir a viabilidade técnica e a melhor experiência do usuário.'
-        ]
-      },
-      {
-        company: 'Tech Innovations Studio',
-        period: 'Mai 2017 — Dez 2019',
-        location: 'San Francisco, CA',
-        role: 'Desenvolvedor Web',
-        responsibilities: [
-          'Desenvolveu e manteve websites e aplicações responsivas de alta qualidade usando React e Vue.js.',
-          'Otimizou aplicações para máxima velocidade e escalabilidade.',
-          'Fornecido suporte técnico e treinamento para membros da equipe e clientes.'
-        ]
-      },
-      {
-        company: 'Nome da Empresa',
-        period: 'Mês Ano — Mês Ano',
-        location: 'Localização',
-        role: 'Título do Cargo',
-        responsibilities: [
-          'Responsabilidade 1',
-          'Responsabilidade 2',
-          'Responsabilidade 3'
-        ]
-      }
-    ],
-    skillsTitle: 'Habilidades',
-    skills: [
-      { name: 'Habilidade 1', proficiency: 'Nível', value: 80 },
-      { name: 'Habilidade 2', proficiency: 'Nível', value: 85 },
-      { name: 'Habilidade 3', proficiency: 'Nível', value: 90 },
-      { name: 'Habilidade 4', proficiency: 'Nível', value: 95 }
-    ],
-    feedbackTitle: 'Feedback',
-    feedback: [
-      {
-        content: 'Comentário sobre a sua performance.',
-        author: 'Autor do Comentário',
-        date: 'Data do Comentário'
-      }
-    ],
-    awardsTitle: 'Prêmios',
-    awards: [
-      {
-        name: 'Nome do Prêmio',
-        content: 'Descrição do Prêmio.',
-        author: 'Autor do Prêmio',
-        date: 'Data do Prêmio'
-      }
-    ],
-    volunteeringTitle: 'Voluntariado',
-    volunteering: [
-      {
-        title: 'Título do Voluntariado',
-        period: 'Período',
-        location: 'Localização',
-        description: 'Descrição do Voluntariado.'
-      }
-    ]
-  }
+    // German translation not provided in the previous message
+    de: {
+      experience: 'Berufserfahrung',
+      jobs: [
+        {
+          company: 'South West Water',
+          period: '2020 — 2021',
+          location: 'Exeter, UK',
+          role: 'Analytischer Chemiker & Team-Support-Leiter (Metallabteilung)',
+          responsibilities: [
+            'Leitete die Entwicklung und Einführung einer neuen E-Commerce-Plattform, was zu einer Steigerung der Kundenumsätze um 40% führte.',
+            'Implementierte responsive Designprinzipien, um unsere Website vollständig auf mobilen und Tablet-Geräten zugänglich zu machen.',
+            'Optimierte die Leistung der Website und erreichte eine Punktzahl von 95% bei den Kernwebwerten.'
+          ]
+        },
+        {
+          company: 'Umweltagentur',
+          period: 'Mai 2015 — Dez 2018',
+          location: 'Leeds, UK',
+          role: 'Wissenschaftlicher Assistent',
+          responsibilities: [
+            'Zusammenarbeit in einem Team zur Entwicklung und Pflege von Kundenseiten, was zu einer Steigerung der Kundenzufriedenheit um 30% führte.',
+            'Automatisierte Daten-Backup-Prozesse, wodurch Datenverluste um 100% reduziert wurden.'
+          ]
+        },
+        {
+          company: 'STEM Outreach',
+          period: 'Mai 2015 — Dez 2018',
+          location: 'STEM-Zentrallabor, Universität Bradford',
+          role: 'STEM-Outreach-Assistent',
+          responsibilities: [
+            'Zusammenarbeit in einem Team zur Entwicklung und Pflege von Kundenseiten, was zu einer Steigerung der Kundenzufriedenheit um 30% führte.',
+            'Automatisierte Daten-Backup-Prozesse, wodurch Datenverluste um 100% reduziert wurden.'
+          ]
+        }
+      ],
+      "skillsTitle": "Wissenschaftliche Fähigkeiten",
+      "skillsCategories": [
+        {
+          "categoryTitle": "Analytische Techniken",
+          "skills": [
+            { "name": "Analytische Chemie", "proficiency": "Hohe Kompetenz", "value": 95 },
+            { "name": "Probenvorbereitung", "proficiency": "Fortgeschritten", "value": 83 },
+            { "name": "Massenspektrometrie", "proficiency": "Fortgeschritten", "value": 92 },
+            { "name": "ICP-MS", "proficiency": "Fortgeschritten", "value": 93 },
+            { "name": "ICP-OES", "proficiency": "Fortgeschritten", "value": 85 },
+            { "name": "Partikelgrößenanalyse", "proficiency": "Fortgeschritten", "value": 99 },
+            { "name": "IR-Spektroskopie", "proficiency": "Fortgeschritten", "value": 84 }
+          ]
+        },
+        {
+          "categoryTitle": "Laborpraktiken",
+          "skills": [
+            { "name": "Laborsicherheit", "proficiency": "Experte", "value": 98 },
+            { "name": "Gute Laborpraxis (GLP)", "proficiency": "Experte", "value": 94 },
+            { "name": "Reagenzienherstellung", "proficiency": "Experte", "value": 95 }
+          ]
+        },
+        {
+          "categoryTitle": "Theoretisches Wissen",
+          "skills": [
+            { "name": "Quantenmechanik", "proficiency": "Fortgeschritten", "value": 88 },
+            { "name": "Molekülmodellierung", "proficiency": "Fortgeschritten", "value": 90 },
+            { "name": "Reaktionssimulationen", "proficiency": "Fortgeschritten", "value": 87 },
+            { "name": "Physikalische Chemie", "proficiency": "Fortgeschritten", "value": 88 }
+          ]
+        }
+      ],
+      feedbackTitle: 'Feedback',
+      feedback: [
+        {
+          content: "Luke wächst wirklich in seiner Rolle und zeigt uns Fähigkeiten, die sehr gefragt sind, und eine Begeisterung, die ihm eine großartige Zukunft bei uns bescheren sollte. Letzte Woche traf er sich mit unserem Executive Director Toby Willison und verbrachte etwa 15 Minuten damit, ihm einige der Tests zu zeigen, die wir durchführen. Toby war von Luke sehr beeindruckt, was mich sehr stolz darauf machte, ihn als Teil unseres Teams zu haben.",
+          author: 'Steve Moss, NLS Leeds Laboratory Site Manager, Environment Agency',
+          date: 'Januar 2017'
+        }
+      ],
+      awardsTitle: 'Auszeichnungen',
+      awards: [
+        {
+          name: 'Lokaler Anerkennungspreis',
+          content: "Vielen Dank für all Ihre zusätzlichen Anstrengungen im letzten Sommer in der Partikelgröße. Ohne Ihr Engagement, Ihre Zähigkeit und Ihre Arbeitsmoral hätten wir die Arbeitslast und alle erforderlichen Änderungen nicht bewältigen können. Danke.",
+          author: 'Chris Mann, Particle Size Team Leader, Environment Agency',
+          date: 'Oktober 2016'
+        }
+      ],
+      volunteeringTitle: 'Freiwilligenarbeit',
+      volunteering: [
+        {
+          title: 'STEM-Botschafter',
+          period: 'Aug 2013 - Heute',
+          location: 'STEMNET',
+          description: 'Engagement mit Schulen und der Öffentlichkeit zur Förderung von STEM-Bildung und -Karrieren durch verschiedene Aktivitäten, Workshops und Veranstaltungen.'
+        },
+        {
+          title: 'Freiwilliger beim Bradford Science Festival 2013',
+          period: 'Okt 2013 - Dez 2014',
+          location: 'Bradford Science Festival',
+          description: 'Unterstützte bei der Organisation für die School of Life Sciences an der Universität und leitete die Chemiedemonstration zur Spektroskopie und förderte so die Wissenschaft gegenüber der Öffentlichkeit.'
+        },
+        {
+          title: 'Chemiewoche 2013: Veranstaltungsorganisator',
+          period: 'Aug 2013 - Dez 2015',
+          location: 'Royal Society of Chemistry',
+          description: 'Organisierte eigenständig eine "Schatzsuche" in Bradford, entwarf Werbematerialien und verlieh Preise, um das öffentliche Engagement für die Chemie zu fördern.'
+        }
+      ]
+    }
 };
 
-export { scientistResumeTranslations };
+export default scientistResumeTranslations;
