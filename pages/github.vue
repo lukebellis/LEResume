@@ -8,7 +8,7 @@ useHead({
   <article class="github active" data-page="github">
     <header>
       <h2 class="h2 article-title">
-        {{ $t('pageTitles.github') }}
+        {{ $t('pageTitles.github') }} &nbsp;<font-awesome-icon :icon="['fab', 'github']"/>
       </h2>
     </header>
 
