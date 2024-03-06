@@ -1,7 +1,7 @@
 <template>
   <section class="timeline">
     <h2 class="h2 article-title">
-      {{ translations.title }}
+      {{ translations.title }} &nbsp;<font-awesome-icon :icon="['fas', 'graduation-cap']"  :style="{ color: '#f39c12' }"/>
     </h2>
     <ol class="timeline-list">
       <li class="timeline-item" v-for="(degree, index) in translations.degrees" :key="index">

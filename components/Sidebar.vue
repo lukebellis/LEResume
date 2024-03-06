@@ -3,7 +3,7 @@
     <div class="sidebar-info">
       <figure class="avatar-box">
         <NuxtLink to="/">
-          <img src="/images/sig.png" alt="Photo" width="80" style="border-radius: 10px;">
+          <img src="/images/sig.png" alt="Photo" width="80" style="border-radius: 10px; box-shadow: 0 0 10px #717171;">
         </NuxtLink>
       </figure>
 

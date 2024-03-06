@@ -17,12 +17,15 @@ const downloadPDF = () => {
   <section class="container">
     
     <div class="title-container">
-        <h2 class="h2">{{ translations.experience }}</h2>
+      <h2 class="h2 text-white">
+        {{ translations.experience }} &nbsp;<font-awesome-icon :icon="['fas', 'code']"  :style="{ color: '#f39c12' }"/>
+        </h2>
       <div class="download-button-container">
-        <button class="download-button" @click="downloadPDF">
-          <span>Download PDF</span>
-          <i class="fas fa-download"></i>
+        <button class="download-button flex items-center justify-center" @click="downloadPDF">
+          <span class="mr-2">Download PDF</span>
+          <font-awesome-icon :icon="['fas', 'download']" />
         </button>
+        
       </div>
     </div>
 
@@ -51,7 +54,7 @@ const downloadPDF = () => {
     </section>
 
     <Education />
-    <h2 class="h2 article-title">{{ translations.skillsTitle }}</h2>
+    <h2 class="h2 article-title">{{ translations.skillsTitle }} &nbsp;<font-awesome-icon :icon="['fas', 'laptop-code']"  :style="{ color: '#f39c12' }"/></h2>
     <ServiceSection />
     
   </section>

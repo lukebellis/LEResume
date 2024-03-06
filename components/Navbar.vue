@@ -30,14 +30,17 @@ const pageTitle = computed(() => ({
 
       <li class="navbar-item">
         <NuxtLink to="/resume" class="navbar-link">
-          {{ pageTitle.resume }}
+          <!-- Conditional Icon for Resume -->
+          {{ pageTitle.resume }} &nbsp;<font-awesome-icon :icon="toggleStore.isDeveloperSelected ? ['fas', 'file-alt'] : ['fas', 'file-alt']" />
+          
         </NuxtLink>
       </li>
 
-
       <li class="navbar-item">
         <NuxtLink to="/blog" class="navbar-link">
-          {{ pageTitle.blog }}
+          <!-- Conditional Icon for Blog -->
+          
+          {{ pageTitle.blog }} &nbsp;<font-awesome-icon :icon="toggleStore.isDeveloperSelected ? ['fas', 'code'] : ['fas', 'flask']" />
         </NuxtLink>
       </li>
 
