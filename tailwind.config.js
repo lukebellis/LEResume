@@ -48,3 +48,4 @@ module.exports = {
     textColor: ['dark', 'dark-hover', 'dark-active'],
   },
 }
+ 

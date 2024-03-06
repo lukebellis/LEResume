@@ -2,7 +2,7 @@ export const navbarTranslations = {
     en: {
       pageTitles: {
         about: 'About',
-        resume: 'Resume',
+        resume: 'Curriculum vitae',
         projects: 'Projects',
         research: 'Research',
         blog: 'Projects',

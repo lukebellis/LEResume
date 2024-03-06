@@ -1,6 +1,6 @@
 <script setup>
 import { computed, ref } from 'vue';
-import { developerResumeTranslations } from '~/assets/translations/resumedeveloper';
+import { developerResumeTranslations } from '~/server/api/ResumeDeveloper.js';
 import ServiceSection from '@/components/ServiceSection.vue';
 import Education from '@/components/Education.vue';
 import { useI18n } from 'vue-i18n'; 
@@ -94,4 +94,4 @@ const downloadPDF = () => {
 .download-button span {
   margin-right: 5px;
 }
-</style>
+</style>server/api/Resumedeveloper.js
