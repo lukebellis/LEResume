@@ -1531,7 +1531,7 @@ textarea.contact::-webkit-resizer { display: none; }
    * #PORTFOLIO, BLOG
    */
 
-  .project-img, .blog-banner-box { border-radius: 16px; }
+  .project-img, .blog-banner-box { border-radius: 16px 16px 0 0; }
 
   .blog-posts-list { gap: 30px; }
 
