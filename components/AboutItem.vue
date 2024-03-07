@@ -1,4 +1,4 @@
-x<script setup>
+<!-- <script setup>
 import { defineProps, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
@@ -62,4 +62,4 @@ watch(description, (newVal) => {
 .about-text-container {
   /* Text container styling */
 }
-</style>
+</style> -->

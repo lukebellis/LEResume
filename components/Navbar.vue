@@ -13,7 +13,8 @@ const pageTitle = computed(() => ({
   resume: navbarTranslations[locale.value].pageTitles.resume,
   portfolio: toggleStore.isDeveloperSelected ? navbarTranslations[locale.value].pageTitles.projects : navbarTranslations[locale.value].pageTitles.research,
   blog: navbarTranslations[locale.value].pageTitles.blog,
-  github: navbarTranslations[locale.value].pageTitles.github
+  github: navbarTranslations[locale.value].pageTitles.github,
+  contact: navbarTranslations[locale.value].pageTitles.contact
 }));
 </script>
 
@@ -51,6 +52,13 @@ const pageTitle = computed(() => ({
           {{ pageTitle.github }} &nbsp;<font-awesome-icon :icon="['fab', 'github']"/>
         </NuxtLink>
       </li>
+
+      <li class="navbar-item">
+        <NuxtLink to="/contact" class="navbar-link">
+          {{ pageTitle.contact }} &nbsp;<font-awesome-icon :icon="['fas', 'envelope']"/>
+        </NuxtLink>
+      </li>
+
     </ul>
   </nav>
 </template>

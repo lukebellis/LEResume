@@ -32,7 +32,7 @@ const currentResumeComponent = computed(() => {
   <article class="resume active" data-page="resume">
     <header>
       <h2 class="h2 article-title">
-        {{ toggleStore.isDeveloperSelected ? translations.developerCV : translations.scientistCV }}
+        {{ toggleStore.isDeveloperSelected ? translations.developerCV : translations.scientistCV }} &nbsp;<font-awesome-icon :icon="toggleStore.isDeveloperSelected ? ['fas', 'code'] : ['fas', 'flask']" :style="{ color: '#f39c12' }" />
       </h2>
     </header>
 

@@ -30,7 +30,7 @@ function checkSkillsInView() {
   <section class="container">
     <div class="title-container">
       <h2 class="h2 text-white">
-        {{ translations.experience }} &nbsp;<font-awesome-icon :icon="['fas', 'flask']"  :style="{ color: '#f39c12' }"/>
+        {{ translations.experience }} &nbsp;<font-awesome-icon :icon="['fas', 'briefcase']"  :style="{ color: '#f39c12' }"/>
         </h2>
       <div class="download-button-container">
         <button class="download-button flex items-center justify-center" @click="downloadPDF">
@@ -106,7 +106,7 @@ function checkSkillsInView() {
     
 
     <section class="feedback">
-      <h3 class="h2 article-title text-white my-8">{{ translations.feedbackTitle }} &nbsp;<font-awesome-icon :icon="['fas', 'atom']"  :style="{ color: '#f39c12' }"/></h3>
+      <h3 class="h2 article-title text-white my-8">{{ translations.feedbackTitle }} &nbsp;<font-awesome-icon :icon="['fas', 'comment-dots']"  :style="{ color: '#f39c12' }"/></h3>
       <div class="feedback-list content-card">
         <div class="feedback-item" v-for="(feedback, index) in translations.feedback" :key="index">
           <blockquote class="text-white">{{ feedback.text }}</blockquote>

@@ -38,6 +38,23 @@ const developerResumeTranslations = {
       },
     ],
     skillsTitle: 'Skills',
+    certifications: [
+      {
+        name: 'Certified Vue.js Developer',
+        description: 'A certification demonstrating advanced knowledge and skills in Vue.js development.',
+        author: 'Vue Mastery',
+        url: 'https://www.vuemastery.com/certifications/vue-developer/',
+        icon: 'vuejs', // Referencing the icon for Vue.js
+      },
+      {
+        name: 'LinkedIn Learning: PHP Essential Training',
+        description: 'A course covering the basics and advanced techniques of PHP development.',
+        author: 'LinkedIn Learning',
+        url: 'https://www.linkedin.com/learning/',
+        icon: 'php', // Referencing the icon for PHP
+      }
+      // Add more certifications as needed
+    ],
   },
   es: {
     title: 'Currículum de Desarrollador',

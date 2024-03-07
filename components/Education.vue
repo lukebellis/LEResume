@@ -5,7 +5,7 @@
     </h2>
     <ol class="timeline-list">
       <li class="timeline-item" v-for="(degree, index) in translations.degrees" :key="index">
-        <h4 class="h4 timeline-item-title">{{ degree.title }}</h4>
+        <h4 class="h4 service-item-title">{{ degree.title }}</h4>
         <span>{{ degree.year }}</span>
         <p class="timeline-item-desc">{{ degree.desc }}</p>
         <!-- Conditionally render subjects if they exist and apply styles -->
