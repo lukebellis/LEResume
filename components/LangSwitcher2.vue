@@ -31,10 +31,12 @@ onMounted(() => {
 <template>
   <div class="flags-container">
     <div v-for="lang in languages" :key="lang.code" class="flag-item" @click="changeLang(lang.code)">
-      <img :src="lang.flag" :alt="`${lang.code} flag`" class="flag-image">
+      <!-- Bind the is-active class conditionally -->
+      <img :src="lang.flag" :alt="`${lang.code} flag`" class="flag-image" :class="{'is-active': lang.code === locale.value}">
     </div>
   </div>
 </template>
+
 
 <style scoped>
 .flags-container {
@@ -55,5 +57,14 @@ onMounted(() => {
 
 .flag-image {
   height: 30px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+/* Class to add a yellow ring around the active flag */
+.is-active {
+  border: 2px solid yellow; /* Adjust the border width and color as needed */
+  box-sizing: border-box; /* Ensures the border width doesn't add to the element's total width/height */
 }
 </style>
+

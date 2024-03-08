@@ -1,66 +1,10 @@
 export const IntroductionDeveloper = {
         "welcome": {
           "en": "Hi, I'm Luke.",
-          "es": "Hola, soy Lucas.",
+          "es": "Hola, soy Luke.",
           "de": "Hallo, ich bin Luke.",
-          "pt": "Olá, eu sou o Lucas."
+          "pt": "Olá, eu sou o Luke."
         },
-        "taglines": [
-          {
-            "id": 1,
-            "text": {
-              "en": "Web Developer",
-              "es": "Desarrollador web",
-              "de": "Webentwickler",
-              "pt": "Desenvolvedor Web"
-            }
-          },
-          {
-            "id": 2,
-            "text": {
-              "en": "Analytical Chemist",
-              "es": "Químico analítico",
-              "de": "Analytischer Chemiker",
-              "pt": "Químico Analítico"
-            }
-          },
-          {
-            "id": 3,
-            "text": {
-              "en": "Environmentalist",
-              "es": "Ambientalista",
-              "de": "Umweltschützer",
-              "pt": "Ambientalista"
-            }
-          },
-          {
-            "id": 4,
-            "text": {
-              "en": "Traveler",
-              "es": "Viajero",
-              "de": "Reisender",
-              "pt": "Viajante"
-            }
-          },
-          {
-            "id": 5,
-            "text": {
-              "en": "Teacher",
-              "es": "Profesor",
-              "de": "Lehrer",
-              "pt": "Professor"
-            }
-          },
-          {
-            "id": 6,
-            "text": {
-              "en": "Motorcyclist",
-              "es": "Motociclista",
-              "de": "Motorradfahrer",
-              "pt": "Motociclista"
-            }
-          }
-        ],
         "paragraph": {
           "en": "Welcome to my website, use the toggle button to change the scope and learn about my careers in web development and analytical Chemistry. In this scope we'll focus on my career as a web developer.",
           "es": "Bienvenido a mi sitio web, utiliza el botón de cambio para explorar sobre mis carreras en desarrollo web y química analítica. En este ámbito, nos centraremos en mi carrera como desarrollador web.",
