@@ -1,24 +1,22 @@
 <template>
-    <!-- Preload emojis -->
-  <span style="display: none;">👨‍💻👨‍🔬🌱🌍👨‍🏫🏍️</span>
-
+    <span style="display: none;">👨‍💻👨‍🔬🌱🌍👨‍🏫🏍️</span>
     <section class="introduction text-white px-8 py-32">
       <header>
         <h2 class="text-6xl font-bold mb-8">
           {{ localizedContent.welcome }} 👋 
         </h2>
-        <h2 class=" text-3xl font-bold mb-8">
-            {{ introPhrase }}... {{ currentTagline }} 
-          </h2>
-
+        <h2 class="text-3xl font-bold mb-8">
+          {{ introPhrase }}... <span class="typewriter">{{ currentTagline }}</span>
+        </h2>
       </header>
       <p class="text-lg" v-html="coloredParagraph"></p>
     </section>
   </template>
   
   
+  
   <script setup>
-import { ref, watchEffect, computed, onBeforeUnmount, watch } from 'vue';
+import { ref, computed, onBeforeUnmount, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useToggleStore } from '@/stores/toggleStore';
 import { IntroductionDeveloper } from '../server/api/IntroductionDeveloper';
@@ -81,68 +79,85 @@ const coloredParagraph = computed(() => {
   return paragraph;
 });
 
-
-
-
 // Compute the localized "I'm a" prefix
 const introPhrase = computed(() => {
   return IntroPhrases.ImA[i18n.locale.value];
 });
 
 const currentTagline = ref('');
-const taglineIndex = ref(0);
+let isDeleting = false;
+let taglineIndex = 0;
+let charIndex = 0;
 
 // Initialize a new grapheme splitter
 const splitter = new GraphemeSplitter();
 
-let typewriterInterval = null; // Variable to keep track of the interval
+let typewriterInterval; // Variable to keep track of the interval
 
-// Clear the interval when the component is unmounted to prevent memory leaks
+const typeWriterEffect = () => {
+  const taglines = Object.values(Taglines).map(tagline => tagline[i18n.locale.value]);
+  const tagline = taglines[taglineIndex % taglines.length];
+  const graphemes = splitter.splitGraphemes(tagline);
+
+  if (isDeleting) {
+    charIndex--;
+  } else {
+    charIndex++;
+  }
+
+  currentTagline.value = graphemes.slice(0, charIndex).join('');
+
+  if (!isDeleting && charIndex === graphemes.length) {
+    // Pause before starting to delete
+    isDeleting = true;
+    setTimeout(() => { typeWriterEffect(); }, 2000);
+    return;
+  } else if (isDeleting && charIndex === 0) {
+    isDeleting = false;
+    taglineIndex++; // Move to the next tagline
+  }
+
+  let nextTimeout = isDeleting ? 30 : 100; // Faster deletion than typing
+  setTimeout(typeWriterEffect, nextTimeout);
+};
+
+// Start the typewriter effect when the component mounts
 onBeforeUnmount(() => {
   clearInterval(typewriterInterval);
 });
 
-// Watch for changes in the language and restart the typewriter effect accordingly
 watch(() => i18n.locale.value, () => {
   // Restart the typewriter effect by resetting the tagline index
-  taglineIndex.value = 0;
+  taglineIndex = 0;
+  charIndex = 0;
+  isDeleting = false;
+  typeWriterEffect(); // Restart effect on language change
 });
 
-watchEffect(() => {
-  // Clear any existing interval to prevent stuttering
-  clearInterval(typewriterInterval);
-
-  const taglineKeys = Object.keys(Taglines);
-  const taglineKey = taglineKeys[taglineIndex.value % taglineKeys.length];
-  const taglineStr = Taglines[taglineKey][i18n.locale.value] || '';
-
-  // Use the grapheme splitter to split the string into graphemes
-  const graphemes = splitter.splitGraphemes(taglineStr);
-
-  let currentCharacterIndex = 0;
-  typewriterInterval = setInterval(() => {
-    if (currentCharacterIndex <= graphemes.length) {
-      // Join the graphemes up to the current index to get the current string
-      currentTagline.value = graphemes.slice(0, currentCharacterIndex).join('');
-      currentCharacterIndex++;
-    } else {
-      clearInterval(typewriterInterval);
-      // Move to the next tagline after a delay
-      setTimeout(() => {
-        taglineIndex.value++;
-      }, 2000); // Adjust the delay as needed
-    }
-  }, 100); // Adjust the typing speed as needed
-});
+// Initiate the typewriter effect
+typeWriterEffect();
 </script>
 
-  
-  
-  <style scoped>
 
-.highlight {
-    color: #f39c12; 
-  }
   
-  </style>
+  
+<style scoped>
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: orange; }
+}
+
+.typewriter {
+  display: inline-block;
+  border-right: .25em solid orange; /* The cursor */
+  white-space: nowrap;
+  letter-spacing: .15em;
+  animation: blink-caret .75s step-end infinite;
+}
+
+/* Add your existing styles here */
+.highlight {
+  color: #f39c12; 
+}
+</style>
   
