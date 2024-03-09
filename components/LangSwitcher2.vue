@@ -10,8 +10,9 @@ const cookieLocale = useLocaleStore()
 const languages = [
   { code: 'en', flag: '/flags/en.png' },
   { code: 'es', flag: '/flags/es.png' },
-  { code: 'de', flag: '/flags/de.png' },
-  { code: 'pt', flag: '/flags/pt.png' }
+  { code: 'pt', flag: '/flags/pt.png' },
+  { code: 'de', flag: '/flags/de.png' }
+  
 ]
 
 function changeLang(langCode) {
@@ -41,9 +42,9 @@ onMounted(() => {
 <style scoped>
 .flags-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 10px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .flag-item {
@@ -56,7 +57,7 @@ onMounted(() => {
 }
 
 .flag-image {
-  height: 30px; /* Adjust the size as needed */
+  height: 20px; /* Adjust the size as needed */
   border-radius: 50%; /* Makes the image circular */
   object-fit: cover; /* Ensures the image covers the area without stretching */
 }

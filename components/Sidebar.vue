@@ -60,6 +60,7 @@
           </div>
         </li>
 
+        
         <li class="contact-item">
           <div class="icon-box">
             <ion-icon name="location-outline" />
@@ -69,19 +70,23 @@
             <address>{{ translations.location }}</address>
           </div>
         </li>
+
+        <li class="contact-item">
+          <div class="icon-box">
+            <a href="https://www.linkedin.com/in/lbellis1/" class="contact-link" target="_blank">
+              <ion-icon name="earth-outline" />
+            </a>
+          </div>
+          <div class="contact-info">
+            <p class="contact-title">{{ translations.languageSelector }}</p>
+            <LangSwitcher2 />
+          </div>
+        </li>
+
+
       </ul>
 
       <div class="separator" />
-
-      <ul class="social-list">
-        <li class="social-item">
-          <NuxtLink to="mailto:contact@lukeellis.me" class="social-link" target="_blank">
-            <ion-icon name="mail-outline" />
-          </NuxtLink>
-        </li>
-        <!-- The LangSwitcher2 component is assumed to be part of your project -->
-        <LangSwitcher2 />
-      </ul>
     </div>
   </aside>
 </template>

@@ -1369,7 +1369,7 @@ textarea.contact::-webkit-resizer { display: none; }
 
   .info_more-btn ion-icon { display: none; }
 
-  .separator { margin: 32px 0; }
+  .separator { margin: 16px 0; }
 
   .contacts-list { gap: 20px; }
 

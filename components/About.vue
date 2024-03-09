@@ -1,28 +1,6 @@
 <script setup>
-import { onMounted, ref } from 'vue';
-import { useI18n } from 'vue-i18n';
-import { useFetch } from '@vueuse/core';
 // Adjust the import path as per your project structure
 import Introduction from '../components/Introduction.vue';
-
-const { locale } = useI18n({ useScope: 'global' });
-const aboutSections = ref([]);
-
-onMounted(async () => {
-  const { data, error } = await useFetch('/api/about').json();
-  
-  if (error.value) {
-    console.error('Failed to fetch about sections:', error.value);
-    return;
-  }
-
-  console.log('Fetched data from /api/about:', data.value); // Ensure data structure is as expected
-  aboutSections.value = data.value;
-});
-
-function getDescription(section) {
-  return section.description[locale.value] || 'Description not available';
-}
 </script>
 
 <template>
