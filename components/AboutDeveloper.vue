@@ -22,8 +22,6 @@ onMounted(async () => {
 });
 </script>
 
-
-
 <template>
   <section class="about active" data-page="about">
     <header>
@@ -36,18 +34,21 @@ onMounted(async () => {
       <ul class="about-list">
         <li v-for="section in aboutSections" :key="section.id" class="about-item flex flex-col md:flex-row md:items-center"
             :class="section.align === 'left' ? 'md:flex-row-reverse text-md-left' : 'text-md-right'">
-          <div class="about-image-container md:w-1/2 flex justify-center md:justify-end p-4">
+          <div class="about-image-container md:w-1/2 flex flex-col justify-center md:justify-end items-center p-4 gap-16">
             <img :src="section.image" alt="" class="rounded-[20px] max-w-full h-auto shadow-lg">
+            <template v-if="section.extraImages">
+              <img v-for="(extraImg, index) in section.extraImages" :key="`extraImg-${section.id}-${index}`" :src="extraImg" alt="" class="rounded-[20px] max-w-full h-auto shadow-lg hidden md:block">
+            </template>
           </div>
-          <div class="about-text-container md:w-1/2 p-4">
+          <div class="about-text-container md:w-1/2 p-4 flex flex-col justify-center">
             <h3 class="text-3xl font-bold mb-8">{{ section.heading[locale] }}</h3>
             <template v-if="Array.isArray(section.description[locale])">
-              <p v-for="(paragraph, index) in section.description[locale]" :key="index" class="text-white about-item-text text-justify md:text-left">
+              <p v-for="(paragraph, index) in section.description[locale]" :key="index" class="text-white text-lg text-justify md:text-left">
                 {{ paragraph }}
               </p>
             </template>
             <template v-else>
-              <p class="text-white about-item-text text-justify md:text-left">
+              <p class="text-lg text-white about-item-text text-justify md:text-left">
                 {{ section.description[locale] || 'Description not available' }}
               </p>
             </template>
@@ -61,14 +62,42 @@ onMounted(async () => {
 
 
 <style scoped>
-/* Your styles for About section here */
 .about-item {
   margin-bottom: 2rem;
 }
-.about-image-container img {
-  /* Adjust based on your design */
+
+.about-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the start */
+  padding: 4rem 0; /* Increase padding to help with vertical centering */
 }
+
+.about-image-container img {
+  max-width: 100%; /* Maximum width is the width of its container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image fits well without being cropped */
+}
+
 .about-text-container {
-  /* Text container styling */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically if it doesn't fill the height */
+}
+
+@media (max-width: 768px) {
+  .about-image-container, .about-text-container {
+    padding: 1rem 0; /* Adjust padding for smaller screens */
+  }
+
+  .about-image-container {
+    justify-content: center;
+    align-items: center; /* Center the image vertically on smaller screens */
+  }
 }
 </style>
+
+
+

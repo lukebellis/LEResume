@@ -42,8 +42,44 @@ export default defineEventHandler(() => {
             image: "/images/About/conical.webp",
             align: "left"
           },
+          {
+            id: 2,
+            heading: {
+              en: "Teaching",
+              es: "Introducción",
+              de: "Einleitung",
+              pt: "Introdução"
+            },
+            description: {
+              en: [
+                "Welcome to my personal journey through the fascinating world of chemistry and environmental science. From the foundational days of rigorous academic pursuit at the University of Bradford to impactful roles in industry and education, my career has been driven by a relentless passion for science and a dedication to making a tangible difference in the world.",
+                "Another paragraph here elaborating further on your journey, achievements, or specific experiences that have shaped your career. This can include challenges faced, milestones achieved, or pivotal moments that have had a significant impact on your professional path.",
+                "A third paragraph could focus on your vision for the future, how you plan to continue contributing to your field, and the values or principles that guide your work. This part can provide insight into your ongoing projects, research interests, or advocacy work."
+              ],
+              es: [
+                "Bienvenido a mi viaje personal a través del fascinante mundo de la química y la ciencia ambiental. Desde los días fundamentales de la rigurosa búsqueda académica en la Universidad de Bradford hasta roles impactantes en la industria y la educación, mi carrera ha sido impulsada por una pasión implacable por la ciencia y una dedicación a marcar una diferencia tangible en el mundo.",
+                "Otro párrafo aquí que elabora más sobre tu viaje, logros o experiencias específicas que han dado forma a tu carrera. Esto puede incluir desafíos enfrentados, hitos alcanzados o momentos decisivos que han tenido un impacto significativo en tu camino profesional.",
+                "Un tercer párrafo podría centrarse en tu visión para el futuro, cómo planeas continuar contribuyendo a tu campo y los valores o principios que guían tu trabajo. Esta parte puede proporcionar una visión de tus proyectos en curso, intereses de investigación o trabajo de defensa."
+              ],
+              de: [
+                "Willkommen zu meiner persönlichen Reise durch die faszinierende Welt der Chemie und Umweltwissenschaften. Von den grundlegenden Tagen des rigorosen akademischen Strebens an der Universität von Bradford bis zu wirkungsvollen Rollen in Industrie und Bildung wurde meine Karriere von einer unermüdlichen Leidenschaft für die Wissenschaft und der Hingabe, einen greifbaren Unterschied in der Welt zu machen, angetrieben.",
+                "Ein weiterer Absatz hier, der weiter auf Ihre Reise, Errungenschaften oder spezifische Erfahrungen eingeht, die Ihre Karriere geprägt haben. Dies kann Herausforderungen umfassen, die Sie gemeistert haben, erreichte Meilensteine oder entscheidende Momente, die einen signifikanten Einfluss auf Ihren beruflichen Weg hatten.",
+                "Ein dritter Absatz könnte sich auf Ihre Vision für die Zukunft konzentrieren, wie Sie weiterhin zu Ihrem Fachgebiet beitragen möchten und welche Werte oder Prinzipien Ihre Arbeit leiten. Dieser Teil kann Einblicke in Ihre laufenden Projekte, Forschungsinteressen oder Ihr Engagement geben."
+              ],
+              pt: [
+                "Bem-vindo à minha jornada pessoal pelo fascinante mundo da química e ciência ambiental. Desde os dias fundamentais de rigorosa busca acadêmica na Universidade de Bradford até papéis impactantes na indústria e educação, minha carreira foi impulsionada por uma paixão incansável pela ciência e uma dedicação em fazer uma diferença tangível no mundo.",
+                "Outro parágrafo aqui detalhando mais sobre sua jornada, conquistas ou experiências específicas que moldaram sua carreira. Isso pode incluir desafios enfrentados, marcos alcançados ou momentos decisivos que tiveram um impacto significativo em seu caminho profissional.",
+                "Um terceiro parágrafo pode focar em sua visão para o futuro, como você planeja continuar contribuindo para sua área e os valores ou princípios que orientam seu trabalho. Esta parte pode oferecer uma visão sobre seus projetos atuais, interesses de pesquisa ou trabalho de advocacia."
+              ]
+            },
+            image: "/images/About/teaching.webp",
+            extraImages: [ 
+              "/images/About/SIAS.jpeg",
+            ],
+            align: "right"
+          },
       {
-        id: 2,
+        id: 3,
         heading: {
           en: "Masters in Chemistry",
           es: "Experiencia en Química Analítica",
@@ -57,10 +93,13 @@ export default defineEventHandler(() => {
           pt: "Minha expertise abrange papéis críticos em química analítica, onde garanti a qualidade da água e a saúde pública na South West Water e contribuí para a proteção ambiental com a Agência Ambiental. Esses papéis aprimoraram minha proeza técnica e sublinharam minha dedicação em utilizar a ciência para o bem da sociedade."
         },
         image: '/images/About/grad.webp',
-        align: 'right'
+        extraImages: [ 
+          "/images/About/Bradford.webp",
+        ],
+        align: 'left'
       },
       {
-        id: 3,
+        id: 4,
         heading: {
           en: "Environment Agency: National Laboratory Service",
           es: "Transición al Desarrollo Web",
@@ -74,10 +113,13 @@ export default defineEventHandler(() => {
           pt: "Paralelamente, minha paixão por tecnologia me levou a estabelecer a PixelCodeLab, onde me especializo em criar soluções digitais sob medida que priorizam a experiência do usuário e a funcionalidade. Meu trabalho em desenvolvimento web, especialmente com a Nexus Agencies Ltd, reflete um profundo entendimento da paisagem digital, onde combinei efetivamente ciência e tecnologia para impulsionar o progresso e a inovação."
         },
         image: '/images/About/Olympia-House.webp',
-        align: 'left'
+        extraImages: [ 
+          "/images/About/EA-Team.jpeg",
+        ],
+        align: 'right'
       },
       {
-        id: 4,
+        id: 5,
         heading: {
           en: "South West Water",
           es: "Defensa del Ambientalismo",
@@ -91,10 +133,14 @@ export default defineEventHandler(() => {
           pt: "No coração dos meus empreendimentos profissionais está um compromisso com o ambientalismo. Defendo a integração da ciência e tecnologia para desenvolver soluções sustentáveis, uma filosofia que se estende ao meu envolvimento comunitário e divulgação educacional. Por meio de iniciativas como a Espectroscopia em uma Mala da Royal Society of Chemistry, envolvi-me com a próxima geração, fomentando uma paixão pela ciência e pela gestão ambiental."
         },
         image: '/images/About/countess-wear.webp',
-        align: 'right'
+        extraImages: [ 
+          "/images/About/ICP-MS.png",
+          "/images/About/SWW.webp'"
+        ],
+        align: 'left'
       },
       {
-        id: 5,
+        id: 6,
         heading: {
           en: "Connect with Me",
           es: "Conéctate Conmigo",
@@ -108,10 +154,10 @@ export default defineEventHandler(() => {
           pt: "Convido você a explorar meu portfólio em www.lukeellis.me para descobrir a interseção de ciência, tecnologia e advocacia ambiental no meu trabalho. Vamos nos conectar e explorar como podemos colaborar em projetos que promovam uma mudança significativa."
         },
         image: '/images/About/SWW.webp',
-        align: 'left'
+        align: 'right'
       },
       {
-        id: 6,
+        id: 7,
         heading: {
           en: "South West Water",
           es: "Defensa del Ambientalismo",
@@ -125,7 +171,7 @@ export default defineEventHandler(() => {
           pt: "No coração dos meus empreendimentos profissionais está um compromisso com o ambientalismo. Defendo a integração da ciência e tecnologia para desenvolver soluções sustentáveis, uma filosofia que se estende ao meu envolvimento comunitário e divulgação educacional. Por meio de iniciativas como a Espectroscopia em uma Mala da Royal Society of Chemistry, envolvi-me com a próxima geração, fomentando uma paixão pela ciência e pela gestão ambiental."
         },
         image: '/images/About/countess-wear.webp',
-        align: 'right'
+        align: 'left'
       },
     ]
   };
