@@ -1,6 +1,6 @@
 <template>
     <span style="display: none;">👨‍💻👨‍🔬🌱🌍👨‍🏫🏍️</span>
-    <section class="introduction text-white px-8 py-32">
+    <section class="introduction text-white py-32">
       <header>
         <h2 class="text-6xl font-bold mb-8">
           {{ localizedContent.welcome }} 👋 
