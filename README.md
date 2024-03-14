@@ -9,7 +9,7 @@
 This project is a fork of [ADResume](https://github.com/agcrisbp/ADResume) by [agcrisbp](https://github.com/agcrisbp), originally designed to showcase the resume/portfolio using Vue (Nuxt 3) and extends from [codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio). My main aim with this fork is to extend the project's language support and introduce a feature allowing the toggling between two aspects of professional development in two distinct fields of work.
 
 ### i18n Enhancements
-- Added support for multiple new languages, enhancing the project's internationalization and accessibility.
+- Added support for multiple new languages, enhancing the project's internationalisation and accessibility.
 
 ### Professional Development Aspects Toggle
 - Introduced a toggle feature to switch between two different professional fields, allowing a more comprehensive showcase of diverse skills and experiences.
