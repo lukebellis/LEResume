@@ -4,25 +4,21 @@ const developerResumeTranslations = {
     experience: 'Experience',
     jobs: [
       {
-        company: 'GSL Media Ltd',
-        period: 'Jan 2020 — Present',
-        location: 'Plymouth, UK',
-        role: 'Senior PHP Developer',
-        responsibilities: [
-          'Led the development of a progressive web application enhancing user engagement by 30%.',
-          'Implemented a CI/CD pipeline reducing deployment times by 50%.',
-          'Collaborated closely with the design team to ensure technical feasibility and optimal user experience.',
-        ],
-      },
-      {
         company: 'PixelCodeLab Ltd',
         period: 'May 2017 — Dec 2019',
         location: 'Exeter, UK',
         role: 'Managing Director',
         responsibilities: [
-          'Developed and maintained high-quality, responsive websites and applications using React and Vue.js.',
-          'Optimized applications for maximum speed and scalability.',
-          'Provided technical support and training to team members and clients.',
+          'At PixelcodeLab Ltd, established in 2023, I focus on bespoke web development, leveraging Vue, React, and Hugo to deliver custom digital solutions. My approach emphasises adaptability, sophisticated technology integration, and meeting diverse client needs, from dynamic web applications to efficient, SEO-optimised sites. I specialise in creating intuitive, performance-driven platforms, particularly for the restaurant industry, combining front-end elegance with robust back-end functionality. My commitment is to engineer impactful digital experiences, ensuring growth and success for my clients in the digital realm.',
+        ],
+      },
+      {
+        company: 'GSL Media Ltd',
+        period: 'Jan 2020 — Present',
+        location: 'Plymouth, UK',
+        role: 'Senior PHP Developer',
+        responsibilities: [
+          'At GSL Media, I specialised in custom WordPress development using Roots Sage, Bedrock, and DDEV, focusing on creating scalable and secure websites. My work streamlined development workflows and improved project efficiency, marking a significant phase in my career that combined technical skill with creative web solutions.',
         ],
       },
       {
@@ -31,9 +27,7 @@ const developerResumeTranslations = {
         location: 'Birmingham, UK',
         role: 'Full Stack Developer',
         responsibilities: [
-          'Developed and maintained high-quality, responsive websites and applications using React and Vue.js.',
-          'Optimized applications for maximum speed and scalability.',
-          'Provided technical support and training to team members and clients.',
+          "Transitioning to Magento 2 development was a pivotal moment, enhancing my expertise in e-commerce for our Jewellery business. It involved customising Magento 2 to improve user experience and platform security. This role deepened my skills in PHP and Magento 2, highlighting the need for adaptability and continuous learning. I led the development of our e-commerce platform, gaining insights into digital commerce aspects like inventory management. This experience underscored technology's role in business transformation and customer satisfaction in the digital age."
         ],
         
       },
@@ -43,9 +37,9 @@ const developerResumeTranslations = {
         location: 'Leeds, UK',
         role: 'Service Engineer',
         responsibilities: [
-          'Developed and maintained high-quality, responsive websites and applications using React and Vue.js.',
-          'Optimized applications for maximum speed and scalability.',
-          'Provided technical support and training to team members and clients.',
+          "At Clockwork Creative Technology, I worked as an Apple Service Technician at an authorised repair center, a role that introduced me to the intricate world of device repair while fostering a budding interest in programming. Repairing Apple devices, I honed my problem-solving skills and technical knowledge. It was here that my colleagues taught me some basic JavaScript, marking another chapter of my journey into development. This experience was foundational, blending technical repair work with the initial steps towards mastering a key programming language."
+
+
         ],
         
       },
@@ -118,13 +112,11 @@ const developerResumeTranslations = {
     jobs: [
       {
         company: 'GSL Media Ltd',
-        period: 'Jan 2020 — Heute',
+        period: 'Aug 2023 — Mar 2024',
         location: 'Plymouth, UK',
         role: 'Senior PHP Entwickler',
         responsibilities: [
-          'Führte die Entwicklung einer progressiven Webanwendung durch, die das Nutzerengagement um 30% steigerte.',
-          'Implementierte eine CI/CD-Pipeline, die die Bereitstellungszeiten um 50% reduzierte.',
-          'Arbeitete eng mit dem Designteam zusammen, um technische Machbarkeit und optimale Benutzererfahrung zu gewährleisten.',
+          "Bei GSL Media spezialisierte ich mich auf die Entwicklung maßgeschneiderter WordPress-Websites mit Roots Sage, Bedrock und DDEV. Mein Einsatz zielte darauf ab, skalierbare und sichere Websites zu erstellen. Meine Arbeit optimierte Entwicklungsabläufe und steigerte die Projekteffizienz, was eine bedeutende Phase meiner Karriere markierte, die technische Fertigkeiten mit kreativen Web-Lösungen vereinte.",
         ],
       },
       {
@@ -147,13 +139,11 @@ const developerResumeTranslations = {
     jobs: [
       {
         company: 'GSL Media Ltd',
-        period: 'Jan 2020 — Presente',
+        period: 'Augyust 2023 — Mar 2024',
         location: 'Plymouth, Reino Unido',
         role: 'Desenvolvedor Sênior de PHP',
         responsibilities: [
-          'Liderou o desenvolvimento de uma aplicação web progressiva aumentando o engajamento do usuário em 30%.',
-          'Implementou um pipeline de CI/CD reduzindo os tempos de implantação em 50%.',
-          'Colaborou de perto com a equipe de design para garantir a viabilidade técnica e a melhor experiência do usuário.',
+          "Bei GSL Media spezialisierte ich mich auf die Entwicklung maßgeschneiderter WordPress-Websites mit Roots Sage, Bedrock und DDEV. Mein Einsatz zielte darauf ab, skalierbare und sichere Websites zu erstellen. Meine Arbeit optimierte Entwicklungsabläufe und steigerte die Projekteffizienz, was eine bedeutende Phase meiner Karriere markierte, die technische Fertigkeiten mit kreativen Web-Lösungen vereinte.",
         ],
       },
       {
