@@ -1,186 +1,44 @@
 <script setup>
-useHead({
-  title: 'Blog',
-})
+import { onMounted, ref } from 'vue';
+import { useI18n } from 'vue-i18n';
+import { useFetch } from '@vueuse/core';
+
+const { locale } = useI18n({ useScope: 'global' });
+const blogPosts = ref([]);
+
+onMounted(async () => {
+  const { data } = await useFetch('/api/BlogDeveloper').json();
+
+  if (data.value && data.value.posts) {
+    blogPosts.value = data.value.posts;
+  }
+});
 </script>
 
 <template>
   <article class="blog active" data-page="blog">
     <header>
       <h2 class="h2 article-title">
-        Projects  &nbsp;<font-awesome-icon :icon="['fas', 'code']"  :style="{ color: '#f39c12' }"/>
+        Projects &nbsp;<font-awesome-icon :icon="['fas', 'code']" :style="{ color: '#f39c12' }"/>
       </h2>
     </header>
 
     <section class="blog-posts">
       <ul class="blog-posts-list">
-        <li class="blog-post-item">
-          <a href="https://pixelcodelab.co.uk">
-
+        <li v-for="post in blogPosts" :key="post.id" class="blog-post-item">
+          <a :href="post.url">
             <figure class="blog-banner-box">
-              <img src="/images/DeveloperProjects/PixelCodeLab.webp" alt="PixelCodeLab Ltd" loading="lazy">
+              <img :src="post.imageSrc" :alt="post.altText[locale]" loading="lazy">
             </figure>
-
             <div class="blog-content">
-
               <div class="blog-meta">
-                <p class="blog-category">Vue.js 3 app</p>
-
-                <span class="dot" />
-
-                <time datetime="2023-06-2">April 2, 2023</time>
+                <p class="blog-category">{{ post.category[locale] }}</p>
+                <span class="dot"></span>
+                <time :datetime="post.date">{{ new Date(post.date).toLocaleDateString(locale.value) }}</time>
               </div>
-
-              <h3 class="h3 blog-item-title">PixelCodeLab Ltd</h3>
-
-              <p class="blog-text">
-                In the dynamic world of technology, I found a space where I could integrate my problem-solving skills, love for creativity, and passion for driving tangible change. It was this exciting confluence that sparked the idea of establishing PixelCodeLab. With PixelCodeLab, my vision was to create a platform that could help bridge this digital gap. I wanted to offer personalised web development services that didn't merely focus on creating aesthetically appealing websites, but also prioritised user experience, functionality, and alignment with business goals.
-              </p>
-
+              <h3 class="h3 blog-item-title">{{ post.title[locale] }}</h3>
+              <p class="blog-text">{{ post.description[locale] }}</p>
             </div>
-
-          </a>
-        </li>
-
-        <li class="blog-post-item">
-          <a href="https://belluno.co.uk">
-
-            <figure class="blog-banner-box">
-              <img src="/images/DeveloperProjects/belluno.webp" alt="Full Stack Restaurant Web App with booking system" loading="lazy">
-            </figure>
-
-            <div class="blog-content">
-
-              <div class="blog-meta">
-                <p class="blog-category">React.js, Node.js, Mysql</p>
-
-                <span class="dot" />
-
-                <time datetime="2023-05-21">May 21, 2023</time>
-              </div>
-
-              <h3 class="h3 blog-item-title">Full Stack Restaurant Web App with booking system</h3>
-
-              <p class="blog-text">
-                Belluno is a versatile React web app with a Node.js backend. It offers streamlined booking, efficient table and menu management, and supports multiple restaurant locations. With features like real-time booking, dynamic table allocation, easy menu updates, and a built-in messaging service, Belluno simplifies operations while enhancing the dining experience. It consolidates restaurant management tools into a single, user-friendly platform, fostering direct engagement with patrons and driving business growth in the digital era.
-
-
-              </p>
-
-            </div>
-
-          </a>
-        </li>
-
-        <li class="blog-post-item">
-          <a href="https://pearlgallery.co.uk">
-
-            <figure class="blog-banner-box">
-              <img src="/images/DeveloperProjects/PearlGallery.webp" alt="Pearl Gallery" loading="lazy">
-            </figure>
-
-            <div class="blog-content">
-
-              <div class="blog-meta">
-                <p class="blog-category">Guide</p>
-
-                <span class="dot" />
-
-                <time datetime="2023-05-10">May 10, 2019</time>
-              </div>
-
-              <h3 class="h3 blog-item-title">Pearl Gallery: A Magento 2 E-ccomerce store </h3>
-
-              <p class="blog-text">
-                WhatsApp secara otomatis mengompres file gambar yang dikirim, sehingga ukurannya lebih kecil, memp...
-              </p>
-
-            </div>
-
-          </a>
-        </li>
-
-        <li class="blog-post-item">
-          <a href="https://katzwithak.com">
-
-            <figure class="blog-banner-box">
-              <img src="/images/DeveloperProjects/KatzWithAK.webp" alt="KatzWithAK" loading="lazy">
-            </figure>
-
-            <div class="blog-content">
-
-              <div class="blog-meta">
-                <p class="blog-category">Vue.js Web App</p>
-
-                <span class="dot" />
-
-                <time datetime="2023-04-14">Apr 14, 2023</time>
-              </div>
-
-              <h3 class="h3 blog-item-title">KATZ WITH A K</h3>
-
-              <p class="blog-text">
-                You can use this script to calculate your ages or hours of support.
-              </p>
-
-            </div>
-
-          </a>
-        </li>
-
-        <li class="blog-post-item">
-          <a href="https://ellisondavies.co.uk">
-
-            <figure class="blog-banner-box">
-              <img src="/images/DeveloperProjects/EllisonDavies.webp" alt="PHP Redirect Using $GET Parameter In HTML" loading="lazy">
-            </figure>
-
-            <div class="blog-content">
-
-              <div class="blog-meta">
-                <p class="blog-category">Shopify Store</p>
-
-                <span class="dot" />
-
-                <time datetime="2023-04-3">Apr 3, 2023</time>
-              </div>
-
-              <h3 class="h3 blog-item-title">Ellison Davies Vintage & Antique Jewellery</h3>
-
-              <p class="blog-text">
-                A complicated tutorial.
-              </p>
-
-            </div>
-
-          </a>
-        </li>
-
-        <li class="blog-post-item">
-          <a href="https://cmsplumbingandheating.co.uk/">
-
-            <figure class="blog-banner-box">
-              <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1685699236149/9bceb6ff-ee46-4f77-b2b6-7e54c36e41e1.jpeg?auto=compress,format&format=webp" alt="Cara Mengeluarkan Akun Google Di Perangkat Lain" loading="lazy">
-            </figure>
-
-            <div class="blog-content">
-
-              <div class="blog-meta">
-                <p class="blog-category">Guide</p>
-
-                <span class="dot" />
-
-                <time datetime="2013-06-13">June 13, 2013</time>
-              </div>
-
-              <h3 class="h3 blog-item-title">Cara Mengeluarkan Akun Google Di Perangkat Lain</h3>
-
-              <p class="blog-text">
-                Cara ini dapat digunakan untuk mengatasi masalah aktivitas Akun Google yang mencurigakan.
-              </p>
-
-            </div>
-
           </a>
         </li>
       </ul>
