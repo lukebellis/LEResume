@@ -20,10 +20,9 @@ Check the live version [here](https://lukeellis.me).
 ### Support
 If you find this project useful, you can support it with Dogecoin:
 
-![Dogecoin](https://cryptologos.cc/logos/dogecoin-doge-logo.png)
+<img src="https://cryptologos.cc/logos/dogecoin-doge-logo.png" width="100" alt="Dogecoin"/>
 
 **Dogecoin Address**: `DKWT7QtN2CREMNVMB9fgFEMvixzsHoNTNu`
-
 
 
 ---
