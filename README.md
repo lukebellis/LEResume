@@ -57,5 +57,3 @@ npm run dev
 
 ---
 
-### Any bugs?
-- Please kindly to [contact me](https://twitter.com/messages/compose?recipient_id=434987538) or help me to fix the bugs by contributing to this repository. Thank you in advance!# ADResume

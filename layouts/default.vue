@@ -1,6 +1,7 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n({ useScope: 'global' })
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 
 useHead({
   htmlAttrs: {

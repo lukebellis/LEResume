@@ -114,8 +114,7 @@ export default defineEventHandler(() => {
         image: '/images/About/Ape-4.webp',
         extraImages: [ 
           "/images/About/hackintosh.webp",
-          "/images/About/msi-wind.webp",
-          "/images/About/kernal_panic.webp",
+          "/images/About/msi-wind.webp"
         ],
         align: 'left'
       },
@@ -188,49 +187,53 @@ export default defineEventHandler(() => {
             ]
           },
         image: '/images/About/molecule.gif',
-        extraImages: [ // Add this new array
+        extraImages: [ 
          "/images/About/Avogadro.webp",
          "/images/About/molecule-2.webp",
        ],
         align: 'left'
       },
       {
-        id: 6,
-        heading: {
-          en: "MolVR",
-          es: "Defensa del Ambientalismo",
-          de: "Einsatz für Umweltschutz",
-          pt: "Defesa do Ambientalismo"
+        "id": 6,
+        "heading": {
+          "en": "MolVR",
+          "es": "MolVR",
+          "de": "MolVR",
+          "pt": "MolVR"
         },
-        description: {
-          en: [
+        "description": {
+          "en": [
             "The MolVR project, which I initiated during my placement year and was generously supported by the Royal Society of Chemistry following my successful grant application, stands as a pivotal chapter in my development career. Embarking on this solo project significantly expanded my proficiency in Python programming, plunging me into the depths of complex libraries such as PyOpenGL and RDKit. This journey extended well beyond basic Python scripting, venturing into the sophisticated domains of graphical rendering and cheminformatics.",
-            "It not only broadened my technical skillset but also underscored the value of self-driven, interdisciplinary work. The development of MolVR, a tool that transforms molecular visualisation through virtual reality, honed my problem-solving skills and deepened my appreciation for the essential role of software in demystifying complex scientific concepts, making them engaging and interactive.",
-            "Undertaking this project independently highlighted my capability to navigate the grant application process successfully and manage a comprehensive development project from conception to realisation, reinforcing the importance of autonomy and initiative in my professional growth."
+            "The project's scope quickly broadened, challenging me to integrate cutting-edge virtual reality (VR) technologies with advanced chemical visualisation techniques. The aim was not only to create a tool that could transform molecular visualisation but also to make it immersive, allowing users to interact with molecular structures in a three-dimensional space as never before. The development of MolVR, therefore, became a bridge between the digital and the tangible, providing a novel way for researchers, educators, and students to explore the intricate world of molecules.",
+            "The culmination of this project not only broadened my technical skill set but also catalysed a profound personal and professional growth. It reinforced my belief in the power of technology to democratise access to scientific knowledge, making complex concepts more accessible and engaging. Looking ahead, I am committed to further exploring the intersection of technology and science, particularly how emerging technologies can be leveraged to advance scientific understanding and education.",
+            "Undertaking the MolVR project independently highlighted my capability to navigate the grant application process successfully and manage a comprehensive development project from conception to realisation. It reinforced the importance of autonomy, initiative, and resilience in my professional growth. The journey, fraught with challenges and learning curves, was a testament to the enduring value of curiosity and the relentless pursuit of innovation."
           ],
-          es: [
-            "Bienvenido a mi viaje personal a través del fascinante mundo de la química y la ciencia ambiental. Desde los días fundamentales de la rigurosa búsqueda académica en la Universidad de Bradford hasta roles impactantes en la industria y la educación, mi carrera ha sido impulsada por una pasión implacable por la ciencia y una dedicación a marcar una diferencia tangible en el mundo.",
-            "Otro párrafo aquí que elabora más sobre tu viaje, logros o experiencias específicas que han dado forma a tu carrera. Esto puede incluir desafíos enfrentados, hitos alcanzados o momentos decisivos que han tenido un impacto significativo en tu camino profesional.",
-            "Un tercer párrafo podría centrarse en tu visión para el futuro, cómo planeas continuar contribuyendo a tu campo y los valores o principios que guían tu trabajo. Esta parte puede proporcionar una visión de tus proyectos en curso, intereses de investigación o trabajo de defensa."
+          "es": [
+            "El proyecto MolVR, que inicié durante mi año de colocación y que fue generosamente apoyado por la Royal Society of Chemistry tras mi exitosa solicitud de subvención, representa un capítulo pivotal en mi carrera de desarrollo. Embarcarme en este proyecto en solitario expandió significativamente mi competencia en la programación de Python, sumergiéndome en la profundidad de complejas bibliotecas como PyOpenGL y RDKit. Este viaje se extendió bien más allá de la simple escritura de scripts en Python, aventurándose en los sofisticados dominios del renderizado gráfico y la quimioinformática.",
+            "El alcance del proyecto se amplió rápidamente, desafiándome a integrar las tecnologías de realidad virtual (VR) de vanguardia con técnicas avanzadas de visualización química. El objetivo no era solo crear una herramienta que pudiera transformar la visualización molecular, sino también hacerla inmersiva, permitiendo a los usuarios interactuar con estructuras moleculares en un espacio tridimensional como nunca antes. Por lo tanto, el desarrollo de MolVR se convirtió en un puente entre lo digital y lo tangible, proporcionando una forma novedosa para que investigadores, educadores y estudiantes exploraran el intrincado mundo de las moléculas.",
+            "La culminación de este proyecto no solo amplió mi conjunto de habilidades técnicas, sino que también catalizó un profundo crecimiento personal y profesional. Reforzó mi creencia en el poder de la tecnología para democratizar el acceso al conocimiento científico, haciendo conceptos complejos más accesibles y atractivos. Mirando hacia adelante, estoy comprometido a explorar más la intersección de la tecnología y la ciencia, particularmente cómo las tecnologías emergentes pueden ser aprovechadas para avanzar en la comprensión científica y la educación.",
+            "Llevar a cabo el proyecto MolVR de manera independiente resaltó mi capacidad para navegar exitosamente el proceso de solicitud de subvenciones y gestionar un proyecto de desarrollo integral desde la concepción hasta la realización. Reforzó la importancia de la autonomía, la iniciativa y la resiliencia en mi crecimiento profesional. El viaje, lleno de desafíos y curvas de aprendizaje, fue un testimonio del valor perdurable de la curiosidad y la incesante búsqueda de innovación."
           ],
-          de: [
-            "Willkommen zu meiner persönlichen Reise durch die faszinierende Welt der Chemie und Umweltwissenschaften. Von den grundlegenden Tagen des rigorosen akademischen Strebens an der Universität von Bradford bis zu wirkungsvollen Rollen in Industrie und Bildung wurde meine Karriere von einer unermüdlichen Leidenschaft für die Wissenschaft und der Hingabe, einen greifbaren Unterschied in der Welt zu machen, angetrieben.",
-            "Ein weiterer Absatz hier, der weiter auf Ihre Reise, Errungenschaften oder spezifische Erfahrungen eingeht, die Ihre Karriere geprägt haben. Dies kann Herausforderungen umfassen, die Sie gemeistert haben, erreichte Meilensteine oder entscheidende Momente, die einen signifikanten Einfluss auf Ihren beruflichen Weg hatten.",
-            "Ein dritter Absatz könnte sich auf Ihre Vision für die Zukunft konzentrieren, wie Sie weiterhin zu Ihrem Fachgebiet beitragen möchten und welche Werte oder Prinzipien Ihre Arbeit leiten. Dieser Teil kann Einblicke in Ihre laufenden Projekte, Forschungsinteressen oder Ihr Engagement geben."
+          "de": [
+            "Das MolVR-Projekt, das ich während meines Praktikumsjahres initiierte und das großzügig von der Royal Society of Chemistry nach meiner erfolgreichen Stipendienbewerbung unterstützt wurde, steht als ein entscheidendes Kapitel in meiner Entwicklerkarriere. Die Durchführung dieses Solo-Projekts erweiterte meine Kompetenz in der Python-Programmierung erheblich, tauchte ich doch in die Tiefen komplexer Bibliotheken wie PyOpenGL und RDKit ein. Diese Reise erstreckte sich weit über das grundlegende Python-Skripting hinaus und wagte sich in die anspruchsvollen Bereiche der grafischen Darstellung und der Cheminformatik.",
+            "Der Umfang des Projekts erweiterte sich schnell, was mich herausforderte, modernste Virtual-Reality-Technologien (VR) mit fortgeschrittenen chemischen Visualisierungstechniken zu integrieren. Das Ziel war nicht nur, ein Werkzeug zu schaffen, das die molekulare Visualisierung transformieren könnte, sondern es auch immersiv zu gestalten, indem es den Benutzern erlaubt, mit molekularen Strukturen in einem dreidimensionalen Raum wie nie zuvor zu interagieren. Die Entwicklung von MolVR wurde daher zu einer Brücke zwischen dem Digitalen und dem Greifbaren und bot eine neue Möglichkeit für Forscher, Pädagogen und Schüler, die komplexe Welt der Moleküle zu erkunden.",
+            "Die Vollendung dieses Projekts erweiterte nicht nur mein technisches Können, sondern katalysierte auch ein tiefgreifendes persönliches und berufliches Wachstum. Es verstärkte meinen Glauben an die Kraft der Technologie, den Zugang zu wissenschaftlichem Wissen zu demokratisieren, komplexe Konzepte zugänglicher und ansprechender zu machen. Blick nach vorne, bin ich entschlossen, die Schnittstelle zwischen Technologie und Wissenschaft weiter zu erforschen, insbesondere wie aufkommende Technologien genutzt werden können, um das wissenschaftliche Verständnis und die Bildung voranzutreiben.",
+            "Die eigenständige Durchführung des MolVR-Projekts unterstrich meine Fähigkeit, den Antragsprozess für Stipendien erfolgreich zu navigieren und ein umfassendes Entwicklungsprojekt von der Konzeption bis zur Realisierung zu managen. Es verstärkte die Bedeutung von Autonomie, Initiative und Resilienz in meinem beruflichen Wachstum. Die Reise, voller Herausforderungen und Lernkurven, war ein Zeugnis des dauerhaften Werts der Neugier und der unermüdlichen Suche nach Innovation."
           ],
-          pt: [
-            "Bem-vindo à minha jornada pessoal pelo fascinante mundo da química e ciência ambiental. Desde os dias fundamentais de rigorosa busca acadêmica na Universidade de Bradford até papéis impactantes na indústria e educação, minha carreira foi impulsionada por uma paixão incansável pela ciência e uma dedicação em fazer uma diferença tangível no mundo.",
-            "Outro parágrafo aqui detalhando mais sobre sua jornada, conquistas ou experiências específicas que moldaram sua carreira. Isso pode incluir desafios enfrentados, marcos alcançados ou momentos decisivos que tiveram um impacto significativo em seu caminho profissional.",
-            "Um terceiro parágrafo pode focar em sua visão para o futuro, como você planeja continuar contribuindo para sua área e os valores ou princípios que orientam seu trabalho. Esta parte pode oferecer uma visão sobre seus projetos atuais, interesses de pesquisa ou trabalho de advocacia."
+          "pt": [
+            "O projeto MolVR, que iniciei durante meu ano de colocação e que foi generosamente apoiado pela Royal Society of Chemistry após minha bem-sucedida aplicação de subsídio, representa um capítulo crucial em minha carreira de desenvolvimento. Embarcar neste projeto solo expandiu significativamente minha proficiência em programação Python, mergulhando-me nas profundezas de bibliotecas complexas como PyOpenGL e RDKit. Essa jornada estendeu-se bem além da simples programação em Python, aventurando-se nos sofisticados domínios da renderização gráfica e da quimioinformática.",
+            "O escopo do projeto rapidamente se ampliou, desafiando-me a integrar tecnologias de realidade virtual (VR) de ponta com técnicas avançadas de visualização química. O objetivo não era apenas criar uma ferramenta que pudesse transformar a visualização molecular, mas também torná-la imersiva, permitindo aos usuários interagir com estruturas moleculares em um espaço tridimensional como nunca antes. O desenvolvimento do MolVR, portanto, tornou-se uma ponte entre o digital e o tangível, fornecendo uma maneira inovadora para pesquisadores, educadores e estudantes explorarem o intrincado mundo das moléculas.",
+            "A conclusão deste projeto não apenas ampliou meu conjunto de habilidades técnicas, mas também catalisou um profundo crescimento pessoal e profissional. Reforçou minha crença no poder da tecnologia para democratizar o acesso ao conhecimento científico, tornando conceitos complexos mais acessíveis e envolventes. Olhando para o futuro, estou comprometido em explorar ainda mais a interseção da tecnologia e ciência, especialmente como as tecnologias emergentes podem ser aproveitadas para avançar no entendimento e educação científica.",
+            "Realizar o projeto MolVR de forma independente destacou minha capacidade de navegar com sucesso pelo processo de aplicação de subsídios e gerenciar um projeto de desenvolvimento abrangente desde a concepção até a realização. Reforçou a importância da autonomia, iniciativa e resiliência no meu crescimento profissional. A jornada, repleta de desafios e curvas de aprendizado, foi um testemunho do valor duradouro da curiosidade e da busca incansável por inovação."
           ]
         },
-        image: '/images/About/MolVR.webp',
-        extraImages: [ 
-         "/images/About/RSC.webp",
-         "/images/ScientistProjects/VRChem.webp",
-         "/images/About/Thalidomide.gif"
-       ],
-        align: 'right'
+        "image": "/images/About/MolVR.webp",
+        "extraImages": [
+          "/images/About/RSC.webp",
+          "/images/ScientistProjects/VRChem.webp",
+          "/images/About/Thalidomide.gif"
+        ],
+        "align": "right"
       },
         {
           "id": 7,
@@ -404,7 +407,7 @@ export default defineEventHandler(() => {
             "/images/DeveloperProjects/PixelCodeLab.webp",
             "/images/About/Hugo.webp"
           ],
-          "align": "left"
+          "align": "right"
         }        
     ]
   };

@@ -155,32 +155,51 @@ export default defineEventHandler(() => {
             },
             "image": "/images/About/Olympia-House.webp",
             "extraImages": [
-              "/images/About/EA-Team.jpeg",
+              "/images/About/EA-Team.webp",
               "/images/ScientistProjects/asbestos.webp"
             ],
             "align": "right"
           },          
-      {
-        id: 5,
-        heading: {
-          en: "South West Water",
-          es: "Defensa del Ambientalismo",
-          de: "Einsatz für Umweltschutz",
-          pt: "Defesa do Ambientalismo"
-        },
-        description: {
-          en: "At the heart of my professional endeavours is a commitment to environmentalism. I advocate for the integration of science and technology to develop sustainable solutions, a philosophy that extends into my community involvement and educational outreach. Through initiatives like the Royal Society of Chemistry's Spectroscopy in a Suitcase, I've engaged with the next generation, fostering a passion for science and environmental stewardship.",
-          es: "En el corazón de mis esfuerzos profesionales se encuentra un compromiso con el ambientalismo. Abogo por la integración de la ciencia y la tecnología para desarrollar soluciones sostenibles, una filosofía que se extiende a mi participación comunitaria y divulgación educativa. A través de iniciativas como la Espectroscopía en una Maleta de la Royal Society of Chemistry, he interactuado con la próxima generación, fomentando una pasión por la ciencia y la custodia ambiental.",
-          de: "Im Herzen meiner beruflichen Bemühungen steht das Engagement für den Umweltschutz. Ich setze mich für die Integration von Wissenschaft und Technologie ein, um nachhaltige Lösungen zu entwickeln, eine Philosophie, die sich auf mein Gemeinschaftsengagement und meine Bildungsarbeit erstreckt. Durch Initiativen wie die Spektroskopie im Koffer der Royal Society of Chemistry habe ich mich mit der nächsten Generation beschäftigt und eine Leidenschaft für Wissenschaft und Umweltschutz gefördert.",
-          pt: "No coração dos meus empreendimentos profissionais está um compromisso com o ambientalismo. Defendo a integração da ciência e tecnologia para desenvolver soluções sustentáveis, uma filosofia que se estende ao meu envolvimento comunitário e divulgação educacional. Por meio de iniciativas como a Espectroscopia em uma Mala da Royal Society of Chemistry, envolvi-me com a próxima geração, fomentando uma paixão pela ciência e pela gestão ambiental."
-        },
-        image: '/images/About/countess-wear.webp',
-        extraImages: [ 
-          "/images/About/SWW.webp",
-          "/images/About/ICP-MS.png"
-        ],
-        align: 'left'
-      },
+          {
+            "id": 5,
+            "heading": {
+              "en": "South West Water",
+              "es": "Agua del Suroeste",
+              "de": "South West Water",
+              "pt": "Água do Sudoeste"
+            },
+            "description": {
+              "en": [
+                "In the unprecedented times of the COVID-19 pandemic, I served as a crucial member of the Metals Department at South West Water, a position that underscored my role as a key worker in maintaining public health and safety through water quality assurance in the South West of England. This period not only highlighted the essential nature of our work but also the complexities involved in ensuring the delivery of safe drinking water to the community.",
+                "Utilising an Agilent ICP-MS, my responsibilities extended beyond mere monitoring; they encompassed a comprehensive analysis of the metal content within the water supply. This sophisticated equipment required precise operation and maintenance, responsibilities that were a significant part of my daily duties. My day-to-day activities involved the meticulous preparation of samples, ensuring each was analyzed under optimal conditions to reflect true metal concentrations.",
+                "Beyond technical expertise, my role demanded a commitment to continuous learning and adaptation. The pandemic introduced new challenges, including adjustments to safety protocols and operational procedures to maintain our critical services. I led efforts to adapt our workflow, implementing innovative solutions to ensure uninterrupted analysis amidst evolving health guidelines.",
+                "A significant aspect of my tenure was dedicated to staff training and development. Recognising the importance of building a knowledgeable team, I spearheaded training programs designed to enhance the technical skills of our personnel. This not only improved our department's efficiency but also fostered a culture of excellence and shared commitment to our mission.",
+                "Data integrity and management were pivotal to our operation. I managed the capture of analytical results into our Laboratory Information Management System (LIMS), ensuring data was accurately recorded and easily accessible for review and reporting. This meticulous attention to detail was crucial in running proficiency schemes, where our laboratory's performance was benchmarked against national standards, affirming our commitment to excellence and reliability in public service.",
+                "The role transcended technical analysis, embodying the essence of public service by contributing to the welfare and safety of the community. Through the rigors of daily testing and the challenges posed by a global health crisis, my experience at South West Water was a testament to the vital role of analytical chemistry in safeguarding public health. It was a profound reminder of the impact of our work on the lives of many, driving me to continuously strive for excellence and integrity in all my professional endeavors."
+              ],
+              "es": [
+                "Durante el confinamiento por COVID-19, fui reconocido como trabajador esencial en el Departamento de Metales de South West Water, asegurando la seguridad y calidad del agua potable en todo el suroeste de Inglaterra. Mi rol se centró en el uso de un ICP-MS de Agilent para el monitoreo preciso de niveles de metales en el suministro de agua.",
+                "Asumí la responsabilidad de entrenar al personal, preparar muestras y mantener el instrumento para mantener los más altos estándares de precisión y fiabilidad. Además, gestioné la captura de datos en nuestro sistema LIMS y realicé esquemas de competencia para evaluar nuestro rendimiento analítico.",
+                "Este rol altamente técnico demandó no solo un profundo entendimiento de la química analítica sino también la capacidad de operar instrumentación compleja bajo la presión de asegurar la salud y seguridad pública."
+              ],
+              "de": [
+                "Während der COVID-19-Sperre wurde ich als Schlüsselarbeiter in der Metallabteilung von South West Water anerkannt, um die Sicherheit und Qualität des Trinkwassers im Südwesten Englands zu gewährleisten. Meine Rolle konzentrierte sich auf die Verwendung eines Agilent ICP-MS zur genauen Überwachung der Metallgehalte im Wasserversorgung.",
+                "Ich übernahm die Verantwortung für die Schulung des Personals, die Vorbereitung von Proben und die Wartung des Instruments, um die höchsten Standards für Genauigkeit und Zuverlässigkeit aufrechtzuerhalten. Darüber hinaus verwaltete ich die Datenerfassung in unserem LIMS-System und führte Kompetenzschemata durch, um unsere analytische Leistung zu bewerten.",
+                "Diese hochtechnische Rolle erforderte nicht nur ein tiefes Verständnis der analytischen Chemie, sondern auch die Fähigkeit, komplexe Instrumente unter dem Druck zu bedienen, die öffentliche Gesundheit und Sicherheit zu gewährleisten."
+              ],
+              "pt": [
+                "Durante o bloqueio do COVID-19, fui reconhecido como um trabalhador essencial no Departamento de Metais da South West Water, assegurando a segurança e qualidade da água potável em todo o sudoeste da Inglaterra. Meu papel focou no uso de um ICP-MS da Agilent para o monitoramento preciso dos níveis de metais no fornecimento de água.",
+                "Assumi a responsabilidade de treinar a equipe, preparar amostras e manter o instrumento para manter os mais altos padrões de precisão e confiabilidade. Além disso, gerenciei a captura de dados em nosso sistema LIMS e executei esquemas de proficiência para avaliar nosso desempenho analítico.",
+                "Este papel altamente técnico exigiu não apenas um profundo entendimento de química analítica, mas também a capacidade de operar instrumentação complexa sob a pressão de garantir a saúde e segurança pública."
+              ]
+            },
+            "image": "/images/About/countess-wear.webp",
+            "extraImages": [
+              "/images/About/SWW.webp",
+              "/images/About/ICP-MS.png"
+            ],
+            "align": "left"
+          },
       {
         id: 6,
         heading: {

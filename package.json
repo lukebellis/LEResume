@@ -37,6 +37,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "@pinia-orm/nuxt": "^1.6.7",
     "@vercel/analytics": "^1.0.1",
+    "@vercel/speed-insights": "^1.0.10",
     "axios": "^1.4.0",
     "framer-motion": "^10.13.0",
     "grapheme-splitter": "^1.0.4",

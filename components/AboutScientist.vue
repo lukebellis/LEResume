@@ -73,4 +73,12 @@ onMounted(async () => {
 .about-text-container {
 
 }
+@media (min-width: 768px) {
+  .about-image-container {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Adjust based on your header/nav height */
+    align-self: flex-start; /* Aligns the content to the top */
+  }
+}
 </style>
