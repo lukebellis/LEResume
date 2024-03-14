@@ -16,8 +16,6 @@ This project is a fork of [ADResume](https://github.com/agcrisbp/ADResume) by [a
 
 ### Demo
 Check the live version [here](https://lukeellis.me).
-### Support
-If you find this project useful, consider supporting with Dogecoin:
 
 ### Support
 If you find this project useful, you can support it with Dogecoin:
