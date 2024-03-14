@@ -1,4 +1,4 @@
-<center><img src="/public/images/sign.png" /></center>
+<center><img src="/public/images/About/Ape-1.webp" /></center>
 
 <p align="center">
     <img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/agcrisbp/5079a593a8985c711db095c0d4cfa440/raw/clone.json&logo=github'>
@@ -15,14 +15,18 @@ This project is a fork of [ADResume](https://github.com/agcrisbp/ADResume) by [a
 - Introduced a toggle feature to switch between two different professional fields, allowing a more comprehensive showcase of diverse skills and experiences.
 
 ### Demo
-Check the live version [here](https://bit.ly/ADLink-Showcase).
+Check the live version [here](https://lukeellis.me).
+### Support
+If you find this project useful, consider supporting with Dogecoin:
 
 ### Support
-If you find this project useful, consider supporting the orginal author:
+If you find this project useful, you can support it with Dogecoin:
 
-<a href="https://www.buymeacoffee.com/agcrisbp" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 114px !important;" ></a>
-<a href="https://saweria.co/agcrisbp" target="_blank"><img src="https://m.aghea.site/saweria-button.png" alt="Saweria" style="height: 30px !important;width: 114px !important;" ></a>
-<a href="https://github.com/sponsors/agcrisbp" target="_blank"><img src="/public/sponsor-badge.svg" alt="Github Sponsor" style="height: 30px !important;width: 114px !important;" ></a>
+![Dogecoin](https://cryptologos.cc/logos/dogecoin-doge-logo.png)
+
+**Dogecoin Address**: `DKWT7QtN2CREMNVMB9fgFEMvixzsHoNTNu`
+
+
 
 ---
 
