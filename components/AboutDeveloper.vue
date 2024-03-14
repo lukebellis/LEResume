@@ -5,7 +5,7 @@ import { useFetch } from '@vueuse/core';
 
 const { locale } = useI18n({ useScope: 'global' });
 const aboutSections = ref([]);
-const title = ref({}); // Initialize title as a reactive reference
+const title = ref({}); 
 
 onMounted(async () => {
   const { data, error } = await useFetch('/api/aboutDeveloper').json();
@@ -17,7 +17,7 @@ onMounted(async () => {
 
   if (data.value) {
     aboutSections.value = data.value.sections;
-    title.value = data.value.title; // Set the title from the fetched data
+    title.value = data.value.title; 
   }
 });
 </script>
@@ -32,7 +32,7 @@ onMounted(async () => {
 
     <div class="about-text">
       <ul class="about-list">
-        <li v-for="section in aboutSections" :key="section.id" class="about-item flex flex-col md:flex-row md:items-center"
+        <li v-for="section in aboutSections" :key="section.id" class="text-base about-item flex flex-col md:flex-row md:items-center"
             :class="section.align === 'left' ? 'md:flex-row-reverse text-md-left' : 'text-md-right'">
           <div class="about-image-container md:w-1/2 flex flex-col justify-center md:justify-end items-center p-4 gap-16">
             <img :src="section.image" alt="" class="rounded-[20px] max-w-full h-auto shadow-lg">
@@ -43,7 +43,7 @@ onMounted(async () => {
           <div class="about-text-container md:w-1/2 p-4 flex flex-col justify-center">
             <h3 class="text-3xl font-bold mb-8">{{ section.heading[locale] }}</h3>
             <template v-if="Array.isArray(section.description[locale])">
-              <p v-for="(paragraph, index) in section.description[locale]" :key="index" class="text-white text-lg text-justify md:text-left">
+              <p v-for="(paragraph, index) in section.description[locale]" :key="index" class="text-white text-base text-justify md:text-left">
                 {{ paragraph }}
               </p>
             </template>
@@ -60,7 +60,6 @@ onMounted(async () => {
 </template>
 
 
-
 <style scoped>
 .about-item {
   margin-bottom: 2rem;
@@ -70,34 +69,31 @@ onMounted(async () => {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Align items at the start */
-  padding: 4rem 0; /* Increase padding to help with vertical centering */
+  align-items: flex-start; 
+  padding: 4rem 0; 
 }
 
 .about-image-container img {
-  max-width: 100%; /* Maximum width is the width of its container */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Ensure the image fits well without being cropped */
+  max-width: 100%; 
+  height: auto; 
+  object-fit: contain; 
 }
 
 .about-text-container {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center content vertically if it doesn't fill the height */
+  justify-content: center; 
 }
 
 @media (max-width: 768px) {
   .about-image-container, .about-text-container {
-    padding: 1rem 0; /* Adjust padding for smaller screens */
+    padding: 1rem 0; 
   }
 
   .about-image-container {
     justify-content: center;
-    align-items: center; /* Center the image vertically on smaller screens */
+    align-items: center; 
   }
 }
 </style>
-
-
-

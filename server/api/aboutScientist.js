@@ -78,46 +78,88 @@ export default defineEventHandler(() => {
             ],
             align: "right"
           },
-      {
-        id: 3,
-        heading: {
-          en: "Masters in Chemistry",
-          es: "Experiencia en Química Analítica",
-          de: "Expertise in Analytischer Chemie",
-          pt: "Experiência em Química Analítica"
-        },
-        description: {
-          en: "My expertise spans critical roles in analytical chemistry, where I've ensured water quality and public health at South West Water and contributed to environmental protection with the Environment Agency. These roles honed my technical prowess and underscored my dedication to leveraging science for societal good.",
-          es: "Mi experiencia abarca roles críticos en química analítica, donde he asegurado la calidad del agua y la salud pública en South West Water y he contribuido a la protección ambiental con la Agencia Ambiental. Estos roles han perfeccionado mi destreza técnica y subrayado mi dedicación a aprovechar la ciencia para el bien social.",
-          de: "Meine Expertise umfasst kritische Rollen in der analytischen Chemie, wo ich die Wasserqualität und die öffentliche Gesundheit bei South West Water sichergestellt und zum Umweltschutz bei der Umweltagentur beigetragen habe. Diese Rollen haben meine technische Kompetenz geschärft und meine Hingabe unterstrichen, die Wissenschaft zum Wohle der Gesellschaft zu nutzen.",
-          pt: "Minha expertise abrange papéis críticos em química analítica, onde garanti a qualidade da água e a saúde pública na South West Water e contribuí para a proteção ambiental com a Agência Ambiental. Esses papéis aprimoraram minha proeza técnica e sublinharam minha dedicação em utilizar a ciência para o bem da sociedade."
-        },
-        image: '/images/About/grad.webp',
-        extraImages: [ 
-          "/images/About/Bradford.webp",
-        ],
-        align: 'left'
-      },
-      {
-        id: 4,
-        heading: {
-          en: "Environment Agency: National Laboratory Service",
-          es: "Transición al Desarrollo Web",
-          de: "Übergang zum Webentwicklung",
-          pt: "Transição para o Desenvolvimento Web"
-        },
-        description: {
-          en: "In parallel, my passion for technology led me to establish PixelCodeLab, where I specialise in creating bespoke digital solutions that prioritise user experience and functionality. My work in web development, particularly with Nexus Agencies Ltd, reflects a deep understanding of the digital landscape, where I've effectively combined science and technology to drive progress and innovation.",
-          es: "Paralelamente, mi pasión por la tecnología me llevó a establecer PixelCodeLab, donde me especializo en crear soluciones digitales a medida que priorizan la experiencia del usuario y la funcionalidad. Mi trabajo en desarrollo web, especialmente con Nexus Agencies Ltd, refleja un profundo entendimiento del panorama digital, donde he combinado efectivamente ciencia y tecnología para impulsar el progreso y la innovación.",
-          de: "Parallel dazu führte mich meine Leidenschaft für Technologie dazu, PixelCodeLab zu gründen, wo ich mich auf die Erstellung maßgeschneiderter digitaler Lösungen spezialisiere, die Benutzererfahrung und Funktionalität priorisieren. Meine Arbeit in der Webentwicklung, insbesondere bei Nexus Agencies Ltd, spiegelt ein tiefes Verständnis der digitalen Landschaft wider, wo ich Wissenschaft und Technologie effektiv kombiniert habe, um Fortschritt und Innovation voranzutreiben.",
-          pt: "Paralelamente, minha paixão por tecnologia me levou a estabelecer a PixelCodeLab, onde me especializo em criar soluções digitais sob medida que priorizam a experiência do usuário e a funcionalidade. Meu trabalho em desenvolvimento web, especialmente com a Nexus Agencies Ltd, reflete um profundo entendimento da paisagem digital, onde combinei efetivamente ciência e tecnologia para impulsionar o progresso e a inovação."
-        },
-        image: '/images/About/Olympia-House.webp',
-        extraImages: [ 
-          "/images/About/EA-Team.jpeg",
-        ],
-        align: 'right'
-      },
+          {
+            "id": 3,
+            "heading": {
+              "en": "Masters in Chemistry",
+              "es": "Máster en Química",
+              "de": "Master in Chemie",
+              "pt": "Mestrado em Química"
+            },
+            "description": {
+              "en": [
+                "Securing my MChem degree from the University of Bradford marked a pivotal juncture in my educational and professional progression. This programme provided me with a comprehensive grounding in the chemical sciences whilst also permitting exploration into specialised domains such as Quantum Mechanics, Supramolecular Chemistry, Biochemistry, Analytical Chemistry, Drug Discovery, alongside Organic and Inorganic Chemistry. Spanning four years—three at the undergraduate level followed by a concluding year devoted to master's research—the curriculum adeptly blended theoretical insights with practical experiences, truly epitomising the university's ethos of 'Making Knowledge Work.",
+                "The structure of the degree programme afforded me the latitude to pursue elective studies beyond the traditional chemistry syllabus, greatly enriching my academic odyssey. A defining feature of my final year was concentrating on Cocrystal Chemistry for my research project, immersing myself in scholarly research in collaboration with a dedicated team of researchers and supervisors. This engagement not only expanded my understanding of the tangible applications of chemistry but also honed my professional skills, equipping me for careers within and outside the realm of chemistry.",
+                "Achieving my MChem degree polished my capabilities in conducting autonomous research, critically evaluating scientific evidence, and integrating interdisciplinary theories. This comprehensive preparation was crucial in arming me with the necessary tools for future success. Importantly, it underscored the significance of innovation and critical thought in chemistry, enabling me to creatively and adaptively employ knowledge in my continued efforts to 'Make Knowledge Work.'"
+              ],
+              "es": [
+                "Asegurar mi título de Máster en Química en la Universidad de Bradford marcó un punto crucial en mi progresión educativa y profesional. Este programa me proporcionó una base integral en las ciencias químicas, al tiempo que me permitió explorar dominios especializados como la Mecánica Cuántica, la Química Supramolecular, la Bioquímica, la Química Analítica, el Descubrimiento de Fármacos, junto con la Química Orgánica e Inorgánica. Con una duración de cuatro años, tres a nivel de pregrado seguidos de un año final dedicado a la investigación de maestría, el plan de estudios combinó hábilmente conocimientos teóricos con experiencias prácticas, epitomizando verdaderamente el ethos de la universidad de 'Hacer que el Conocimiento Funcione'.",
+                "La estructura del programa de grado me proporcionó la libertad para cursar estudios electivos más allá del plan de estudios tradicional de química, enriqueciendo enormemente mi odisea académica. Una característica definitoria de mi último año fue concentrarme en la Química de Cocristales para mi proyecto de investigación, sumergiéndome en la investigación académica en colaboración con un equipo dedicado de investigadores y supervisores. Este compromiso no solo amplió mi comprensión de las aplicaciones tangibles de la química, sino que también perfeccionó mis habilidades profesionales, preparándome para carreras dentro y fuera del ámbito de la química.",
+                "Lograr mi título de Máster en Química pulió mis capacidades para llevar a cabo investigaciones autónomas, evaluar críticamente evidencia científica e integrar teorías interdisciplinarias. Esta preparación integral fue crucial para equiparme con las herramientas necesarias para el éxito futuro. Es importante destacar que subrayó la importancia de la innovación y el pensamiento crítico en química, permitiéndome emplear el conocimiento de manera creativa y adaptable en mis esfuerzos continuos por 'Hacer que el Conocimiento Funcione'."
+              ],
+              "de": [
+                "Den Abschluss meines Masterstudiums in Chemie an der Universität von Bradford zu erlangen, markierte einen entscheidenden Wendepunkt in meiner akademischen und beruflichen Entwicklung. Dieses Programm vermittelte mir eine umfassende Grundlage in den chemischen Wissenschaften und ermöglichte gleichzeitig die Erkundung spezialisierter Bereiche wie Quantenmechanik, Supramolekulare Chemie, Biochemie, Analytische Chemie, Wirkstoffentwicklung sowie Organische und Anorganische Chemie. Über einen Zeitraum von vier Jahren - drei im Bachelorstudium und ein abschließendes Jahr, das der Masterforschung gewidmet war - kombinierte der Lehrplan theoretische Erkenntnisse mit praktischen Erfahrungen und verkörperte somit das Ethos der Universität, Wissen nutzbar zu machen.",
+                "Die Struktur des Studiengangs ermöglichte es mir, über das traditionelle Chemiecurriculum hinaus Wahlfächer zu belegen und damit meine akademische Reise erheblich zu bereichern. Ein prägendes Merkmal meines letzten Studienjahres war die Konzentration auf die Cocrystal Chemie für mein Forschungsprojekt, bei dem ich mich zusammen mit einem engagierten Team von Forschern und Betreuern intensiv mit wissenschaftlicher Forschung beschäftigte. Diese Beteiligung erweiterte nicht nur mein Verständnis für die greifbaren Anwendungen der Chemie, sondern schärfte auch meine beruflichen Fähigkeiten und bereitete mich auf Karrieren innerhalb und außerhalb des Bereichs der Chemie vor.",
+                "Der Abschluss meines Masterstudiums in Chemie schärfte meine Fähigkeiten zur eigenständigen Forschung, zur kritischen Bewertung wissenschaftlicher Evidenz und zur Integration interdisziplinärer Theorien. Diese umfassende Vorbereitung war entscheidend, um mich mit den notwendigen Werkzeugen für zukünftigen Erfolg auszustatten. Wichtig ist, dass sie die Bedeutung von Innovation und kritischem Denken in der Chemie hervorhob und es mir ermöglichte, Wissen kreativ und anpassungsfähig einzusetzen, um weiterhin dazu beizutragen, dass 'Wissen funktioniert'."
+              ],
+              "pt": [
+                "Concluir meu mestrado em Química na Universidade de Bradford marcou um ponto crucial na minha progressão educacional e profissional. Este programa me proporcionou uma base abrangente nas ciências químicas, ao mesmo tempo em que permitiu a exploração de domínios especializados como Mecânica Quântica, Química Supramolecular, Bioquímica, Química Analítica, Descoberta de Medicamentos, juntamente com Química Orgânica e Inorgânica. Com duração de quatro anos - três no nível de graduação seguidos por um ano final dedicado à pesquisa de mestrado - o currículo combinou habilmente insights teóricos com experiências práticas, verdadeiramente epitomizando o ethos da universidade de 'Fazer o Conhecimento Funcionar'.",
+                "A estrutura do programa de graduação me proporcionou a liberdade para buscar estudos eletivos além do currículo tradicional de química, enriquecendo muito minha odisseia acadêmica. Uma característica definidora do meu último ano foi a concentração em Química de Cocrystal para o meu projeto de pesquisa, imergindo-me em pesquisa acadêmica em colaboração com uma equipe dedicada de pesquisadores e supervisores. Este envolvimento não apenas ampliou minha compreensão das aplicações tangíveis da química, mas também aprimorou minhas habilidades profissionais, preparando-me para carreiras dentro e fora do campo da química.",
+                "Alcançar meu mestrado em Química poliu minhas habilidades em conduzir pesquisas autônomas, avaliar criticamente evidências científicas e integrar teorias interdisciplinares. Esta preparação abrangente foi crucial para me equipar com as ferramentas necessárias para o sucesso futuro. Importante destacar que destacou a importância da inovação e do pensamento crítico na química, permitindo-me empregar o conhecimento de forma criativa e adaptativa em meus esforços contínuos para 'Fazer o Conhecimento Funcionar'."
+              ]
+            },
+            "image": "/images/About/grad.webp",
+            "extraImages": [
+              "/images/About/Bradford.webp",
+              "/images/About/NMR.webp"
+            ],
+            "align": "left"
+          },
+          {
+            "id": 4,
+            "heading": {
+              "en": "Environment Agency: National Laboratory Service",
+              "es": "Agencia Ambiental: Servicio Nacional de Laboratorios",
+              "de": "Umweltagentur: Nationaler Laboratoriumsdienst",
+              "pt": "Agência Ambiental: Serviço Nacional de Laboratório"
+            },
+            "description": {
+              "en": [
+                "After completing my Master's in Chemistry, I advanced my analytical expertise within the environmental services sector through a pivotal role at the National Laboratory Service of the Environment Agency. This position offered a remarkable opportunity to immerse myself in every aspect of environmental analysis, as I was periodically rotated across all departments. The unique structure of my role enabled me to contribute extensively to the agency's analytical capabilities and ensure the delivery of exceptional services.",
+                "In my time with the National Laboratory Service, I led and participated in the comprehensive analysis of diverse samples, achieving timely, high-quality results that precisely met the specific requirements of the Environment Agency and its varied clientele. My responsibilities included executing a variety of analytical tasks aimed at providing efficient, cost-effective, and superior analytical services to both internal and external stakeholders. I played a key role in upholding strict quality control procedures, ensuring our work consistently adhered to the Environment Agency's rigorous standards and the requirements for UKAS accreditation.",
+                "Additionally, my role involved the critical analysis of formal samples in accordance with established standards, contributing essential data for legal prosecutions and reinforcing the agency's commitment to upholding environmental laws. A steadfast commitment to Health & Safety standards was paramount throughout my tenure, ensuring a safe and secure working environment for myself and my colleagues.",
+                "A significant part of my experience was gained in the Organic Chemistry department, where I performed analysis of volatile organic compounds using headspace GC-MS. I also worked closely with the Asbestos department to produce an informative video on 'Asbestos Identification by Polarised Light Microscopy,' which is now featured at NLS conferences. This collaboration not only enriched my analytical skills but also fostered significant growth in my professional capabilities.",
+                "Working across all departments not only enriched my analytical skills but also fostered significant growth in my professional capabilities. Engaging closely with a diverse team of experts, I developed strong communication and problem-solving skills, essential for navigating complex environmental challenges and evolving client needs. This comprehensive experience has been fundamental in shaping my approach to environmental science, highlighting my adaptability and my drive to contribute meaningfully to the field."
+              ],
+              "es": [
+                "Tras completar mi Máster en Química, avancé mi pericia analítica dentro del sector de servicios ambientales a través de un papel pivotal en el Servicio Nacional de Laboratorios de la Agencia Ambiental. Esta posición ofreció una oportunidad remarcable para sumergirme en cada aspecto del análisis ambiental, ya que fui rotado periódicamente por todos los departamentos. La estructura única de mi rol me permitió contribuir extensamente a las capacidades analíticas de la agencia y asegurar la entrega de servicios excepcionales.",
+                "En mi tiempo en el Servicio Nacional de Laboratorios, lideré y participé en el análisis comprensivo de muestras diversas, logrando resultados oportunos y de alta calidad que cumplían precisamente con los requisitos específicos de la Agencia Ambiental y su variada clientela. Mis responsabilidades incluyeron ejecutar una variedad de tareas analíticas destinadas a proporcionar servicios analíticos eficientes, rentables y superiores tanto a los interesados internos como externos. Jugué un papel clave en mantener procedimientos estrictos de control de calidad, asegurando que nuestro trabajo se adhiriera consistentemente a los estándares rigurosos de la Agencia Ambiental y los requisitos para la acreditación UKAS.",
+                "Además, mi rol involucró el análisis crítico de muestras formales de acuerdo con los estándares establecidos, contribuyendo datos esenciales para las prosecuciones legales y reforzando el compromiso de la agencia con el mantenimiento de las leyes ambientales. Un compromiso inquebrantable con los estándares de Salud y Seguridad fue primordial a lo largo de mi permanencia, asegurando un ambiente de trabajo seguro y protegido para mí y mis colegas.",
+                "Una parte significativa de mi experiencia se ganó en el departamento de Química Orgánica, donde realicé análisis de compuestos orgánicos volátiles utilizando GC-MS de espacio de cabeza. También trabajé estrechamente con el departamento de Asbesto para producir un video informativo sobre 'Identificación de Asbesto por Microscopía de Luz Polarizada,' que ahora se presenta en las conferencias del NLS. Esta colaboración no solo enriqueció mis habilidades analíticas sino que también fomentó un crecimiento significativo en mis capacidades profesionales.",
+                "Trabajar en todos los departamentos no solo enriqueció mis habilidades analíticas sino que también fomentó un crecimiento significativo en mis capacidades profesionales. Al colaborar estrechamente con un equipo diverso de expertos, desarrollé fuertes habilidades de comunicación y resolución de problemas, esenciales para navegar desafíos ambientales complejos y las necesidades cambiantes de los clientes. Esta experiencia integral ha sido fundamental en dar forma a mi enfoque de la ciencia ambiental, destacando mi adaptabilidad y mi impulso por contribuir de manera significativa al campo."
+              ],
+              "de": [
+                "Nach dem Abschluss meines Masterstudiums in Chemie vertiefte ich meine analytischen Fähigkeiten im Bereich der Umweltdienste durch eine zentrale Rolle im Nationalen Laboratoriumsdienst der Umweltagentur. Diese Position bot eine außergewöhnliche Gelegenheit, mich in jedem Aspekt der Umweltanalyse zu vertiefen, da ich periodisch durch alle Abteilungen rotiert wurde. Die einzigartige Struktur meiner Rolle ermöglichte es mir, wesentlich zu den analytischen Fähigkeiten der Agentur beizutragen und die Bereitstellung außergewöhnlicher Dienstleistungen zu gewährleisten.",
+                "In meiner Zeit beim Nationalen Laboratoriumsdienst führte und beteiligte ich mich an der umfassenden Analyse verschiedener Proben, erzielte zeitnahe, qualitativ hochwertige Ergebnisse, die genau den spezifischen Anforderungen der Umweltagentur und ihrer vielfältigen Klientel entsprachen. Meine Aufgaben umfassten die Durchführung einer Vielzahl analytischer Aufgaben, die darauf abzielten, effiziente, kostengünstige und überlegene analytische Dienstleistungen sowohl für interne als auch externe Stakeholder zu bieten. Ich spielte eine Schlüsselrolle bei der Aufrechterhaltung strenger Qualitätskontrollverfahren, um sicherzustellen, dass unsere Arbeit stets den strengen Standards der Umweltagentur und den Anforderungen für die UKAS-Akkreditierung entsprach.",
+                "Darüber hinaus umfasste meine Rolle die kritische Analyse formaler Proben gemäß festgelegten Standards, die wesentliche Daten für rechtliche Verfolgungen beitrugen und das Engagement der Agentur zur Einhaltung von Umweltgesetzen verstärkten. Ein unerschütterliches Engagement für Gesundheits- und Sicherheitsstandards war während meiner gesamten Amtszeit von größter Bedeutung, um ein sicheres und geschütztes Arbeitsumfeld für mich und meine Kollegen zu gewährleisten.",
+                "Ein bedeutender Teil meiner Erfahrung wurde in der Abteilung für Organische Chemie gesammelt, wo ich die Analyse flüchtiger organischer Verbindungen mittels Headspace-GC-MS durchführte. Ich arbeitete auch eng mit der Asbestabteilung zusammen, um ein informatives Video über 'Asbestidentifikation mittels polarisiertem Lichtmikroskop' zu produzieren, das nun auf NLS-Konferenzen vorgestellt wird. Diese Zusammenarbeit bereicherte nicht nur meine analytischen Fähigkeiten, sondern förderte auch das signifikante Wachstum meiner beruflichen Fähigkeiten.",
+                "Die Arbeit in allen Abteilungen bereicherte nicht nur meine analytischen Fähigkeiten, sondern förderte auch das signifikante Wachstum meiner beruflichen Fähigkeiten. Durch die enge Zusammenarbeit mit einem vielfältigen Team von Experten entwickelte ich starke Kommunikations- und Problemlösungsfähigkeiten, die für die Bewältigung komplexer Umweltherausforderungen und die sich entwickelnden Bedürfnisse unserer Kunden unerlässlich sind. Diese umfassende Erfahrung war grundlegend für die Formung meines Ansatzes in der Umweltwissenschaft und hebt meine Anpassungsfähigkeit und meinen Antrieb hervor, einen bedeutungsvollen Beitrag zum Feld zu leisten."
+              ],
+              "pt": [
+                "Após completar meu Mestrado em Química, avancei minha expertise analítica no setor de serviços ambientais através de um papel crucial no Serviço Nacional de Laboratório da Agência Ambiental. Esta posição ofereceu uma oportunidade notável para me imergir em cada aspecto da análise ambiental, uma vez que fui periodicamente rotacionado por todos os departamentos. A estrutura única do meu papel permitiu-me contribuir extensivamente para as capacidades analíticas da agência e assegurar a entrega de serviços excepcionais.",
+                "No meu período no Serviço Nacional de Laboratório, liderei e participei da análise abrangente de amostras diversas, alcançando resultados oportunos e de alta qualidade que atendiam precisamente aos requisitos específicos da Agência Ambiental e sua variada clientela. Minhas responsabilidades incluíram a execução de uma variedade de tarefas analíticas visando fornecer serviços analíticos eficientes, econômicos e superiores tanto para partes interessadas internas quanto externas. Desempenhei um papel chave na manutenção de procedimentos rigorosos de controle de qualidade, garantindo que nosso trabalho aderisse consistentemente aos rigorosos padrões da Agência Ambiental e aos requisitos para acreditação pela UKAS.",
+                "Adicionalmente, meu papel envolveu a análise crítica de amostras formais de acordo com padrões estabelecidos, contribuindo com dados essenciais para processos legais e reforçando o compromisso da agência com a manutenção das leis ambientais. Um compromisso firme com os padrões de Saúde & Segurança foi primordial durante todo o meu mandato, assegurando um ambiente de trabalho seguro e protegido para mim e meus colegas.",
+                "Uma parte significativa da minha experiência foi adquirida no departamento de Química Orgânica, onde realizei análises de compostos orgânicos voláteis usando GC-MS de espaço de cabeça. Também trabalhei de perto com o departamento de Amianto para produzir um vídeo informativo sobre 'Identificação de Amianto por Microscopia de Luz Polarizada', que agora é apresentado em conferências da NLS. Essa colaboração não apenas enriqueceu minhas habilidades analíticas, mas também promoveu um crescimento significativo em minhas capacidades profissionais.",
+                "Trabalhar em todos os departamentos não apenas enriqueceu minhas habilidades analíticas, mas também promoveu um crescimento significativo em minhas capacidades profissionais. Ao me engajar de perto com uma equipe diversa de especialistas, desenvolvi fortes habilidades de comunicação e resolução de problemas, essenciais para navegar desafios ambientais complexos e atender às necessidades em evolução de nossos clientes. Essa experiência abrangente foi fundamental para moldar minha abordagem à ciência ambiental, destacando minha adaptabilidade e meu impulso para contribuir significativamente para o campo."
+              ]
+            },
+            "image": "/images/About/Olympia-House.webp",
+            "extraImages": [
+              "/images/About/EA-Team.jpeg",
+              "/images/ScientistProjects/asbestos.webp"
+            ],
+            "align": "right"
+          },          
       {
         id: 5,
         heading: {
@@ -134,8 +176,8 @@ export default defineEventHandler(() => {
         },
         image: '/images/About/countess-wear.webp',
         extraImages: [ 
-          "/images/About/ICP-MS.png",
-          "/images/About/SWW.webp'"
+          "/images/About/SWW.webp",
+          "/images/About/ICP-MS.png"
         ],
         align: 'left'
       },

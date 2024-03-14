@@ -5,7 +5,7 @@ import { useFetch } from '@vueuse/core';
 
 const { locale } = useI18n({ useScope: 'global' });
 const aboutSections = ref([]);
-const title = ref({}); // Initialize title as a reactive reference
+const title = ref({}); 
 
 onMounted(async () => {
   const { data, error } = await useFetch('/api/aboutScientist').json();
@@ -17,7 +17,7 @@ onMounted(async () => {
 
   if (data.value) {
     aboutSections.value = data.value.sections;
-    title.value = data.value.title; // Set the title from the fetched data
+    title.value = data.value.title; 
   }
 });
 </script>
@@ -46,12 +46,12 @@ onMounted(async () => {
           <div class="about-text-container md:w-1/2 p-4 flex flex-col justify-center">
             <h3 class="text-3xl font-bold mb-8">{{ section.heading[locale] }}</h3>
             <template v-if="Array.isArray(section.description[locale])">
-              <p v-for="(paragraph, index) in section.description[locale]" :key="index" class="text-white text-lg text-justify md:text-left">
+              <p v-for="(paragraph, index) in section.description[locale]" :key="index" class="text-white text-base text-justify md:text-left">
                 {{ paragraph }}
               </p>
             </template>
             <template v-else>
-              <p class="text-white text-lg about-item-text text-justify md:text-left">
+              <p class="text-white text-base about-item-text text-justify md:text-left">
                 {{ section.description[locale] || 'Description not available' }}
               </p>
             </template>
@@ -64,14 +64,13 @@ onMounted(async () => {
 
 
 <style scoped>
-/* Your styles for About section here */
 .about-item {
   margin-bottom: 2rem;
 }
 .about-image-container img {
-  /* Adjust based on your design */
+
 }
 .about-text-container {
-  /* Text container styling */
+
 }
 </style>

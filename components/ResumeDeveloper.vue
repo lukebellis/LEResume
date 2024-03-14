@@ -46,10 +46,10 @@ const downloadPDF = () => {
             {{ job.company }}
           </h4>
           <span>{{ job.period }}</span>
-          <p class="timeline-item-desc">
+          <p class="timeline-item-desc text-lg">
             {{ job.location }}
           </p>
-          <p class="timeline-text">
+          <p class="timeline-text text-lg">
             {{ job.role }}
           </p>
           <ul class="text-white">
@@ -108,12 +108,12 @@ const downloadPDF = () => {
 
 .title-container {
   display: flex;
-  align-items: baseline; /* Align items to the baseline */
+  align-items: baseline; 
 }
 
 .download-button-container {
-  margin-left: auto; /* Push the download button to the right */
-  margin-bottom: 10px; /* Adjust spacing as needed */
+  margin-left: auto; 
+  margin-bottom: 10px; 
 }
 
 .download-button {
@@ -127,12 +127,12 @@ const downloadPDF = () => {
 }
 
 .download-button:hover {
-    background-color: #121212; /* Updated hover background color */
-    color: #DB8E14; /* Updated hover text color */
-    box-shadow: 0 0 10px #DB8E14; /* Box shadow with color #DB8E14 */
+    background-color: #121212; 
+    color: #DB8E14; 
+    box-shadow: 0 0 10px #DB8E14;
   }
 
 .download-button span {
   margin-right: 5px;
 }
-</style>server/api/Resumedeveloper.js
+</style>

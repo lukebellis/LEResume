@@ -35,6 +35,19 @@ const developerResumeTranslations = {
           'Optimized applications for maximum speed and scalability.',
           'Provided technical support and training to team members and clients.',
         ],
+        
+      },
+      {
+        company: 'Clockwork Creative Technology',
+        period: 'May 2017 — Dec 2019',
+        location: 'Leeds, UK',
+        role: 'Service Engineer',
+        responsibilities: [
+          'Developed and maintained high-quality, responsive websites and applications using React and Vue.js.',
+          'Optimized applications for maximum speed and scalability.',
+          'Provided technical support and training to team members and clients.',
+        ],
+        
       },
     ],
     skillsTitle: 'Skills',
@@ -48,6 +61,20 @@ const developerResumeTranslations = {
       },
       {
         name: 'LinkedIn Learning: PHP Essential Training',
+        description: 'A course covering the basics and advanced techniques of PHP development.',
+        author: 'LinkedIn Learning',
+        url: 'https://www.linkedin.com/learning/',
+        icon: 'php', // Referencing the icon for PHP
+      },
+      {
+        name: 'LinkedIn Learning: CSS Essential Training',
+        description: 'A course covering the basics and advanced techniques of PHP development.',
+        author: 'LinkedIn Learning',
+        url: 'https://www.linkedin.com/learning/',
+        icon: 'php', // Referencing the icon for PHP
+      },
+      {
+        name: 'LinkedIn Learning: HTML Essential Training',
         description: 'A course covering the basics and advanced techniques of PHP development.',
         author: 'LinkedIn Learning',
         url: 'https://www.linkedin.com/learning/',
