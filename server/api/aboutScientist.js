@@ -9,75 +9,76 @@ export default defineEventHandler(() => {
         pt: "Minha Jornada como Cientista"
       },      
     sections: [
-        {
-            id: 1,
-            heading: {
-              en: "Introduction",
-              es: "Introducción",
-              de: "Einleitung",
-              pt: "Introdução"
-            },
-            description: {
-              en: [
-                "Welcome to my personal journey through the fascinating world of chemistry and environmental science. From the foundational days of rigorous academic pursuit at the University of Bradford to impactful roles in industry and education, my career has been driven by a relentless passion for science and a dedication to making a tangible difference in the world.",
-                "Another paragraph here elaborating further on your journey, achievements, or specific experiences that have shaped your career. This can include challenges faced, milestones achieved, or pivotal moments that have had a significant impact on your professional path.",
-                "A third paragraph could focus on your vision for the future, how you plan to continue contributing to your field, and the values or principles that guide your work. This part can provide insight into your ongoing projects, research interests, or advocacy work."
-              ],
-              es: [
-                "Bienvenido a mi viaje personal a través del fascinante mundo de la química y la ciencia ambiental. Desde los días fundamentales de la rigurosa búsqueda académica en la Universidad de Bradford hasta roles impactantes en la industria y la educación, mi carrera ha sido impulsada por una pasión implacable por la ciencia y una dedicación a marcar una diferencia tangible en el mundo.",
-                "Otro párrafo aquí que elabora más sobre tu viaje, logros o experiencias específicas que han dado forma a tu carrera. Esto puede incluir desafíos enfrentados, hitos alcanzados o momentos decisivos que han tenido un impacto significativo en tu camino profesional.",
-                "Un tercer párrafo podría centrarse en tu visión para el futuro, cómo planeas continuar contribuyendo a tu campo y los valores o principios que guían tu trabajo. Esta parte puede proporcionar una visión de tus proyectos en curso, intereses de investigación o trabajo de defensa."
-              ],
-              de: [
-                "Willkommen zu meiner persönlichen Reise durch die faszinierende Welt der Chemie und Umweltwissenschaften. Von den grundlegenden Tagen des rigorosen akademischen Strebens an der Universität von Bradford bis zu wirkungsvollen Rollen in Industrie und Bildung wurde meine Karriere von einer unermüdlichen Leidenschaft für die Wissenschaft und der Hingabe, einen greifbaren Unterschied in der Welt zu machen, angetrieben.",
-                "Ein weiterer Absatz hier, der weiter auf Ihre Reise, Errungenschaften oder spezifische Erfahrungen eingeht, die Ihre Karriere geprägt haben. Dies kann Herausforderungen umfassen, die Sie gemeistert haben, erreichte Meilensteine oder entscheidende Momente, die einen signifikanten Einfluss auf Ihren beruflichen Weg hatten.",
-                "Ein dritter Absatz könnte sich auf Ihre Vision für die Zukunft konzentrieren, wie Sie weiterhin zu Ihrem Fachgebiet beitragen möchten und welche Werte oder Prinzipien Ihre Arbeit leiten. Dieser Teil kann Einblicke in Ihre laufenden Projekte, Forschungsinteressen oder Ihr Engagement geben."
-              ],
-              pt: [
-                "Bem-vindo à minha jornada pessoal pelo fascinante mundo da química e ciência ambiental. Desde os dias fundamentais de rigorosa busca acadêmica na Universidade de Bradford até papéis impactantes na indústria e educação, minha carreira foi impulsionada por uma paixão incansável pela ciência e uma dedicação em fazer uma diferença tangível no mundo.",
-                "Outro parágrafo aqui detalhando mais sobre sua jornada, conquistas ou experiências específicas que moldaram sua carreira. Isso pode incluir desafios enfrentados, marcos alcançados ou momentos decisivos que tiveram um impacto significativo em seu caminho profissional.",
-                "Um terceiro parágrafo pode focar em sua visão para o futuro, como você planeja continuar contribuindo para sua área e os valores ou princípios que orientam seu trabalho. Esta parte pode oferecer uma visão sobre seus projetos atuais, interesses de pesquisa ou trabalho de advocacia."
-              ]
-            },
-            image: "/images/About/conical.webp",
-            align: "left"
-          },
-          {
-            id: 2,
-            heading: {
-              en: "Teaching",
-              es: "Introducción",
-              de: "Einleitung",
-              pt: "Introdução"
-            },
-            description: {
-              en: [
-                "Welcome to my personal journey through the fascinating world of chemistry and environmental science. From the foundational days of rigorous academic pursuit at the University of Bradford to impactful roles in industry and education, my career has been driven by a relentless passion for science and a dedication to making a tangible difference in the world.",
-                "Another paragraph here elaborating further on your journey, achievements, or specific experiences that have shaped your career. This can include challenges faced, milestones achieved, or pivotal moments that have had a significant impact on your professional path.",
-                "A third paragraph could focus on your vision for the future, how you plan to continue contributing to your field, and the values or principles that guide your work. This part can provide insight into your ongoing projects, research interests, or advocacy work."
-              ],
-              es: [
-                "Bienvenido a mi viaje personal a través del fascinante mundo de la química y la ciencia ambiental. Desde los días fundamentales de la rigurosa búsqueda académica en la Universidad de Bradford hasta roles impactantes en la industria y la educación, mi carrera ha sido impulsada por una pasión implacable por la ciencia y una dedicación a marcar una diferencia tangible en el mundo.",
-                "Otro párrafo aquí que elabora más sobre tu viaje, logros o experiencias específicas que han dado forma a tu carrera. Esto puede incluir desafíos enfrentados, hitos alcanzados o momentos decisivos que han tenido un impacto significativo en tu camino profesional.",
-                "Un tercer párrafo podría centrarse en tu visión para el futuro, cómo planeas continuar contribuyendo a tu campo y los valores o principios que guían tu trabajo. Esta parte puede proporcionar una visión de tus proyectos en curso, intereses de investigación o trabajo de defensa."
-              ],
-              de: [
-                "Willkommen zu meiner persönlichen Reise durch die faszinierende Welt der Chemie und Umweltwissenschaften. Von den grundlegenden Tagen des rigorosen akademischen Strebens an der Universität von Bradford bis zu wirkungsvollen Rollen in Industrie und Bildung wurde meine Karriere von einer unermüdlichen Leidenschaft für die Wissenschaft und der Hingabe, einen greifbaren Unterschied in der Welt zu machen, angetrieben.",
-                "Ein weiterer Absatz hier, der weiter auf Ihre Reise, Errungenschaften oder spezifische Erfahrungen eingeht, die Ihre Karriere geprägt haben. Dies kann Herausforderungen umfassen, die Sie gemeistert haben, erreichte Meilensteine oder entscheidende Momente, die einen signifikanten Einfluss auf Ihren beruflichen Weg hatten.",
-                "Ein dritter Absatz könnte sich auf Ihre Vision für die Zukunft konzentrieren, wie Sie weiterhin zu Ihrem Fachgebiet beitragen möchten und welche Werte oder Prinzipien Ihre Arbeit leiten. Dieser Teil kann Einblicke in Ihre laufenden Projekte, Forschungsinteressen oder Ihr Engagement geben."
-              ],
-              pt: [
-                "Bem-vindo à minha jornada pessoal pelo fascinante mundo da química e ciência ambiental. Desde os dias fundamentais de rigorosa busca acadêmica na Universidade de Bradford até papéis impactantes na indústria e educação, minha carreira foi impulsionada por uma paixão incansável pela ciência e uma dedicação em fazer uma diferença tangível no mundo.",
-                "Outro parágrafo aqui detalhando mais sobre sua jornada, conquistas ou experiências específicas que moldaram sua carreira. Isso pode incluir desafios enfrentados, marcos alcançados ou momentos decisivos que tiveram um impacto significativo em seu caminho profissional.",
-                "Um terceiro parágrafo pode focar em sua visão para o futuro, como você planeja continuar contribuindo para sua área e os valores ou princípios que orientam seu trabalho. Esta parte pode oferecer uma visão sobre seus projetos atuais, interesses de pesquisa ou trabalho de advocacia."
-              ]
-            },
-            image: "/images/About/teaching.webp",
-            extraImages: [ 
-              "/images/About/SIAS.jpeg",
-            ],
-            align: "right"
-          },
+      {
+        "id": 1,
+        "heading": {
+          "en": "Introduction",
+          "es": "Introducción",
+          "de": "Einleitung",
+          "pt": "Introdução"
+        },
+        "description": {
+          "en": [
+            "My journey as a scientist began in the glow of childhood curiosity, ignited by a 1998 gift of the 'National Geographic Encyclopedia of Space.' This early fascination with the cosmos broadened to embrace the entire spectrum of sciences—biology, chemistry, and physics—shaping my path of exploration and discovery. Throughout my schooling, my passion for these disciplines only intensified, culminating in earning triple award science GCSEs and furthering my studies in A-levels with an additional focus on Information and Communications Technology (ICT).",
+            "Choosing to specialise, I pursued a master's degree in chemistry at the University of Bradford, a decision that married my love for scientific inquiry with practical expertise. My professional journey has since spanned analytical roles to teaching positions, allowing me to share my passion for science and inspire curiosity in others.",
+            "Reflecting on this journey, I'm deeply thankful for the early inspiration that set me on this path, the educational milestones that deepened my understanding, and the professional experiences that have both challenged and enriched me. This narrative is a testament to the enduring power of curiosity, the transformative impact of education, and the fulfillment found in pursuing one's passion with unwavering commitment."
+          ],
+          "es": [
+            "Mi viaje como científico comenzó con la curiosidad de mi infancia, encendida por el regalo en 1998 de la 'Enciclopedia del Espacio de National Geographic'. Esta temprana fascinación por el cosmos se amplió para abrazar todo el espectro de las ciencias: biología, química y física, moldeando mi camino de exploración y descubrimiento. A lo largo de mi etapa escolar, mi pasión por estas disciplinas solo se intensificó, culminando en la obtención de tres GCSEs en ciencias y avanzando mis estudios en niveles A con un enfoque adicional en Tecnología de la Información y Comunicaciones (TIC).",
+            "Optando por especializarme, cursé una maestría en química en la Universidad de Bradford, una decisión que unió mi amor por la investigación científica con la experiencia práctica. Mi trayectoria profesional desde entonces ha abarcado roles analíticos hasta posiciones docentes, permitiéndome compartir mi pasión por la ciencia e inspirar la curiosidad en otros.",
+            "Reflexionando sobre este viaje, estoy profundamente agradecido por la inspiración temprana que me puso en este camino, los hitos educativos que profundizaron mi comprensión y las experiencias profesionales que me han desafiado y enriquecido. Esta narrativa es un testimonio del poder perdurable de la curiosidad, el impacto transformador de la educación y la satisfacción encontrada en perseguir la pasión con un compromiso inquebrantable."
+          ],
+          "de": [
+            "Meine Reise als Wissenschaftler begann im Glanz kindlicher Neugier, entzündet durch ein Geschenk von 1998, die 'National Geographic Enzyklopädie des Weltraums'. Diese frühe Faszination für das Kosmos erweiterte sich, um das gesamte Spektrum der Wissenschaften—Biologie, Chemie und Physik—zu umfassen und formte meinen Weg der Erkundung und Entdeckung. Während meiner Schulzeit intensivierte sich meine Leidenschaft für diese Disziplinen nur noch, gipfelte in dem Erwerb von drei GCSEs in den Naturwissenschaften und der Weiterführung meiner Studien auf A-Level mit einem zusätzlichen Schwerpunkt auf Informations- und Kommunikationstechnologie (IKT).",
+            "Mit der Entscheidung zu spezialisieren, verfolgte ich einen Masterabschluss in Chemie an der Universität von Bradford, eine Entscheidung, die meine Liebe zur wissenschaftlichen Forschung mit praktischer Expertise verband. Meine berufliche Laufbahn umfasste seither analytische Rollen bis hin zu Lehrpositionen, was es mir ermöglichte, meine Leidenschaft für die Wissenschaft zu teilen und Neugier bei anderen zu wecken.",
+            "Rückblickend auf diese Reise bin ich zutiefst dankbar für die frühe Inspiration, die mich auf diesen Weg brachte, die Bildungsmeilensteine, die mein Verständnis vertieften, und die beruflichen Erfahrungen, die mich sowohl herausgefordert als auch bereichert haben. Diese Erzählung ist ein Zeugnis für die anhaltende Kraft der Neugier, die transformative Wirkung der Bildung und die Erfüllung, die darin liegt, seiner Leidenschaft mit unerschütterlichem Engagement nachzugehen."
+          ],
+          "pt": [
+            "Minha jornada como cientista começou no brilho da curiosidade infantil, acesa por um presente de 1998, a 'Enciclopédia do Espaço da National Geographic'. Essa fascinação inicial pelo cosmos se ampliou para abraçar todo o espectro das ciências—biologia, química e física—moldando meu caminho de exploração e descoberta. Ao longo dos meus anos escolares, minha paixão por essas disciplinas só se intensificou, culminando na conquista de três GCSEs em ciências e avançando meus estudos em níveis A com um foco adicional em Tecnologia da Informação e Comunicação (TIC).",
+            "Escolhendo me especializar, persegui um mestrado em química na Universidade de Bradford, uma decisão que casou meu amor pela investigação científica com expertise prática. Minha jornada profissional desde então abrangeu desde papéis analíticos até posições de ensino, permitindo-me compartilhar minha paixão pela ciência e inspirar curiosidade nos outros.",
+            "Refletindo sobre essa jornada, sou profundamente grato pela inspiração inicial que me colocou nesse caminho, pelos marcos educacionais que aprofundaram meu entendimento e pelas experiências profissionais que me desafiaram e enriqueceram. Esta narrativa é um testemunho do poder duradouro da curiosidade, do impacto transformador da educação e da realização encontrada em perseguir a paixão com um compromisso inabalável."
+          ]
+        },
+        "image": "/images/About/conical.webp",
+        "align": "left"
+      },
+      
+      {
+        "id": 2,
+        "heading": {
+          "en": "Teaching",
+          "es": "Enseñanza",
+          "de": "Lehre",
+          "pt": "Ensino"
+        },
+        "description": {
+          "en": [
+            "My journey into the realm of science education began during my undergraduate studies, where I embraced the role of a Mad Science Director. This position allowed me to bring the wonders of science to life for primary school children through fun and interactive lessons. I relished the opportunity to ignite a spark of curiosity in young minds, finding joy in their unbridled enthusiasm for learning. This role was not just a source of enjoyment; it also provided a valuable means of support during my studies, intertwining my passion for science with practical benefits.",
+            "The breadth of my teaching experience expanded significantly during my master's year through a placement with STEM@Bradford. In this capacity, I collaborated with several dozen local high schools and charities to orchestrate a wide array of scientific learning experiences. My audience diversified, extending from primary school pupils to A-level students across various disciplines, allowing me to tailor my approach to science education to suit a broad spectrum of ages and abilities.",
+            "Among the highlights of this period was my partnership with the charity Teaching Learning Growing (TGL), where I played a pivotal role in guiding disruptive students—who had faced expulsion from their schools—towards earning a BTEC Science qualification. Another noteworthy project involved working with the Royal Society of Chemistry to execute the 'Spectroscopy in a Suitcase' programme, bringing portable spectrometers into classrooms for hands-on analytical exercises. Through these diverse teaching engagements, I have cultivated a broad and rich teaching portfolio, demonstrating a commitment to making science accessible, enjoyable, and impactful for students of all backgrounds."
+          ],
+          "es": [
+            "Mi viaje en el ámbito de la educación científica comenzó durante mis estudios de pregrado, donde asumí el papel de Director de Ciencia Divertida. Esta posición me permitió dar vida a las maravillas de la ciencia para niños de escuela primaria a través de lecciones divertidas e interactivas. Disfruté la oportunidad de encender una chispa de curiosidad en mentes jóvenes, encontrando alegría en su entusiasmo desenfrenado por aprender. Este rol no fue solo una fuente de disfrute; también proporcionó un valioso medio de apoyo durante mis estudios, entrelazando mi pasión por la ciencia con beneficios prácticos.",
+            "La amplitud de mi experiencia docente se expandió significativamente durante mi año de maestría a través de una colocación con STEM@Bradford. En esta capacidad, colaboré con varias docenas de escuelas secundarias locales y organizaciones benéficas para orquestar una amplia gama de experiencias de aprendizaje científico. Mi audiencia se diversificó, extendiéndose desde alumnos de escuela primaria hasta estudiantes de A-level en diversas disciplinas, lo que me permitió adaptar mi enfoque de la educación científica para adaptarse a un amplio espectro de edades y habilidades.",
+            "Entre los aspectos más destacados de este período estuvo mi asociación con la organización benéfica Teaching Learning Growing (TGL), donde jugué un papel crucial en guiar a estudiantes disruptivos, que habían sido expulsados de sus escuelas, hacia la obtención de una calificación BTEC en Ciencia. Otro proyecto notable involucró trabajar con la Royal Society of Chemistry para ejecutar el programa 'Espectroscopía en una maleta', llevando espectrómetros portátiles a las aulas para ejercicios analíticos prácticos. A través de estos diversos compromisos docentes, he cultivado una amplia y rica cartera de enseñanza, demostrando un compromiso con hacer la ciencia accesible, agradable e impactante para estudiantes de todos los orígenes."
+          ],
+          "de": [
+            "Meine Reise in den Bereich der naturwissenschaftlichen Bildung begann während meines Grundstudiums, wo ich die Rolle eines Direktors für Spaßwissenschaften übernahm. Diese Position ermöglichte es mir, die Wunder der Wissenschaft für Grundschulkinder durch spaßige und interaktive Lektionen zum Leben zu erwecken. Ich genoss die Gelegenheit, einen Funken der Neugier in jungen Köpfen zu entzünden, und fand Freude an ihrer ungezügelten Begeisterung für das Lernen. Diese Rolle war nicht nur eine Quelle des Vergnügens; sie bot auch eine wertvolle Unterstützung während meines Studiums und verband meine Leidenschaft für die Wissenschaft mit praktischen Vorteilen.",
+            "Die Breite meiner Lehrerfahrung erweiterte sich erheblich während meines Masterjahres durch ein Praktikum bei STEM@Bradford. In dieser Funktion arbeitete ich mit mehreren Dutzend lokalen weiterführenden Schulen und Wohltätigkeitsorganisationen zusammen, um eine breite Palette von naturwissenschaftlichen Lernerfahrungen zu orchestrieren. Mein Publikum diversifizierte sich, von Grundschülern bis zu A-Level-Schülern in verschiedenen Disziplinen, was es mir ermöglichte, meinen Ansatz zur naturwissenschaftlichen Bildung an ein breites Spektrum von Altersgruppen und Fähigkeiten anzupassen.",
+            "Zu den Höhepunkten dieser Zeit gehörte meine Partnerschaft mit der Wohltätigkeitsorganisation Teaching Learning Growing (TGL), wo ich eine zentrale Rolle dabei spielte, disruptive Schüler, die von ihren Schulen verwiesen worden waren, zur Erlangung einer BTEC-Wissenschaftsqualifikation zu führen. Ein weiteres bemerkenswertes Projekt war die Zusammenarbeit mit der Royal Society of Chemistry bei der Durchführung des Programms 'Spektroskopie im Koffer', bei dem tragbare Spektrometer in Klassenzimmer gebracht wurden, um praktische analytische Übungen durchzuführen. Durch diese vielfältigen Lehrverpflichtungen habe ich ein breites und reichhaltiges Lehrportfolio kultiviert, das mein Engagement für die Zugänglichkeit, Freude und Wirkung der Wissenschaft für Schüler aller Hintergründe demonstriert."
+          ],
+          "pt": [
+            "Minha jornada no âmbito da educação científica começou durante meus estudos de graduação, onde assumi o papel de Diretor de Ciência Divertida. Essa posição me permitiu trazer as maravilhas da ciência para a vida de crianças do ensino fundamental através de lições divertidas e interativas. Eu apreciei a oportunidade de acender uma faísca de curiosidade em mentes jovens, encontrando alegria em seu entusiasmo ilimitado pelo aprendizado. Este papel não foi apenas uma fonte de prazer; também forneceu um meio valioso de suporte durante meus estudos, entrelaçando minha paixão pela ciência com benefícios práticos.",
+            "A amplitude da minha experiência de ensino expandiu significativamente durante o meu ano de mestrado através de um estágio com STEM@Bradford. Nessa capacidade, colaborei com várias dezenas de escolas secundárias locais e caridades para orquestrar uma ampla gama de experiências de aprendizado científico. Meu público diversificou, estendendo-se de alunos do ensino fundamental a estudantes de nível A em várias disciplinas, permitindo-me adaptar minha abordagem à educação científica para atender a um amplo espectro de idades e habilidades.",
+            "Entre os destaques desse período estava minha parceria com a caridade Teaching Learning Growing (TGL), onde desempenhei um papel crucial em orientar estudantes disruptivos - que haviam sido expulsos de suas escolas - a obter uma qualificação em Ciência BTEC. Outro projeto notável envolveu trabalhar com a Royal Society of Chemistry para executar o programa 'Espectroscopia em uma Mala', trazendo espectrômetros portáteis para as salas de aula para exercícios analíticos práticos. Por meio desses diversos compromissos de ensino, cultivei um portfólio de ensino amplo e rico, demonstrando um compromisso com tornar a ciência acessível, prazerosa e impactante para estudantes de todos os contextos."
+          ]
+        },
+        "image": "/images/About/teaching.webp",
+        "extraImages": [
+          "/images/About/SIAS.jpeg"
+        ],
+        "align": "right"
+      },
           {
             "id": 3,
             "heading": {
@@ -209,40 +210,6 @@ export default defineEventHandler(() => {
             ],
             "align": "left"
           },
-      {
-        id: 6,
-        heading: {
-          en: "Connect with Me",
-          es: "Conéctate Conmigo",
-          de: "Verbinde dich mit Mir",
-          pt: "Conecte-se Comigo"
-        },
-        description: {
-          en: "I invite you to explore my portfolio at www.lukeellis.me to discover the intersection of science, technology, and environmental advocacy in my work. Let's connect and explore how we can collaborate on projects that drive meaningful change.",
-          es: "Te invito a explorar mi portafolio en www.lukeellis.me para descubrir la intersección de ciencia, tecnología y defensa del medio ambiente en mi trabajo. Conectémonos y exploremos cómo podemos colaborar en proyectos que impulsen un cambio significativo.",
-          de: "Ich lade Sie ein, mein Portfolio unter www.lukeellis.me zu erkunden, um die Schnittstelle von Wissenschaft, Technologie und Umweltengagement in meiner Arbeit zu entdecken. Lassen Sie uns verbinden und erkunden, wie wir bei Projekten zusammenarbeiten können, die einen bedeutungsvollen Wandel vorantreiben.",
-          pt: "Convido você a explorar meu portfólio em www.lukeellis.me para descobrir a interseção de ciência, tecnologia e advocacia ambiental no meu trabalho. Vamos nos conectar e explorar como podemos colaborar em projetos que promovam uma mudança significativa."
-        },
-        image: '/images/About/SWW.webp',
-        align: 'right'
-      },
-      {
-        id: 7,
-        heading: {
-          en: "South West Water",
-          es: "Defensa del Ambientalismo",
-          de: "Einsatz für Umweltschutz",
-          pt: "Defesa do Ambientalismo"
-        },
-        description: {
-          en: "At the heart of my professional endeavours is a commitment to environmentalism. I advocate for the integration of science and technology to develop sustainable solutions, a philosophy that extends into my community involvement and educational outreach. Through initiatives like the Royal Society of Chemistry's Spectroscopy in a Suitcase, I've engaged with the next generation, fostering a passion for science and environmental stewardship.",
-          es: "En el corazón de mis esfuerzos profesionales se encuentra un compromiso con el ambientalismo. Abogo por la integración de la ciencia y la tecnología para desarrollar soluciones sostenibles, una filosofía que se extiende a mi participación comunitaria y divulgación educativa. A través de iniciativas como la Espectroscopía en una Maleta de la Royal Society of Chemistry, he interactuado con la próxima generación, fomentando una pasión por la ciencia y la custodia ambiental.",
-          de: "Im Herzen meiner beruflichen Bemühungen steht das Engagement für den Umweltschutz. Ich setze mich für die Integration von Wissenschaft und Technologie ein, um nachhaltige Lösungen zu entwickeln, eine Philosophie, die sich auf mein Gemeinschaftsengagement und meine Bildungsarbeit erstreckt. Durch Initiativen wie die Spektroskopie im Koffer der Royal Society of Chemistry habe ich mich mit der nächsten Generation beschäftigt und eine Leidenschaft für Wissenschaft und Umweltschutz gefördert.",
-          pt: "No coração dos meus empreendimentos profissionais está um compromisso com o ambientalismo. Defendo a integração da ciência e tecnologia para desenvolver soluções sustentáveis, uma filosofia que se estende ao meu envolvimento comunitário e divulgação educacional. Por meio de iniciativas como a Espectroscopia em uma Mala da Royal Society of Chemistry, envolvi-me com a próxima geração, fomentando uma paixão pela ciência e pela gestão ambiental."
-        },
-        image: '/images/About/countess-wear.webp',
-        align: 'left'
-      },
     ]
   };
 });

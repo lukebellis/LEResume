@@ -109,7 +109,7 @@ function checkSkillsInView() {
       <h3 class="h2 article-title text-white my-8">{{ translations.feedbackTitle }} &nbsp;<font-awesome-icon :icon="['fas', 'comment-dots']"  :style="{ color: '#f39c12' }"/></h3>
       <div class="feedback-list content-card">
         <div class="feedback-item" v-for="(feedback, index) in translations.feedback" :key="index">
-          <blockquote class="text-white">{{ feedback.text }}</blockquote>
+          <blockquote class="text-white">{{ feedback.content }}</blockquote>
           <cite class="text-gray-400">{{ feedback.author }}</cite>
         </div>
       </div>
@@ -120,7 +120,7 @@ function checkSkillsInView() {
       <div class="awards-list content-card">
         <div class="awards-item" v-for="(award, index) in translations.awards" :key="index">
           <h5 class="h5">{{ award.name }}</h5>
-          <p class="text-white">{{ award.description }}</p>
+          <p class="text-white">{{ award.content }}</p>
           <cite class="text-gray-400">{{ award.author }}</cite>
         </div>
       </div>

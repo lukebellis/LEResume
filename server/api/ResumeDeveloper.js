@@ -5,7 +5,7 @@ const developerResumeTranslations = {
     jobs: [
       {
         company: 'PixelCodeLab Ltd',
-        period: 'May 2017 — Dec 2019',
+        period: 'Apr 2023 — Present',
         location: 'Exeter, UK',
         role: 'Managing Director',
         responsibilities: [
@@ -14,7 +14,7 @@ const developerResumeTranslations = {
       },
       {
         company: 'GSL Media Ltd',
-        period: 'Jan 2020 — Present',
+        period: 'Aug 2023 — Mar 2024',
         location: 'Plymouth, UK',
         role: 'Senior PHP Developer',
         responsibilities: [
@@ -23,7 +23,7 @@ const developerResumeTranslations = {
       },
       {
         company: 'Nexus Agencies Ltd',
-        period: 'May 2017 — Dec 2019',
+        period: 'Sept 2018 — Aug 2023',
         location: 'Birmingham, UK',
         role: 'Full Stack Developer',
         responsibilities: [
@@ -33,7 +33,7 @@ const developerResumeTranslations = {
       },
       {
         company: 'Clockwork Creative Technology',
-        period: 'May 2017 — Dec 2019',
+        period: 'Oct 2015 — Apr 2016',
         location: 'Leeds, UK',
         role: 'Service Engineer',
         responsibilities: [
@@ -83,7 +83,7 @@ const developerResumeTranslations = {
     jobs: [
       {
         company: 'PixelCodeLab Ltd',
-        period: 'May 2017 — Dec 2019',
+        period: 'Abr 2023 — Presente',
         location: 'Exeter, Reino Unido',
         role: 'Director Gerente',
         responsibilities: [
@@ -92,7 +92,7 @@ const developerResumeTranslations = {
       },
       {
         company: 'GSL Media Ltd',
-        period: 'Ene 2020 — Presente',
+        period: 'Ago 2023 — Mar 2024',
         location: 'Plymouth, Reino Unido',
         role: 'Desarrollador Senior de PHP',
         responsibilities: [
@@ -101,7 +101,7 @@ const developerResumeTranslations = {
       },
       {
         company: 'Nexus Agencies Ltd',
-        period: 'Mayo 2017 — Dic 2019',
+        period: 'Sept 2018 — Ago 2023',
         location: 'Birmingham, Reino Unido',
         role: 'Desarrollador Full Stack',
         responsibilities: [
@@ -111,13 +111,11 @@ const developerResumeTranslations = {
       },
       {
         company: 'Clockwork Creative Technology',
-        period: 'Mayo 2017 — Dic 2019',
+        period: 'Oct 2015 — Abr 2016',
         location: 'Leeds, Reino Unido',
         role: 'Ingeniero de Servicio',
         responsibilities: [
           "En Clockwork Creative Technology, trabajé como Técnico de Servicio de Apple en un centro de reparación autorizado, un rol que me introdujo al intrincado mundo de la reparación de dispositivos mientras fomentaba un incipiente interés en la programación. Reparando dispositivos Apple, perfeccioné mis habilidades para resolver problemas y mi conocimiento técnico. Fue aquí donde mis colegas me enseñaron JavaScript básico, marcando otro capítulo de mi viaje hacia el desarrollo. Esta experiencia fue fundamental, fusionando trabajo técnico de reparación con los primeros pasos hacia el dominio de un lenguaje de programación clave."
-
-
         ],
         
       },
@@ -129,54 +127,70 @@ const developerResumeTranslations = {
         description: 'Una certificación que demuestra conocimientos avanzados y habilidades en desarrollo Vue.js.',
         author: 'Vue Mastery',
         url: 'https://www.vuemastery.com/certifications/vue-developer/',
-        icon: 'vuejs', // Referenciando el icono para Vue.js
+        icon: 'vuejs', // Icono para Vue.js
       },
       {
-        name: 'LinkedIn Learning: PHP Essential Training',
+        name: 'LinkedIn Learning: Entrenamiento Esencial de PHP',
         description: 'Un curso que cubre los conceptos básicos y técnicas avanzadas del desarrollo PHP.',
         author: 'LinkedIn Learning',
         url: 'https://www.linkedin.com/learning/',
-        icon: 'php', // Referenciando el icono para PHP
+        icon: 'php', // Icono para PHP
       },
       {
-        name: 'LinkedIn Learning: CSS Essential Training',
-        description: 'Un curso que cubre los conceptos básicos y técnicas avanzadas del desarrollo PHP.',
+        name: 'LinkedIn Learning: Entrenamiento Esencial de CSS',
+        description: 'Un curso que cubre los conceptos básicos y técnicas avanzadas del desarrollo CSS.',
         author: 'LinkedIn Learning',
         url: 'https://www.linkedin.com/learning/',
-        icon: 'php', // Referenciando el icono para PHP
+        icon: 'css', // Icono para CSS
       },
       {
-        name: 'LinkedIn Learning: HTML Essential Training',
-        description: 'Un curso que cubre los conceptos básicos y técnicas avanzadas del desarrollo PHP.',
+        name: 'LinkedIn Learning: Entrenamiento Esencial de HTML',
+        description: 'Un curso que cubre los conceptos básicos y técnicas avanzadas del desarrollo HTML.',
         author: 'LinkedIn Learning',
         url: 'https://www.linkedin.com/learning/',
-        icon: 'php', // Referenciando el icono para PHP
+        icon: 'html', // Icono para HTML
       }
       // Agregar más certificaciones según sea necesario
     ],
   },
   de: {
-    title: 'Entwickler Lebenslauf',
+    title: 'Entwickler-Lebenslauf',
     experience: 'Erfahrung',
     jobs: [
       {
-        company: 'GSL Media Ltd',
-        period: 'Aug 2023 — Mar 2024',
-        location: 'Plymouth, UK',
-        role: 'Senior PHP Entwickler',
+        company: 'PixelCodeLab Ltd',
+        period: 'Apr 2023 — Heute',
+        location: 'Exeter, Vereinigtes Königreich',
+        role: 'Geschäftsführer',
         responsibilities: [
-          "Bei GSL Media spezialisierte ich mich auf die Entwicklung maßgeschneiderter WordPress-Websites mit Roots Sage, Bedrock und DDEV. Mein Einsatz zielte darauf ab, skalierbare und sichere Websites zu erstellen. Meine Arbeit optimierte Entwicklungsabläufe und steigerte die Projekteffizienz, was eine bedeutende Phase meiner Karriere markierte, die technische Fertigkeiten mit kreativen Web-Lösungen vereinte.",
+          'Bei PixelcodeLab Ltd, gegründet im Jahr 2023, konzentriere ich mich auf maßgeschneiderte Webentwicklung und nutze Vue, React und Hugo, um individuelle digitale Lösungen anzubieten. Mein Ansatz betont Anpassungsfähigkeit, anspruchsvolle Technologieintegration und die Erfüllung verschiedener Kundenanforderungen, von dynamischen Webanwendungen bis hin zu effizienten, SEO-optimierten Websites. Ich habe mich auf die Erstellung intuitiver, leistungsstarker Plattformen spezialisiert, insbesondere für die Restaurantbranche, und verbinde dabei Eleganz im Front-End mit robuster Funktionalität im Back-End. Mein Engagement besteht darin, wirkungsvolle digitale Erlebnisse zu gestalten und so Wachstum und Erfolg für meine Kunden im digitalen Bereich zu gewährleisten.'
         ],
       },
       {
-        company: 'Tech Innovations Studio',
-        period: 'Mai 2017 — Dez 2019',
-        location: 'San Francisco, CA',
-        role: 'Webentwickler',
+        company: 'GSL Media Ltd',
+        period: 'Aug 2023 — Mär 2024',
+        location: 'Plymouth, Vereinigtes Königreich',
+        role: 'Senior PHP Entwickler',
         responsibilities: [
-          'Entwickelte und wartete hochwertige, reaktionsfähige Websites und Anwendungen mit React und Vue.js.',
-          'Optimierte Anwendungen für maximale Geschwindigkeit und Skalierbarkeit.',
-          'Bereitgestellte technische Unterstützung und Schulungen für Teammitglieder und Kunden.',
+          'Bei GSL Media habe ich mich auf die individuelle WordPress-Entwicklung mit Roots Sage, Bedrock und DDEV spezialisiert und dabei darauf geachtet, skalierbare und sichere Websites zu erstellen. Meine Arbeit optimierte Entwicklungsvorgänge und verbesserte die Projekteffizienz, was eine bedeutende Phase meiner Karriere markierte, die technische Fähigkeiten mit kreativen Web-Lösungen kombinierte.'
+        ],
+      },
+      {
+        company: 'Nexus Agencies Ltd',
+        period: 'Sept 2018 — Aug 2023',
+        location: 'Birmingham, Vereinigtes Königreich',
+        role: 'Full Stack Entwickler',
+        responsibilities: [
+          "Die Transition zur Magento 2-Entwicklung war ein entscheidender Moment, der meine Expertise im E-Commerce für unser Schmuckgeschäft verbesserte. Dabei ging es darum, Magento 2 anzupassen, um die Benutzererfahrung und die Plattformsicherheit zu verbessern. Diese Rolle vertiefte meine Kenntnisse in PHP und Magento 2 und unterstrich die Notwendigkeit von Anpassungsfähigkeit und kontinuierlichem Lernen. Ich leitete die Entwicklung unserer E-Commerce-Plattform und gewann Einblicke in digitale Handelsaspekte wie die Lagerverwaltung. Diese Erfahrung verdeutlichte die Rolle der Technologie bei der Geschäftstransformation und der Kundenzufriedenheit im digitalen Zeitalter."
+        ],
+      },
+      {
+        company: 'Clockwork Creative Technology',
+        period: 'Okt 2015 — Apr 2016',
+        location: 'Leeds, Vereinigtes Königreich',
+        role: 'Service-Ingenieur',
+        responsibilities: [
+          "Bei Clockwork Creative Technology arbeitete ich als Apple-Service-Techniker in einem autorisierten Reparaturzentrum, eine Rolle, die mich in die komplexe Welt der Gerätereparatur einführte und gleichzeitig ein wachsendes Interesse an der Programmierung förderte. Bei der Reparatur von Apple-Geräten schärfte ich meine Problemlösungsfähigkeiten und mein technisches Wissen. Hier haben mir meine Kollegen grundlegendes JavaScript beigebracht, was ein weiteres Kapitel meiner Entwicklungsgeschichte markierte. Diese Erfahrung war grundlegend und vereinte technische Reparaturarbeit mit den ersten Schritten zur Beherrschung einer wichtigen Programmiersprache."
         ],
       },
     ],
@@ -184,31 +198,31 @@ const developerResumeTranslations = {
     certifications: [
       {
         name: 'Zertifizierter Vue.js Entwickler',
-        description: 'Eine Zertifizierung, die fortgeschrittene Kenntnisse und Fähigkeiten in der Entwicklung mit Vue.js demonstriert.',
+        description: 'Eine Zertifizierung, die fortgeschrittene Kenntnisse und Fähigkeiten in der Vue.js-Entwicklung demonstriert.',
         author: 'Vue Mastery',
         url: 'https://www.vuemastery.com/certifications/vue-developer/',
-        icon: 'vuejs', // Referenzierung des Icons für Vue.js
+        icon: 'vuejs', // Icon für Vue.js
       },
       {
         name: 'LinkedIn Learning: PHP Essential Training',
         description: 'Ein Kurs, der die Grundlagen und fortgeschrittenen Techniken der PHP-Entwicklung abdeckt.',
         author: 'LinkedIn Learning',
         url: 'https://www.linkedin.com/learning/',
-        icon: 'php', // Referenzierung des Icons für PHP
+        icon: 'php', // Icon für PHP
       },
       {
         name: 'LinkedIn Learning: CSS Essential Training',
-        description: 'Ein Kurs, der die Grundlagen und fortgeschrittenen Techniken der PHP-Entwicklung abdeckt.',
+        description: 'Ein Kurs, der die Grundlagen und fortgeschrittenen Techniken der CSS-Entwicklung abdeckt.',
         author: 'LinkedIn Learning',
         url: 'https://www.linkedin.com/learning/',
-        icon: 'php', // Referenzierung des Icons für PHP
+        icon: 'css', // Icon für CSS
       },
       {
         name: 'LinkedIn Learning: HTML Essential Training',
-        description: 'Ein Kurs, der die Grundlagen und fortgeschrittenen Techniken der PHP-Entwicklung abdeckt.',
+        description: 'Ein Kurs, der die Grundlagen und fortgeschrittenen Techniken der HTML-Entwicklung abdeckt.',
         author: 'LinkedIn Learning',
         url: 'https://www.linkedin.com/learning/',
-        icon: 'php', // Referenzierung des Icons für PHP
+        icon: 'html', // Icon für HTML
       }
       // Weitere Zertifizierungen bei Bedarf hinzufügen
     ],
@@ -218,59 +232,78 @@ const developerResumeTranslations = {
     experience: 'Experiência',
     jobs: [
       {
-        company: 'GSL Media Ltd',
-        period: 'Aug 2023 — Mar 2024',
-        location: 'Plymouth, Reino Unido',
-        role: 'Desenvolvedor Sênior de PHP',
+        company: 'PixelCodeLab Ltd',
+        period: 'Abr 2023 — Presente',
+        location: 'Exeter, Reino Unido',
+        role: 'Diretor Gerente',
         responsibilities: [
-          "Na GSL Media, especializei-me no desenvolvimento personalizado do WordPress usando Roots Sage, Bedrock e DDEV, focando na criação de sites escaláveis e seguros. Meu trabalho otimizou os fluxos de desenvolvimento e melhorou a eficiência do projeto, marcando uma fase significativa em minha carreira que combinou habilidade técnica com soluções web criativas.",
+          'Na PixelcodeLab Ltd, estabelecida em 2023, foco no desenvolvimento web personalizado, utilizando Vue, React e Hugo para fornecer soluções digitais personalizadas. Minha abordagem enfatiza a adaptabilidade, a integração sofisticada de tecnologia e a satisfação das diversas necessidades dos clientes, desde aplicativos web dinâmicos até sites eficientes e otimizados para SEO. Especializo-me na criação de plataformas intuitivas e orientadas para o desempenho, especialmente para a indústria de restaurantes, combinando elegância no front-end com funcionalidade robusta no back-end. Meu compromisso é projetar experiências digitais impactantes, garantindo crescimento e sucesso para meus clientes no mundo digital.',
         ],
       },
       {
-        company: 'Tech Innovations Studio',
-        period: 'Mai 2017 — Dez 2019',
-        location: 'San Francisco, CA',
-        role: 'Desenvolvedor Web',
+        company: 'GSL Media Ltd',
+        period: 'Ago 2023 — Mar 2024',
+        location: 'Plymouth, Reino Unido',
+        role: 'Desenvolvedor Sênior de PHP',
         responsibilities: [
-          'Desenvolveu e manteve sites e aplicativos responsivos de alta qualidade usando React e Vue.js.',
-          'Otimizou aplicativos para máxima velocidade e escalabilidade.',
-          'Forneceu suporte técnico e treinamento para membros da equipe e clientes.',
+          'Na GSL Media, especializei-me no desenvolvimento personalizado do WordPress usando Roots Sage, Bedrock e DDEV, com foco na criação de sites escaláveis e seguros. Meu trabalho otimizou os fluxos de desenvolvimento e melhorou a eficiência do projeto, marcando uma fase significativa em minha carreira que combinou habilidade técnica com soluções web criativas.',
         ],
+      },
+      {
+        company: 'Nexus Agencies Ltd',
+        period: 'Set 2018 — Ago 2023',
+        location: 'Birmingham, Reino Unido',
+        role: 'Desenvolvedor Full Stack',
+        responsibilities: [
+          "A transição para o desenvolvimento em Magento 2 foi um momento crucial, aprimorando minha experiência em comércio eletrônico para nosso negócio de joias. Envolveu a personalização do Magento 2 para melhorar a experiência do usuário e a segurança da plataforma. Esse papel aprofundou minhas habilidades em PHP e Magento 2, destacando a necessidade de adaptabilidade e aprendizado contínuo. Liderei o desenvolvimento de nossa plataforma de comércio eletrônico, obtendo insights sobre aspectos do comércio digital, como gerenciamento de inventário. Essa experiência enfatizou o papel da tecnologia na transformação empresarial e na satisfação do cliente na era digital."
+        ],
+        
+      },
+      {
+        company: 'Clockwork Creative Technology',
+        period: 'Out 2015 — Abr 2016',
+        location: 'Leeds, Reino Unido',
+        role: 'Engenheiro de Serviço',
+        responsibilities: [
+          "Na Clockwork Creative Technology, trabalhei como Técnico de Serviço da Apple em um centro de reparos autorizado, uma função que me apresentou ao mundo complexo da reparação de dispositivos enquanto promovia um interesse crescente em programação. Ao reparar dispositivos Apple, aprimorei minhas habilidades de resolução de problemas e conhecimento técnico. Foi aqui que meus colegas me ensinaram JavaScript básico, marcando outro capítulo da minha jornada para o desenvolvimento. Essa experiência foi fundamental, combinando trabalho técnico de reparo com os primeiros passos para dominar uma linguagem de programação chave."
+        ],
+        
       },
     ],
     skillsTitle: 'Habilidades',
     certifications: [
       {
-        name: 'Desenvolvedor Vue.js Certificado',
+        name: 'Desenvolvedor Certificado Vue.js',
         description: 'Uma certificação que demonstra conhecimento avançado e habilidades em desenvolvimento Vue.js.',
         author: 'Vue Mastery',
         url: 'https://www.vuemastery.com/certifications/vue-developer/',
-        icon: 'vuejs', // Referenciando o ícone para Vue.js
+        icon: 'vuejs', // Ícone para Vue.js
       },
       {
         name: 'LinkedIn Learning: Treinamento Essencial de PHP',
-        description: 'Um curso que abrange os conceitos básicos e técnicas avançadas do desenvolvimento PHP.',
+        description: 'Um curso que cobre os conceitos básicos e técnicas avançadas de desenvolvimento PHP.',
         author: 'LinkedIn Learning',
         url: 'https://www.linkedin.com/learning/',
-        icon: 'php', // Referenciando o ícone para PHP
+        icon: 'php', // Ícone para PHP
       },
       {
         name: 'LinkedIn Learning: Treinamento Essencial de CSS',
-        description: 'Um curso que abrange os conceitos básicos e técnicas avançadas do desenvolvimento CSS.',
+        description: 'Um curso que cobre os conceitos básicos e técnicas avançadas de desenvolvimento CSS.',
         author: 'LinkedIn Learning',
         url: 'https://www.linkedin.com/learning/',
-        icon: 'php', // Referenciando o ícone para PHP
+        icon: 'css', // Ícone para CSS
       },
       {
         name: 'LinkedIn Learning: Treinamento Essencial de HTML',
-        description: 'Um curso que abrange os conceitos básicos e técnicas avançadas do desenvolvimento HTML.',
+        description: 'Um curso que cobre os conceitos básicos e técnicas avançadas de desenvolvimento HTML.',
         author: 'LinkedIn Learning',
         url: 'https://www.linkedin.com/learning/',
-        icon: 'php', // Referenciando o ícone para PHP
+        icon: 'html', // Ícone para HTML
       }
       // Adicionar mais certificações conforme necessário
     ],
   },
+
 };
 
 export { developerResumeTranslations };

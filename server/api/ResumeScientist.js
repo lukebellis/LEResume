@@ -10,9 +10,11 @@ export const scientistResumeTranslations = {
         location: 'Exeter, UK',
         role: 'Analytical Chemist & Team Support Lead (Metals Department)',
         responsibilities: [
-          'Directed the development and launch of a new e-commerce platform, increasing customer transactions by 40%.',
-          'Implemented responsive design principles, making our website fully accessible on mobile and tablet devices.',
-          'Optimized website performance, achieving a 95% score on web core vitals.'
+          'Played a crucial role during the COVID-19 pandemic, maintaining public health and safety through rigorous water quality assurance, highlighting the essential nature of our work in delivering safe drinking water.',
+          'Conducted comprehensive analysis of the metal content in the water supply using an Agilent ICP-MS, which involved precise operation, maintenance, and meticulous sample preparation to accurately reflect true metal concentrations.',
+          'Led efforts to adapt workflow and implement innovative solutions to maintain uninterrupted analysis amidst evolving health guidelines, demonstrating a commitment to continuous learning and adaptation.',
+          'Spearheaded training programmes to enhance the technical skills of the department’s personnel, improving efficiency and fostering a culture of excellence and shared commitment to our mission.',
+          'Managed the capture of analytical results into our Laboratory Information Management System (LIMS), ensuring data integrity and accessibility for review and reporting, which was pivotal in running proficiency schemes and affirming our laboratory’s commitment to excellence and reliability in public service.'
         ]
       },
       {
@@ -21,20 +23,26 @@ export const scientistResumeTranslations = {
         location: 'Leeds, UK',
         role: 'Assistant Scientist',
         responsibilities: [
-          'Collaborated in a team to develop and maintain client websites, leading to a 30% increase in client satisfaction.',
-          'Automated data backup processes, reducing data loss incidents by 100%.'
+          'Enhanced analytical expertise in environmental analysis, contributing significantly to the delivery of high-quality environmental services through a dynamic role involving rotation across all departments.',
+          'Led and supported the comprehensive analysis of samples, ensuring adherence to the Environment Agency’s stringent requirements and diverse client needs, focused on efficiency and UKAS accreditation standards.',
+          'Played a key role in quality control and the analysis of formal samples for legal prosecutions, reinforcing the agency’s commitment to enforcing environmental laws and maintaining high Health & Safety standards.',
+          'Gained specialised experience in the Organic Chemistry department, analysing volatile organic compounds using headspace GC-MS, and collaborated on an educational video project on ‘Asbestos Identification by Polarised Light Microscopy’ for NLS conferences.',
+          'Developed vital communication and problem-solving skills through interdisciplinary collaboration, significantly enhancing professional capabilities and contributing to the agency’s mission.'
         ]
       },
       {
-        company: 'STEM Outreach',
-        period: 'May 2015 — Dec 2018',
-        location: 'STEM Central Laboratory, University of Bradford',
-        role: 'STEM Outreach Assistant',
-        responsibilities: [
-          'Collaborated in a team to develop and maintain client websites, leading to a 30% increase in client satisfaction.',
-          'Automated data backup processes, reducing data loss incidents by 100%.'
+        "company": "University of Bradford",
+        "period": "Sep 2014 - Sep 2015",
+        "location": "STEM Central Laboratory, University of Bradford",
+        "role": "STEM Outreach Assistant",
+        "responsibilities": [
+          "Delivered a wide range of activities from Lego Robotics workshops to advanced undergraduate chemistry practicals, utilising the on-campus STEM Central laboratory's versatility.",
+          "Developed key skills in planning, time management, and building positive relations with visiting staff and students, enhancing classroom experience.",
+          "Significantly improved confidence and public speaking abilities through diverse and interactive educational engagements.",
+          "Facilitated a 15-week support programme for the educational charity 'Teaching, Learning, Growing', working with students previously excluded from their schools.",
+          "Represented the Royal Society of Chemistry, delivering the Spectroscopy Outreach Workshop to over thirty schools and colleges in Yorkshire, and effectively communicated complex scientific concepts."
         ]
-      }
+      },
     ],
     "skillsTitle": "Scientific Skills",
     "skillsCategories": [
@@ -132,15 +140,19 @@ export const scientistResumeTranslations = {
           ]
         },
         {
-          company: 'Alcance STEM',
-          period: 'Mayo 2015 — Dic 2018',
-          location: 'Laboratorio Central STEM, Universidad de Bradford',
-          role: 'Asistente de Alcance STEM',
-          responsibilities: [
-            'Colaboré en un equipo para desarrollar y mantener sitios web de clientes, lo que llevó a un aumento del 30% en la satisfacción del cliente.',
-            'Automatizé procesos de respaldo de datos, reduciendo incidentes de pérdida de datos en un 100%.'
+          "company": "Universidad de Bradford",
+          "period": "Sep 2014 - Sep 2015",
+          "location": "Laboratorio Central STEM, Universidad de Bradford",
+          "role": "Asistente de Divulgación STEM",
+          "responsibilities": [
+            "Realizó una amplia gama de actividades desde talleres de Robótica Lego hasta prácticas de química avanzada para estudiantes universitarios, utilizando la versatilidad del laboratorio Central STEM en el campus.",
+            "Desarrolló habilidades clave en planificación, gestión del tiempo y construcción de relaciones positivas con el personal y los estudiantes visitantes, mejorando la experiencia en el aula.",
+            "Mejoró significativamente la confianza y las habilidades de oratoria a través de compromisos educativos diversos e interactivos.",
+            "Facilitó un programa de apoyo de 15 semanas para la organización educativa 'Enseñanza, Aprendizaje, Crecimiento', trabajando con estudiantes previamente excluidos de sus escuelas.",
+            "Representó a la Real Sociedad de Química, entregando el Taller de Divulgación de Espectroscopía a más de treinta escuelas y colegios en Yorkshire, y comunicó efectivamente conceptos científicos complejos."
           ]
         }
+        
       ],
       "skillsTitle": "Habilidades Científicas",
       "skillsCategories": [
@@ -213,6 +225,117 @@ export const scientistResumeTranslations = {
         }
       ]
     },
+    // Adding Portuguese translations
+pt: {
+  experience: 'Experiência',
+  jobs: [
+    {
+      company: 'South West Water',
+      period: '2020 — 2021',
+      location: 'Exeter, Reino Unido',
+      role: 'Químico Analítico & Líder de Suporte de Equipe (Departamento de Metais)',
+      responsibilities: [
+        'Liderei o desenvolvimento e lançamento de uma nova plataforma de e-commerce, aumentando as transações dos clientes em 40%.',
+        'Implementei princípios de design responsivo, tornando nosso site totalmente acessível em dispositivos móveis e tablets.',
+        'Otimizei o desempenho do site, alcançando uma pontuação de 95% nos principais indicadores web.'
+      ]
+    },
+    {
+      company: 'Agência Ambiental',
+      period: 'Maio 2015 — Dez 2018',
+      location: 'Leeds, Reino Unido',
+      role: 'Assistente Científico',
+      responsibilities: [
+        'Colaborei em equipe para desenvolver e manter websites de clientes, resultando em um aumento de 30% na satisfação dos clientes.',
+        'Automatizei processos de backup de dados, reduzindo os incidentes de perda de dados em 100%.'
+      ]
+    },
+    {
+      company: 'Universidade de Bradford',
+      period: 'Set 2014 - Set 2015',
+      location: 'Laboratório Central STEM, Universidade de Bradford',
+      role: 'Assistente de Divulgação STEM',
+      responsibilities: [
+        'Realizei uma ampla gama de atividades, desde oficinas de Robótica Lego até práticas avançadas de química para alunos de graduação, utilizando a versatilidade do laboratório Central STEM no campus.',
+        'Desenvolvi habilidades chave em planejamento, gestão do tempo e construção de relações positivas com o pessoal e estudantes visitantes, aprimorando a experiência em sala de aula.',
+        'Melhorei significativamente a confiança e as habilidades de fala em público através de engajamentos educacionais diversos e interativos.',
+        'Facilitei um programa de suporte de 15 semanas para a organização educacional \'Ensino, Aprendizado, Crescimento\', trabalhando com estudantes previamente excluídos de suas escolas.',
+        'Representei a Royal Society of Chemistry, conduzindo a Oficina de Divulgação de Espectroscopia em mais de trinta escolas e colégios em Yorkshire, comunicando efetivamente conceitos científicos complexos.'
+      ]
+    }
+  ],
+  skillsTitle: 'Habilidades Científicas',
+  skillsCategories: [
+    {
+      categoryTitle: 'Técnicas Analíticas',
+      skills: [
+        { name: 'Química Analítica', proficiency: 'Alta Proficiência', value: 95 },
+        { name: 'Preparação de Amostras', proficiency: 'Avançado', value: 83 },
+        { name: 'Espectrometria de Massas', proficiency: 'Avançado', value: 92 },
+        { name: 'ICP-MS', proficiency: 'Avançado', value: 93 },
+        { name: 'ICP-OES', proficiency: 'Avançado', value: 85 },
+        { name: 'Análise de Tamanho de Partículas', proficiency: 'Avançado', value: 99 },
+        { name: 'Espectroscopia IR', proficiency: 'Avançado', value: 84 }
+      ]
+    },
+    {
+      categoryTitle: 'Práticas de Laboratório',
+      skills: [
+        { name: 'Segurança em Laboratório', proficiency: 'Especialista', value: 98 },
+        { name: 'Boas Práticas de Laboratório (BPL)', proficiency: 'Especialista', value: 94 },
+        { name: 'Preparação de Reagentes', proficiency: 'Especialista', value: 95 }
+      ]
+    },
+    {
+      categoryTitle: 'Conhecimento Teórico',
+      skills: [
+        { name: 'Mecânica Quântica', proficiency: 'Avançado', value: 88 },
+        { name: 'Modelagem Molecular', proficiency: 'Avançado', value: 90 },
+        { name: 'Simulações de Reações', proficiency: 'Avançado', value: 87 },
+        { name: 'Química Física', proficiency: 'Avançado', value: 88 }
+      ]
+    }
+  ],
+  feedbackTitle: 'Feedback',
+  feedback: [
+    {
+      content: "O Luke está realmente crescendo em seu papel e nos mostrando habilidades que são muito valorizadas e um entusiasmo que deve garantir um ótimo futuro conosco. Na semana passada, ele se encontrou com nosso Diretor Executivo Toby Willison e passou cerca de 15 minutos mostrando alguns dos testes que realizamos. O Toby ficou muito impressionado com o Luke, o que me deixou muito orgulhoso de tê-lo em nossa equipe.",
+      author: 'Steve Moss, Gerente do Laboratório NLS Leeds, Agência Ambiental',
+      date: 'Janeiro de 2017'
+    }
+  ],
+  awardsTitle: 'Prêmios',
+  awards: [
+    {
+      name: 'Prêmio de Reconhecimento Local',
+      content: "Obrigado por todos os esforços extras que você dedicou no último verão em Análise de Tamanho de Partículas. Não teríamos conseguido superar a carga de trabalho e todas as mudanças necessárias sem seu comprometimento, tenacidade e ética de trabalho. Obrigado.",
+      author: 'Chris Mann, Líder da Equipe de Tamanho de Partículas, Agência Ambiental',
+      date: 'Outubro de 2016'
+    }
+  ],
+  volunteeringTitle: 'Voluntariado',
+  volunteering: [
+    {
+      title: 'Embaixador STEM',
+      period: 'Ago 2013 - Presente',
+      location: 'STEMNET',
+      description: 'Engajamento com escolas e o público para promover a educação e carreiras em STEM através de diversas atividades, oficinas e eventos.'
+    },
+    {
+      title: 'Voluntário no Festival de Ciência de Bradford 2013',
+      period: 'Out 2013 - Dez 2014',
+      location: 'Festival de Ciência de Bradford',
+      description: 'Auxiliei na organização para a Escola de Ciências da Vida na Universidade e gerenciei a demonstração de espectroscopia de Química, promovendo a ciência ao público.'
+    },
+    {
+      title: 'Semana da Química 2013: Organizador de Eventos',
+      period: 'Ago 2013 - Dez 2015',
+      location: 'Royal Society of Chemistry',
+      description: 'Organizei de forma independente um evento de "Caça ao Tesouro" em Bradford, projetei materiais promocionais e apresentei prêmios, aumentando o engajamento do público com a Química.'
+    }
+  ]
+},
+
     // German translation not provided in the previous message
     de: {
       experience: 'Berufserfahrung',
@@ -239,13 +362,16 @@ export const scientistResumeTranslations = {
           ]
         },
         {
-          company: 'STEM Outreach',
-          period: 'Mai 2015 — Dez 2018',
-          location: 'STEM-Zentrallabor, Universität Bradford',
-          role: 'STEM-Outreach-Assistent',
-          responsibilities: [
-            'Zusammenarbeit in einem Team zur Entwicklung und Pflege von Kundenseiten, was zu einer Steigerung der Kundenzufriedenheit um 30% führte.',
-            'Automatisierte Daten-Backup-Prozesse, wodurch Datenverluste um 100% reduziert wurden.'
+          "company": "Universität Bradford",
+          "period": "Sep 2014 - Sep 2015",
+          "location": "STEM Central Labor, Universität Bradford",
+          "role": "STEM Outreach-Assistent",
+          "responsibilities": [
+            "Bereitstellung einer breiten Palette von Aktivitäten von Lego-Robotik-Workshops bis zu fortgeschrittenen chemischen Praktika für Studierende, unter Nutzung der Vielseitigkeit des STEM Central Labors auf dem Campus.",
+            "Entwicklung wichtiger Fähigkeiten in Planung, Zeitmanagement und dem Aufbau positiver Beziehungen zu besuchendem Personal und Studierenden, was die Unterrichtserfahrung verbessert.",
+            "Deutliche Verbesserung des Selbstvertrauens und der öffentlichen Sprechfähigkeiten durch vielfältige und interaktive Bildungsveranstaltungen.",
+            "Durchführung eines 15-wöchigen Unterstützungsprogramms für die Bildungsorganisation 'Teaching, Learning, Growing', Arbeit mit zuvor von ihren Schulen ausgeschlossenen Schülern.",
+            "Vertretung der Royal Society of Chemistry, Durchführung des Spektroskopie-Outreach-Workshops an über dreißig Schulen und Hochschulen in Yorkshire und effektive Vermittlung komplexer wissenschaftlicher Konzepte."
           ]
         }
       ],
