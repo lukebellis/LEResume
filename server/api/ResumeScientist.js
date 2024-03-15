@@ -94,10 +94,10 @@ export const scientistResumeTranslations = {
       }
     ],
     volunteeringTitle: 'Volunteering',
-    volunteering: [
+    volunteeringEvents: [
       {
         title: 'STEM Ambassador',
-        period: 'Aug 2013 - Present',
+        period: 'Aug 2014 - Sept 2015',
         location: 'STEMNET',
         description: 'Engaging with schools and the public to promote STEM education and careers through various activities, workshops, and events.'
       },
@@ -113,7 +113,7 @@ export const scientistResumeTranslations = {
         location: 'Royal Society of Chemistry',
         description: 'Independently organised a "Treasure Hunt" event in Bradford, designed promotional materials, and presented prizes, enhancing public engagement with Chemistry.'
       }
-    ]
+    ],    
   },
   es: {
       experience: 'Experiencia',
@@ -204,26 +204,27 @@ export const scientistResumeTranslations = {
         }
       ],
       volunteeringTitle: 'Voluntariado',
-      volunteering: [
+      volunteeringEvents: [
         {
-          title: 'Embajador de STEM',
-          period: 'Ago 2013 - Presente',
+          title: 'Embajador STEM',
+          period: 'Ago 2014 - Sep 2015',
           location: 'STEMNET',
-          description: 'Participando con escuelas y el público para promover la educación y las carreras en STEM a través de diversas actividades, talleres y eventos.'
+          description: 'Participación con escuelas y el público para promover la educación y las carreras STEM a través de diversas actividades, talleres y eventos.'
         },
         {
           title: 'Voluntario en el Festival de Ciencia de Bradford 2013',
           period: 'Oct 2013 - Dic 2014',
           location: 'Festival de Ciencia de Bradford',
-          description: 'Ayudó con los arreglos para la Escuela de Ciencias de la Vida en la Universidad y dirigió la demostración de espectroscopía de Química, promoviendo la ciencia al público.'
+          description: 'Asistí en los arreglos para la Escuela de Ciencias de la Vida en la Universidad y manejé la demostración de espectroscopía de Química, promoviendo la ciencia al público.'
         },
         {
-          title: 'Semana de la Química 2013: Organizador de Eventos',
+          title: 'Organizador del Evento de la Semana de la Química 2013',
           period: 'Ago 2013 - Dic 2015',
           location: 'Real Sociedad de Química',
-          description: 'Organizó independientemente un evento de "Búsqueda del Tesoro" en Bradford, diseñó materiales promocionales y presentó premios, mejorando el compromiso público con la Química.'
+          description: 'Organicé de manera independiente un evento de "Búsqueda del Tesoro" en Bradford, diseñé materiales promocionales y entregué premios, mejorando el compromiso público con la Química.'
         }
-      ]
+      ],
+      
     },
     // Adding Portuguese translations
 pt: {
@@ -314,29 +315,28 @@ pt: {
     }
   ],
   volunteeringTitle: 'Voluntariado',
-  volunteering: [
+  volunteeringEvents: [
     {
       title: 'Embaixador STEM',
-      period: 'Ago 2013 - Presente',
+      period: 'Ago 2014 - Set 2015',
       location: 'STEMNET',
-      description: 'Engajamento com escolas e o público para promover a educação e carreiras em STEM através de diversas atividades, oficinas e eventos.'
+      description: 'Engajamento com escolas e o público para promover a educação e carreiras em STEM através de várias atividades, oficinas e eventos.'
     },
     {
       title: 'Voluntário no Festival de Ciência de Bradford 2013',
       period: 'Out 2013 - Dez 2014',
       location: 'Festival de Ciência de Bradford',
-      description: 'Auxiliei na organização para a Escola de Ciências da Vida na Universidade e gerenciei a demonstração de espectroscopia de Química, promovendo a ciência ao público.'
+      description: 'Auxiliei na organização para a Escola de Ciências da Vida na Universidade e gerenciei a demonstração de espectroscopia de Química, promovendo a ciência para o público.'
     },
     {
-      title: 'Semana da Química 2013: Organizador de Eventos',
+      title: 'Organizador do Evento da Semana de Química 2013',
       period: 'Ago 2013 - Dez 2015',
-      location: 'Royal Society of Chemistry',
-      description: 'Organizei de forma independente um evento de "Caça ao Tesouro" em Bradford, projetei materiais promocionais e apresentei prêmios, aumentando o engajamento do público com a Química.'
+      location: 'Real Sociedade de Química',
+      description: 'Organizei de forma independente um evento de "Caça ao Tesouro" em Bradford, projetei materiais promocionais e entreguei prêmios, aumentando o engajamento do público com a Química.'
     }
-  ]
+  ],
+  
 },
-
-    // German translation not provided in the previous message
     de: {
       experience: 'Berufserfahrung',
       jobs: [
@@ -425,26 +425,27 @@ pt: {
         }
       ],
       volunteeringTitle: 'Freiwilligenarbeit',
-      volunteering: [
+      volunteeringEvents: [
         {
           title: 'STEM-Botschafter',
-          period: 'Aug 2013 - Heute',
+          period: 'Aug 2014 - Sept 2015',
           location: 'STEMNET',
-          description: 'Engagement mit Schulen und der Öffentlichkeit zur Förderung von STEM-Bildung und -Karrieren durch verschiedene Aktivitäten, Workshops und Veranstaltungen.'
+          description: 'Engagement mit Schulen und der Öffentlichkeit zur Förderung der STEM-Bildung und -Karrieren durch verschiedene Aktivitäten, Workshops und Veranstaltungen.'
         },
         {
           title: 'Freiwilliger beim Bradford Science Festival 2013',
           period: 'Okt 2013 - Dez 2014',
           location: 'Bradford Science Festival',
-          description: 'Unterstützte bei der Organisation für die School of Life Sciences an der Universität und leitete die Chemiedemonstration zur Spektroskopie und förderte so die Wissenschaft gegenüber der Öffentlichkeit.'
+          description: 'Unterstützung bei den Vorbereitungen für die Fakultät für Lebenswissenschaften an der Universität und Betreuung der Chemie-Spektroskopie-Demonstration, um die Wissenschaft der Öffentlichkeit näher zu bringen.'
         },
         {
-          title: 'Chemiewoche 2013: Veranstaltungsorganisator',
+          title: 'Event-Organisator für die Chemiewoche 2013',
           period: 'Aug 2013 - Dez 2015',
           location: 'Royal Society of Chemistry',
-          description: 'Organisierte eigenständig eine "Schatzsuche" in Bradford, entwarf Werbematerialien und verlieh Preise, um das öffentliche Engagement für die Chemie zu fördern.'
+          description: 'Unabhängige Organisation eines „Schatzsuche“-Events in Bradford, Erstellung von Werbematerialien und Preisverleihungen, um das öffentliche Engagement für die Chemie zu steigern.'
         }
-      ]
+      ],
+      
     }
 };
 
