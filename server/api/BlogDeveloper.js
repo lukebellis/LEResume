@@ -114,12 +114,13 @@ export default defineEventHandler(() => ({
           de: "KATZ WITH A K",
           pt: "KATZ WITH A K",
         },
-        description: {
-          en: "You can use this script to calculate your ages or hours of support.",
-          es: "Puedes usar este script para calcular tus edades o horas de soporte.",
-          de: "Sie können dieses Skript verwenden, um Ihr Alter oder die Unterstützungsstunden zu berechnen.",
-          pt: "Você pode usar este script para calcular suas idades ou horas de suporte.",
+        "description": {
+          "en": "This project involved using vue.js to develop a frontend for Katz With A K, a UK rapper, showcasing his work, upcoming events, and news/media. The backend is integrated with Hygraph to manage content dynamically.",
+          "es": "Este proyecto implicó el uso de vue.js para desarrollar un frontend para Katz With A K, un rapero del Reino Unido, mostrando su trabajo, eventos próximos y noticias/medios. El backend está integrado con Hygraph para gestionar el contenido de manera dinámica.",
+          "de": "Dieses Projekt umfasste die Verwendung von vue.js, um ein Frontend für Katz With A K, einen britischen Rapper, zu entwickeln, das seine Arbeiten, bevorstehende Veranstaltungen und Neuigkeiten/Medien präsentiert. Das Backend ist mit Hygraph integriert, um Inhalte dynamisch zu verwalten.",
+          "pt": "Este projeto envolveu o uso do vue.js para desenvolver um frontend para Katz With A K, um rapper do Reino Unido, mostrando seu trabalho, eventos futuros e notícias/mídia. O backend é integrado com Hygraph para gerenciar o conteúdo de forma dinâmica."
         }
+        
       },
       {
         id: 5,
@@ -144,12 +145,13 @@ export default defineEventHandler(() => ({
           de: "Ellison Davies Vintage & Antikschmuck",
           pt: "Jóias Vintage e Antigas Ellison Davies",
         },
-        description: {
-          en: "A complicated tutorial.",
-          es: "Un tutorial complicado.",
-          de: "Ein kompliziertes Tutorial.",
-          pt: "Um tutorial complicado.",
+        "description": {
+          "en": "This project entailed transitioning a Magento 1 website to Shopify, including customising and extending a default theme to meet the client's specific needs. Work involved editing Shopify's Liquid template files to tailor the site's functionality and appearance.",
+          "es": "Este proyecto implicó la transición de un sitio web de Magento 1 a Shopify, incluyendo la personalización y extensión de un tema predeterminado para satisfacer las necesidades específicas del cliente. El trabajo involucró la edición de archivos de plantilla Liquid de Shopify para personalizar la funcionalidad y apariencia del sitio.",
+          "de": "Dieses Projekt beinhaltete den Übergang einer Magento 1-Website zu Shopify, einschließlich der Anpassung und Erweiterung eines Standardthemas, um den spezifischen Bedürfnissen des Kunden gerecht zu werden. Dabei wurden Liquid-Vorlagendateien von Shopify bearbeitet, um die Funktionalität und das Erscheinungsbild der Website anzupassen.",
+          "pt": "Este projeto envolveu a transição de um site Magento 1 para Shopify, incluindo a customização e extensão de um tema padrão para atender às necessidades específicas do cliente. O trabalho envolveu a edição de arquivos de template Liquid do Shopify para adequar a funcionalidade e aparência do site."
         }
+        
       }
     ]
   }));
