@@ -160,41 +160,41 @@ export default defineEventHandler(() => {
   
       },
       {
-        id: 6,
-        heading: {
-          en: "Computational Chemisrty",
-          es: "Transición al Desarrollo Web",
-          de: "Übergang zum Webentwicklung",
-          pt: "Transição para o Desenvolvimento Web"
+        "id": 6,
+        "heading": {
+          "en": "Computational Chemistry",
+          "es": "Química Computacional",
+          "de": "Computational Chemie",
+          "pt": "Química Computacional"
         },
-        description: {
-          en: [
-            "During my placement year at university, I actively participated in STEM outreach at local colleges and secondary schools, marking a significant stage in my developmental journey. My involvement centred around delivering a variety of science-based activities designed to ignite students' interest in technology. Leading Lego Mindstorms workshops was a highlight, introducing programming to students in an engaging and hands-on manner.",
-            "Utilising Lego Mindstorms as an educational instrument effectively bridged theoretical concepts with practical application, demystifying programming for students through interactive learning. This initiative extended beyond conventional education; it aimed to spark a passion for technology and innovation in young learners. A focal point was encouraging students to take part in a global competition, challenging them to apply their newfound skills in a competitive yet supportive international arena. This endeavour not only encouraged teamwork but also provided them with practical problem-solving experience and the thrill of international competition.",
-            "This project underscored the value of early STEM engagement and the transformative impact of experiential learning in moulding future innovators. It demonstrated that education has its greatest impact when it moves beyond the traditional classroom, blending enjoyment with vital technical skills. Through this STEM outreach, I contributed to linking academic theories to their practical implementation, whilst also fostering the next generation's curiosity and enthusiasm for technology."
+        "description": {
+          "en": [
+            "During my MChem degree, I ventured into the field of computational chemistry, where I first encountered Python. This programming language became a cornerstone of my studies, enabling me to apply computational models and simulations in a way that was both insightful and innovative. The hands-on experience gained with Python laid a solid foundation in programming and sparked my interest in the intersection of science and technology.",
+            "Utilising tools like Avogadro was a highlight of my academic journey. These tools allowed me to visually explore and manipulate molecular structures, bridging the gap between theoretical chemistry and practical application. This experience not only deepened my understanding of molecular behaviour but also highlighted the potential of computational tools in predicting and analysing chemical phenomena.",
+            "Perhaps the most thrilling aspect of my studies was the introduction to GPU technology for computational tasks, a stark departure from its common association with video gaming. This exposure to high-performance computing in a scientific context opened my eyes to the vast potential of technology in advancing research, making it a pivotal moment in my academic and professional development."
           ],
-          es: [
-            "Bienvenido a mi viaje personal a través del fascinante mundo de la química y la ciencia ambiental. Desde los días fundamentales de la rigurosa búsqueda académica en la Universidad de Bradford hasta roles impactantes en la industria y la educación, mi carrera ha sido impulsada por una pasión implacable por la ciencia y una dedicación a marcar una diferencia tangible en el mundo.",
-            "Otro párrafo aquí que elabora más sobre tu viaje, logros o experiencias específicas que han dado forma a tu carrera. Esto puede incluir desafíos enfrentados, hitos alcanzados o momentos decisivos que han tenido un impacto significativo en tu camino profesional.",
-            "Un tercer párrafo podría centrarse en tu visión para el futuro, cómo planeas continuar contribuyendo a tu campo y los valores o principios que guían tu trabajo. Esta parte puede proporcionar una visión de tus proyectos en curso, intereses de investigación o trabajo de defensa."
+          "es": [
+            "Durante mi grado de MChem, me adentré en el campo de la química computacional, donde encontré por primera vez Python. Este lenguaje de programación se convirtió en una piedra angular de mis estudios, permitiéndome aplicar modelos computacionales y simulaciones de manera perspicaz e innovadora. La experiencia práctica ganada con Python sentó una base sólida en programación y despertó mi interés en la intersección de la ciencia y la tecnología.",
+            "La utilización de herramientas como Avogadro fue un punto destacado de mi trayectoria académica. Estas herramientas me permitieron explorar y manipular visualmente estructuras moleculares, cerrando la brecha entre la química teórica y la aplicación práctica. Esta experiencia no solo profundizó mi comprensión del comportamiento molecular, sino que también resaltó el potencial de las herramientas computacionales en la predicción y análisis de fenómenos químicos.",
+            "Quizás el aspecto más emocionante de mis estudios fue la introducción a la tecnología GPU para tareas computacionales, una marcada salida de su asociación común con los videojuegos. Esta exposición a la informática de alto rendimiento en un contexto científico me abrió los ojos al vasto potencial de la tecnología en el avance de la investigación, convirtiéndolo en un momento pivotal en mi desarrollo académico y profesional."
           ],
-          de: [
-            "Willkommen zu meiner persönlichen Reise durch die faszinierende Welt der Chemie und Umweltwissenschaften. Von den grundlegenden Tagen des rigorosen akademischen Strebens an der Universität von Bradford bis zu wirkungsvollen Rollen in Industrie und Bildung wurde meine Karriere von einer unermüdlichen Leidenschaft für die Wissenschaft und der Hingabe, einen greifbaren Unterschied in der Welt zu machen, angetrieben.",
-            "Ein weiterer Absatz hier, der weiter auf Ihre Reise, Errungenschaften oder spezifische Erfahrungen eingeht, die Ihre Karriere geprägt haben. Dies kann Herausforderungen umfassen, die Sie gemeistert haben, erreichte Meilensteine oder entscheidende Momente, die einen signifikanten Einfluss auf Ihren beruflichen Weg hatten.",
-            "Ein dritter Absatz könnte sich auf Ihre Vision für die Zukunft konzentrieren, wie Sie weiterhin zu Ihrem Fachgebiet beitragen möchten und welche Werte oder Prinzipien Ihre Arbeit leiten. Dieser Teil kann Einblicke in Ihre laufenden Projekte, Forschungsinteressen oder Ihr Engagement geben."
+          "de": [
+            "Während meines MChem-Studiums habe ich mich in das Gebiet der computergestützten Chemie begeben, wo ich zum ersten Mal auf Python stieß. Diese Programmiersprache wurde zu einem Eckpfeiler meiner Studien und ermöglichte es mir, computergestützte Modelle und Simulationen auf eine Weise anzuwenden, die sowohl aufschlussreich als auch innovativ war. Die praktische Erfahrung mit Python legte eine solide Grundlage in der Programmierung und weckte mein Interesse am Schnittpunkt von Wissenschaft und Technologie.",
+            "Die Verwendung von Tools wie Avogadro war ein Höhepunkt meiner akademischen Laufbahn. Diese Tools ermöglichten es mir, molekulare Strukturen visuell zu erkunden und zu manipulieren und so die Lücke zwischen theoretischer Chemie und praktischer Anwendung zu überbrücken. Diese Erfahrung vertiefte nicht nur mein Verständnis für molekulares Verhalten, sondern unterstrich auch das Potenzial computergestützter Werkzeuge zur Vorhersage und Analyse chemischer Phänomene.",
+            "Vielleicht der aufregendste Aspekt meines Studiums war die Einführung in die GPU-Technologie für Rechenaufgaben, ein deutlicher Abgang von ihrer üblichen Verbindung mit Videospielen. Diese Begegnung mit Hochleistungsrechnen im wissenschaftlichen Kontext öffnete mir die Augen für das immense Potenzial der Technologie, die Forschung voranzutreiben, und markierte einen Wendepunkt in meiner akademischen und beruflichen Entwicklung."
           ],
-          pt: [
-            "Bem-vindo à minha jornada pessoal pelo fascinante mundo da química e ciência ambiental. Desde os dias fundamentais de rigorosa busca acadêmica na Universidade de Bradford até papéis impactantes na indústria e educação, minha carreira foi impulsionada por uma paixão incansável pela ciência e uma dedicação em fazer uma diferença tangível no mundo.",
-            "Outro parágrafo aqui detalhando mais sobre sua jornada, conquistas ou experiências específicas que moldaram sua carreira. Isso pode incluir desafios enfrentados, marcos alcançados ou momentos decisivos que tiveram um impacto significativo em seu caminho profissional.",
-            "Um terceiro parágrafo pode focar em sua visão para o futuro, como você planeja continuar contribuindo para sua área e os valores ou princípios que orientam seu trabalho. Esta parte pode oferecer uma visão sobre seus projetos atuais, interesses de pesquisa ou trabalho de advocacia."
-          ]
-        },
-        image: '/images/About/molecule.gif',
-        extraImages: [
-          "/images/About/Avogadro.webp",
-          "/images/About/molecule-2.webp",
-        ],
-        align: 'left'
+          "pt": [
+            "Durante meu grau de MChem, aventurei-me no campo da qu ímica computacional, onde encontrei pela primeira vez o Python. Esse linguagem de programação tornou-se um pilar dos meus estudos, permitindo-me aplicar modelos e simulações computacionais de maneira perspicaz e inovadora. A experiência prática adquirida com o Python estabeleceu uma base sólida em programação e despertou meu interesse na interseção da ciência com a tecnologia.",
+            "A utilização de ferramentas como o Avogadro foi um destaque da minha jornada acadêmica. Essas ferramentas permitiram-me explorar e manipular estruturas moleculares visualmente, diminuindo a distância entre a química teórica e sua aplicação prática. Esta experiência não apenas aprofundou meu entendimento sobre o comportamento molecular, mas também destacou o potencial das ferramentas computacionais em prever e analisar fenômenos químicos.",
+            "Talvez o aspecto mais empolgante dos meus estudos tenha sido a introdução à tecnologia de GPU para tarefas computacionais, uma grande novidade comparada à sua associação comum com jogos de vídeo. Essa exposição ao computação de alto desempenho em um contexto científico abriu meus olhos para o vasto potencial da tecnologia no avanço da pesquisa, tornando-se um momento decisivo no meu desenvolvimento acadêmico e profissional."           
+      ]
+      },
+      "image": "/images/About/molecule.gif",
+      "extraImages": [
+      "/images/About/Avogadro.webp",
+      "/images/About/molecule-2.webp"
+      ],
+      "align": "left"
       },
       {
         "id": 7,
