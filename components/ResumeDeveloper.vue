@@ -16,7 +16,12 @@ const certifications = computed(() => {
 
 
 const downloadPDF = () => {
-  // Functionality to download PDF
+  const link = document.createElement('a');
+  link.href = '/CV/Luke-B-Ellis-Developer-CV.pdf'; // Adjust the path if needed
+  link.download = 'Luke-B-Ellis-Developer-CV.pdf'; // This can be the same as the file name or any name you want the downloaded file to have
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 };
 
 </script>
